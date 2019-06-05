@@ -1,0 +1,20 @@
+{
+    "home": {
+        "dia": "Day"
+    },
+    "tabs": {
+        "cronograma": "Schedule",
+        "disertantes": "Speakers",
+        "trabajos": "Abstracts"
+    },
+    "header": {
+        "notification": "Notifications",
+        "verTodos": "See all"
+    },
+    "conferencia": {
+        "simposioTitle": "Symposium Details",
+        "conferenciaTitle": "Conference Details",
+        "mesaTitle": "Round Table Details",
+        "tallerTitle": "Workshop Details"
+    }
+}

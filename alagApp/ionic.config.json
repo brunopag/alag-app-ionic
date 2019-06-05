@@ -1,0 +1,7 @@
+{
+  "name": "alagApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,18 @@
+<div padding>
+    <h2>{{ 'header.notification' | translate }}</h2>
+    <ion-list>
+        <ion-item [ngClass]="{'new-noti': !notification.read}" *ngFor="let notification of notifications | slice:0:6" (click)="seeNotificationDetails(notification)">
+            <h2>{{ getTituloByLang(notification) }}</h2>
+            <p>{{ getDateFormat(notification.fechaNotification) | date : "dd.MM.y" }}</p>
+            <button ion-button icon clear item-right>
+              <ion-icon name="arrow-forward"></ion-icon>
+          </button>
+        </ion-item>
+        <button [navPush]="notificationListPage" color="secondary" *ngIf="notifications && notifications.length > 6" ion-button block>
+          {{ 'header.verTodos' | translate }}
+      </button>
+        <button ion-button block (click)="closePopover()">
+          Close
+      </button>
+    </ion-list>
+</div>

@@ -1,0 +1,82 @@
+<ion-header>
+    <header-navbar></header-navbar>
+    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    <div>
+        <ion-segment [(ngModel)]="days">
+            <ion-segment-button value="0">
+                {{ program[0].dia }} / {{ program[0].mes }}
+            </ion-segment-button>
+            <ion-segment-button value="1">
+                {{ program[1].dia }} / {{ program[0].mes }}
+            </ion-segment-button>
+            <ion-segment-button value="2">
+                {{ program[2].dia }} / {{ program[0].mes }}
+            </ion-segment-button>
+            <ion-segment-button value="3">
+                {{ program[3].dia }} / {{ program[0].mes }}
+            </ion-segment-button>
+        </ion-segment>
+    </div>
+</ion-header>
+
+
+
+<ion-content style="margin-top: 10px;">
+
+    <div [ngSwitch]="days">
+        <ion-list *ngSwitchCase="'0'">
+            <ion-item-group *ngFor="let cronograma of program[days].cronograma">
+                <ion-item-divider color="light">{{ cronograma.hora }}</ion-item-divider>
+                <ion-item *ngFor="let charla of cronograma.charlas" (click)="verCharla(charla, program[days])">
+                    <h2>{{ charla.titulo_es }}</h2>
+                    <p>{{ charla.horario }}: {{ charla.lugar }}</p>
+                    <button ion-button icon clear item-right>
+                        <ion-icon name="arrow-forward"></ion-icon>
+                    </button>
+                </ion-item>
+            </ion-item-group>
+        </ion-list>
+        <ion-list *ngSwitchCase="'1'">
+            <ion-item-group *ngFor="let cronograma of program[days].cronograma">
+                <ion-item-divider color="light">{{ cronograma.hora }}</ion-item-divider>
+                <ion-item *ngFor="let charla of cronograma.charlas" (click)="verCharla(charla, program[days])">
+                    <h2>{{ charla.titulo_es }}</h2>
+                    <p>{{ charla.horario }}: {{ charla.lugar }}</p>
+                    <button ion-button icon clear item-right>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </button>
+                </ion-item>
+            </ion-item-group>
+        </ion-list>
+        <ion-list *ngSwitchCase="'2'">
+            <ion-item-group *ngFor="let cronograma of program[days].cronograma">
+                <ion-item-divider color="light">{{ cronograma.hora }}</ion-item-divider>
+                <ion-item *ngFor="let charla of cronograma.charlas" (click)="verCharla(charla, program[days])">
+                    <h2>{{ charla.titulo_es }}</h2>
+                    <p>{{ charla.horario }}: {{ charla.lugar }}</p>
+                    <button ion-button icon clear item-right>
+                                <ion-icon name="arrow-forward"></ion-icon>
+                            </button>
+                </ion-item>
+            </ion-item-group>
+        </ion-list>
+        <ion-list *ngSwitchCase="'3'">
+            <ion-item-group *ngFor="let cronograma of program[days].cronograma">
+                <ion-item-divider color="light">{{ cronograma.hora }}</ion-item-divider>
+                <ion-item *ngFor="let charla of cronograma.charlas" (click)="verCharla(charla, program[days])">
+                    <h2>{{ charla.titulo_es }}</h2>
+                    <p>{{ charla.horario }}: {{ charla.lugar }}</p>
+                    <button ion-button icon clear item-right>
+                                    <ion-icon name="arrow-forward"></ion-icon>
+                                </button>
+                </ion-item>
+            </ion-item-group>
+        </ion-list>
+
+
+    </div>
+
+    <ion-fab right bottom>
+        <button ion-fab color="danger"><ion-icon name="heart"></ion-icon></button>
+    </ion-fab>
+</ion-content>

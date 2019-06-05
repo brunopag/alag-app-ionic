@@ -1,0 +1,20 @@
+{
+    "home": {
+        "dia": "Día"
+    },
+    "tabs": {
+        "cronograma": "Cronograma",
+        "disertantes": "Disertantes",
+        "trabajos": "Trabajos"
+    },
+    "header": {
+        "notification": "Notificaciones",
+        "verTodos": "Ver Todas"
+    },
+    "conferencia": {
+        "simposioTitle": "Detalles del Simposio",
+        "conferenciaTitle": "Detalles de la Conferencia",
+        "mesaTitle": "Detalles de la Mesa Redonda",
+        "tallerTitle": "Detalles del Taller"
+    }
+}
