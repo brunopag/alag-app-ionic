@@ -15,6 +15,16 @@
         "simposioTitle": "Symposium Details",
         "conferenciaTitle": "Conference Details",
         "mesaTitle": "Round Table Details",
-        "tallerTitle": "Workshop Details"
+        "tallerTitle": "Workshop Details",
+        "favorito": "Favorite"
+    },
+    "favorites": {
+        "favorites": "Favorites"
+    },
+    "trabajos": {
+        "categoryTitle": "Categories and subcategories",
+        "selectCategoryTitle": "Select categories and subcategories",
+        "trabajos": "Abstracts",
+        "detailsTrabajos": "Abstracts Details"
     }
 }

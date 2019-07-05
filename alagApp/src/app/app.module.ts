@@ -30,6 +30,10 @@ import { PopoverNotiComponent } from '../components/popover-noti/popover-noti';
 import { NotificationPage } from '../pages/notification/notification';
 import { NotificationListPage } from '../pages/notification-list/notification-list';
 import { ConferenciaDetailsPage } from '../pages/conferencia-details/conferencia-details';
+import { PagesFavoritesListPage } from '../pages/pages-favorites-list/pages-favorites-list';
+import { StartPage } from '../pages/start/start';
+import { TrabajosProvider } from '../providers/trabajos/trabajos';
+import { TrabajoDetailsPage } from '../pages/trabajo-details/trabajo-details';
 
 @NgModule({
   declarations: [
@@ -44,7 +48,10 @@ import { ConferenciaDetailsPage } from '../pages/conferencia-details/conferencia
     PopoverNotiComponent,
     NotificationPage,
     NotificationListPage,
-    ConferenciaDetailsPage
+    ConferenciaDetailsPage,
+    PagesFavoritesListPage,
+    StartPage,
+    TrabajoDetailsPage
   ],
   imports: [
     BrowserModule,
@@ -72,14 +79,18 @@ import { ConferenciaDetailsPage } from '../pages/conferencia-details/conferencia
     PopoverNotiComponent,
     NotificationPage,
     NotificationListPage,
-    ConferenciaDetailsPage
+    ConferenciaDetailsPage,
+    PagesFavoritesListPage,
+    StartPage,
+    TrabajoDetailsPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     TranslationProvider,
-    NotificationsProvider
+    NotificationsProvider,
+    TrabajosProvider
   ]
 })
 export class AppModule {}

@@ -5,39 +5,39 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-  <ion-navbar>
-    <div *ngIf="conferencia.tipo === 'simposio'">
-        <ion-title>{{ 'conferencia.simposioTitle' | translate }}</ion-title>
-    </div>
-    <div *ngIf="conferencia.tipo === 'conferencia'">
-        <ion-title>{{ 'conferencia.conferenciaTitle' | translate }}</ion-title>
-    </div>
-    <div *ngIf="conferencia.tipo === 'mesa'">
-        <ion-title>{{ 'conferencia.mesaTitle' | translate }}</ion-title>
-    </div>
-    <div *ngIf="conferencia.tipo === 'taller'">
-        <ion-title>{{ 'conferencia.tallerTitle' | translate }}</ion-title>
-    </div>
-    
-  </ion-navbar>
+    <ion-navbar>
+        <div *ngIf="conferencia.tipo === 'simposio'">
+            <ion-title>{{ 'conferencia.simposioTitle' | translate }}</ion-title>
+        </div>
+        <div *ngIf="conferencia.tipo === 'conferencia'">
+            <ion-title>{{ 'conferencia.conferenciaTitle' | translate }}</ion-title>
+        </div>
+        <div *ngIf="conferencia.tipo === 'mesa'">
+            <ion-title>{{ 'conferencia.mesaTitle' | translate }}</ion-title>
+        </div>
+        <div *ngIf="conferencia.tipo === 'taller'">
+            <ion-title>{{ 'conferencia.tallerTitle' | translate }}</ion-title>
+        </div>
+
+    </ion-navbar>
 </ion-header>
 
 <ion-content>
     <ion-card>
-      
+
         <ion-item>
-          <h1>{{ getTituloByLang(conferencia) }}</h1>
-          <p>{{ fechaConferencia | date }}</p>
+            <h1>{{ getTituloByLang(conferencia) }}</h1>
+            <p>{{ fechaConferencia | date }}</p>
         </ion-item>
-      
+
         <ion-item>
-          <span item-start>Horario: {{ conferencia.horario }}</span>
-          <button ion-button icon-start clear item-end color="grey">
+            <span item-start>Horario: {{ conferencia.horario }}</span>
+            <button ion-button icon-start clear item-end color="{{getFavoriteColor()}}" (click)="agregarFavorito()">
             <ion-icon name="heart"></ion-icon>
-            Favorito
+            {{ 'conferencia.favorito' | translate }}
           </button>
         </ion-item>
-      
-      </ion-card>
+
+    </ion-card>
 
 </ion-content>

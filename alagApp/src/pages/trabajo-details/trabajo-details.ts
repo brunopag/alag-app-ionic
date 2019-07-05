@@ -1,40 +1,32 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
-import { TranslationProvider } from '../../providers/translation/translation';
 
 // Storage Module
 import { Storage } from '@ionic/storage';
+import { TranslationProvider } from '../../providers/translation/translation';
 
 @IonicPage()
 @Component({
-  selector: 'page-conferencia-details',
-  templateUrl: 'conferencia-details.html',
+  selector: 'page-trabajo-details',
+  templateUrl: 'trabajo-details.html',
 })
-export class ConferenciaDetailsPage {
+export class TrabajoDetailsPage {
 
-  conferencia: any;
-  programa: any;
-  fechaConferencia: Date = new Date();
-  isFavorite: boolean = false;
+  trabajo: any;
+  isFavorite = false;
 
   constructor(public navCtrl: NavController, 
               public navParams: NavParams, 
+              private storage: Storage, 
               public _translationProvider: TranslationProvider,
-              private storage: Storage,
               public toastCtrl: ToastController) {
-    this.conferencia = this.navParams.get('conferencia');
-    this.programa = this.navParams.get('programa');
-    this.fechaConferencia.setFullYear(
-      this.programa.anio,
-      this.programa.mes - 1,
-      this.programa.dia
-    );
-    console.log(this.conferencia);
-    this.storage.get('favoriteConferences').then((data:any[]) => {
+    this.trabajo = this.navParams.get('trabajo');
+    console.log(this.trabajo);
+    this.storage.get('favoriteTrabajos').then((data:any[]) => {
       console.log(data);
       if(data !== null) {
-        let conferencieInFavorites = data.find(row => row.conferencia.id === this.conferencia.id);
-        if(conferencieInFavorites) {
+        let trabajoInFavorites = data.find(row => row.trabajo._id === this.trabajo._id);
+        if(trabajoInFavorites) {
           this.isFavorite = true;
         }
       }
@@ -42,32 +34,46 @@ export class ConferenciaDetailsPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ConferenciaDetailsPage');
+    console.log('ionViewDidLoad TrabajoDetailsPage');
   }
 
-  getTituloByLang (objeto: any) {
-    if (this._translationProvider.lang === 'es') {
-      objeto.titulo_lang = objeto.titulo_es;
-    } else if (this._translationProvider.lang === 'en') {
-      objeto.titulo_lang = objeto.titulo_en;
+  superindiceLugares(lugaresTrabajo: any) {
+    let superindice: string = '';
+    if (lugaresTrabajo) {
+      for (let lugar of lugaresTrabajo) {
+        if (superindice === '') {
+          superindice = superindice + lugar;
+        } else {
+          superindice = superindice + ',' + lugar;
+        }
+      }
     }
-    return objeto.titulo_lang;
+    return superindice;
+  }
+
+  inicialesNombres(nombres: string) {
+    let iniciales: string = '';
+    let arrayNombres: any[] = nombres.split(' ');
+    for (let nombre of arrayNombres) {
+      iniciales = iniciales + nombre.substr(0, 1) + '.';
+    }
+    return iniciales.toUpperCase();
   }
 
   agregarFavorito(){
     if(!this.isFavorite) {
-      this.storage.get('favoriteConferences').then((data:any[]) => {
+      this.storage.get('favoriteTrabajos').then((data:any[]) => {
         console.log(data);
         if(data === null) {
-          let favoriteConferences = [];
-          favoriteConferences.push({conferencia: this.conferencia, programa: this.programa});
-          this.storage.set('favoriteConferences', favoriteConferences).then(() => {
+          let favoriteTrabajo = [];
+          favoriteTrabajo.push({trabajo: this.trabajo});
+          this.storage.set('favoriteTrabajos', favoriteTrabajo).then(() => {
             console.log('notifications updated');
             this.isFavorite = true;
           });
         } else {
-          data.push({conferencia: this.conferencia, programa: this.programa});
-          this.storage.set('favoriteConferences', data).then(() => {
+          data.push({trabajo: this.trabajo});
+          this.storage.set('favoriteTrabajos', data).then(() => {
             console.log('notifications updated');
             this.isFavorite = true;
           });
@@ -85,13 +91,13 @@ export class ConferenciaDetailsPage {
         toast.present();
       });
     } else {
-      this.storage.get('favoriteConferences').then((data:any[]) => {
+      this.storage.get('favoriteTrabajos').then((data:any[]) => {
         console.log(data);
         if(data !== null) {
-          let indexFavorite = data.findIndex(row => row.conferencia.id === this.conferencia.id);
+          let indexFavorite = data.findIndex(row => row.trabajo._id === this.trabajo._id);
           if(indexFavorite !== -1) {
             data.splice(indexFavorite, 1);
-            this.storage.set('favoriteConferences', data).then(() => {
+            this.storage.set('favoriteTrabajos', data).then(() => {
               console.log('notifications updated');
               this.isFavorite = false;
               let message: string;
@@ -111,14 +117,6 @@ export class ConferenciaDetailsPage {
       })
     }
     
-  }
-
-  getFavoriteColor() {
-    if(this.isFavorite) {
-      return 'red';
-    } else {
-      return 'grey'
-    }
   }
 
 }

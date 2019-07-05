@@ -7,6 +7,7 @@ export const programa: any[] = [
                             hora: '8:00 AM',
                             charlas: [
                                 {
+                                    id: 1,
                                     titulo_es: 'Un titulo de Conferencia',
                                     titulo_en: 'EN Un titulo de Conferencia',
                                     tipo: 'simposio',
@@ -21,6 +22,7 @@ export const programa: any[] = [
                                     ]
                                 },
                                 {
+                                    id: 2,
                                     titulo_es: 'Otra Un titulo de Conferencia',
                                     titulo_en: 'EN Otra Un titulo de Conferencia',
                                     tipo: 'simposio',
@@ -40,6 +42,7 @@ export const programa: any[] = [
                             hora: '10:00 AM',
                             charlas: [
                                 {
+                                    id: 3,
                                     titulo_es: 'Un titulo de Conferencia',
                                     titulo_en: 'EN Un titulo de Conferencia',
                                     tipo: 'simposio',
@@ -54,6 +57,7 @@ export const programa: any[] = [
                                     ]
                                 },
                                 {
+                                    id: 4,
                                     titulo_es: 'Otra Un titulo de Conferencia',
                                     titulo_en: 'EN Otra Un titulo de Conferencia',
                                     tipo: 'simposio',
@@ -73,6 +77,7 @@ export const programa: any[] = [
                             hora: '11:00 AM',
                             charlas: [
                                 {
+                                    id: 5,
                                     titulo_es: 'Un titulo de Conferencia',
                                     titulo_en: 'EN Un titulo de Conferencia',
                                     tipo: 'conferencia',
@@ -99,6 +104,7 @@ export const programa: any[] = [
                 hora: '8:00 AM',
                 charlas: [
                     {
+                        id: 6,
                         titulo_es: 'Un titulo de Conferencia',
                         titulo_en: 'EN Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -113,6 +119,7 @@ export const programa: any[] = [
                         ]
                     },
                     {
+                        id: 7,
                         titulo_es: 'Otra Un titulo de Conferencia',
                         titulo_en: 'EN Otra Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -132,6 +139,7 @@ export const programa: any[] = [
                 hora: '8:00 AM',
                 charlas: [
                     {
+                        id: 8,
                         titulo_es: 'Un titulo de Conferencia',
                         titulo_en: 'EN Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -146,6 +154,7 @@ export const programa: any[] = [
                         ]
                     },
                     {
+                        id: 9,
                         titulo_es: 'Otra Un titulo de Conferencia',
                         titulo_en: 'EN Otra Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -165,6 +174,7 @@ export const programa: any[] = [
                 hora: '8:00 AM',
                 charlas: [
                     {
+                        id: 10,
                         titulo_es: 'Un titulo de Conferencia',
                         titulo_en: 'EN Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -179,6 +189,7 @@ export const programa: any[] = [
                         ]
                     },
                     {
+                        id: 11,
                         titulo_es: 'Otra Un titulo de Conferencia',
                         titulo_en: 'EN Otra Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -205,6 +216,7 @@ export const programa: any[] = [
                 hora: '8:00 AM',
                 charlas: [
                     {
+                        id: 12,
                         titulo_es: 'Un titulo de Conferencia',
                         titulo_en: 'EN Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -219,6 +231,7 @@ export const programa: any[] = [
                         ]
                     },
                     {
+                        id: 13,
                         titulo_es: 'Otra Un titulo de Conferencia',
                         titulo_en: 'EN Otra Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -238,6 +251,7 @@ export const programa: any[] = [
                 hora: '8:00 AM',
                 charlas: [
                     {
+                        id: 14,
                         titulo_es: 'Un titulo de Conferencia',
                         titulo_en: 'EN Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -252,6 +266,7 @@ export const programa: any[] = [
                         ]
                     },
                     {
+                        id: 15,
                         titulo_es: 'Otra Un titulo de Conferencia',
                         titulo_en: 'EN Otra Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -271,6 +286,7 @@ export const programa: any[] = [
                 hora: '8:00 AM',
                 charlas: [
                     {
+                        id: 16,
                         titulo_es: 'Un titulo de Conferencia',
                         titulo_en: 'EN Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -285,6 +301,7 @@ export const programa: any[] = [
                         ]
                     },
                     {
+                        id: 17,
                         titulo_es: 'Otra Un titulo de Conferencia',
                         titulo_en: 'EN Otra Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -311,6 +328,7 @@ export const programa: any[] = [
                 hora: '8:00 AM',
                 charlas: [
                     {
+                        id: 18,
                         titulo_es: 'Un titulo de Conferencia',
                         titulo_en: 'EN Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -325,6 +343,7 @@ export const programa: any[] = [
                         ]
                     },
                     {
+                        id: 19,
                         titulo_es: 'Otra Un titulo de Conferencia',
                         titulo_en: 'EN Otra Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -344,6 +363,7 @@ export const programa: any[] = [
                 hora: '8:00 AM',
                 charlas: [
                     {
+                        id: 20,
                         titulo_es: 'Un titulo de Conferencia',
                         titulo_en: 'EN Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -358,6 +378,7 @@ export const programa: any[] = [
                         ]
                     },
                     {
+                        id: 21,
                         titulo_es: 'Otra Un titulo de Conferencia',
                         titulo_en: 'EN Otra Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -377,6 +398,7 @@ export const programa: any[] = [
                 hora: '8:00 AM',
                 charlas: [
                     {
+                        id: 22,
                         titulo_es: 'Un titulo de Conferencia',
                         titulo_en: 'EN Un titulo de Conferencia',
                         tipo: 'simposio',
@@ -391,6 +413,7 @@ export const programa: any[] = [
                         ]
                     },
                     {
+                        id: 23,
                         titulo_es: 'Otra Un titulo de Conferencia',
                         titulo_en: 'EN Otra Un titulo de Conferencia',
                         tipo: 'simposio',

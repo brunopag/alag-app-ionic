@@ -15,6 +15,16 @@
         "simposioTitle": "Detalles del Simposio",
         "conferenciaTitle": "Detalles de la Conferencia",
         "mesaTitle": "Detalles de la Mesa Redonda",
-        "tallerTitle": "Detalles del Taller"
+        "tallerTitle": "Detalles del Taller",
+        "favorito": "Favorito"
+    },
+    "favorites": {
+        "favorites": "Favoritos"
+    },
+    "trabajos": {
+        "categoryTitle": "Categorías y subcategorías",
+        "selectCategoryTitle": "Seleccione una categoría/subcategoría",
+        "trabajos": "Trabajos",
+        "detailsTrabajos": "Detalle del Trabajo"
     }
 }

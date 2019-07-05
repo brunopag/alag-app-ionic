@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { TranslationProvider } from '../../providers/translation/translation';
 import { programa } from '../../data/programa';
 import { ConferenciaDetailsPage } from '../conferencia-details/conferencia-details';
+import { PagesFavoritesListPage } from '../pages-favorites-list/pages-favorites-list';
 
 @Component({
   selector: 'page-home',
@@ -56,6 +57,10 @@ export class HomePage {
 
   verCharla(charla: any, programa: any) {
     this.navCtrl.push(ConferenciaDetailsPage, {'conferencia': charla, 'programa': programa});
+  }
+
+  goFavorites() {
+    this.navCtrl.push(PagesFavoritesListPage);
   }
 
 }
