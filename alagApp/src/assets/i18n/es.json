@@ -23,8 +23,9 @@
     },
     "trabajos": {
         "categoryTitle": "Categorías y subcategorías",
-        "selectCategoryTitle": "Seleccione una categoría/subcategoría",
+        "selectCategoryTitle": "Seleccione una categoría o utilice el cuadro de busqueda.",
         "trabajos": "Trabajos",
-        "detailsTrabajos": "Detalle del Trabajo"
+        "detailsTrabajos": "Detalle del Trabajo",
+        "seleccionarCategoria": "Seleccionar Categoría"
     }
 }

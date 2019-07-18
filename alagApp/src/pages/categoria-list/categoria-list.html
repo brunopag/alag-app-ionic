@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{ 'trabajos.categoryTitle' | translate }}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <div style="margin-top: 10px;margin-left: 10px;">
+        <button ion-button small clear style="padding:0px;" (click)="homeNavegacion()">Home ></button>
+        <button ion-button small clear style="padding:0px;" *ngFor="let categoria of navegacionCategorias, let i = index" (click)="navegarCategoria(i, categoria)">
+            {{ getNombreByLang(categoria) }} <span *ngIf="i !== navegacionCategorias.length-1">&nbsp;></span>
+        </button>
+    </div>
+
+    <ion-list *ngIf="categoriasSelect.length > 0">
+        <ion-item *ngFor="let categoria of categoriasSelect" (click)="seleccionarCategoria(categoria)">
+            <h2>{{ getNombreByLang(categoria) }}</h2>
+            <button ion-button icon clear item-right>
+                <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+        </ion-item>
+    </ion-list>
+
+</ion-content>

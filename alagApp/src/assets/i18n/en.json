@@ -23,8 +23,9 @@
     },
     "trabajos": {
         "categoryTitle": "Categories and subcategories",
-        "selectCategoryTitle": "Select categories and subcategories",
+        "selectCategoryTitle": "Select categories or use the search input",
         "trabajos": "Abstracts",
-        "detailsTrabajos": "Abstracts Details"
+        "detailsTrabajos": "Abstracts Details",
+        "seleccionarCategoria": "Select Category"
     }
 }

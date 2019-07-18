@@ -5,24 +5,14 @@
 
 <ion-content padding>
     <h2>{{ 'trabajos.categoryTitle' | translate }}</h2>
-    <p> <button ion-button clear (click)="goHome()" style="margin: 0px !important;padding:0px !important;">
-            Home&nbsp;&nbsp;<ion-icon name="ios-arrow-forward"></ion-icon>&nbsp;&nbsp;
-        </button>
-        <button ion-button clear (click)="navegarAcategoria(categoria)" style="margin: 0px 5px 0px 0px !important;padding:0px !important;" *ngFor="let categoria of categoriasNavegacion, let i = index">
-                {{categoria.nombre_es}}&nbsp;&nbsp;
-                <ion-icon *ngIf="i !== categoriasNavegacion.length-1" name="ios-arrow-forward"></ion-icon>
-        </button>
-    </p>
-    <ion-item *ngIf="categoriasSelect.length > 0">
-        <ion-label>{{ 'trabajos.categoryTitle' | translate }}</ion-label>
-        <ion-select [(ngModel)]="categoriaSelected" (ionChange)="categoriaChanged()">
-            <ion-option *ngFor="let categoria of categoriasSelect" [value]="categoria">
-                {{categoria.nombre_es}}
-            </ion-option>
-        </ion-select>
-    </ion-item>
-    <hr>
-    <h2>{{ 'trabajos.trabajos' | translate }}</h2>
+    <button ion-button block color="success" (click)="goSeleccionCategoria()">{{ 'trabajos.seleccionarCategoria' | translate }}</button>
+    <div style="margin-top: 10px;margin-left: 10px;" *ngIf="categoriasNavegacion && categoriasNavegacion.length > 0">
+        <button ion-button small clear style="padding:0px;" (click)="goSeleccionCategoria()">Home ></button>
+        <button ion-button small clear style="padding:0px;" (click)="goSeleccionCategoria()" *ngFor="let categoria of categoriasNavegacion, let i = index">
+                {{ getNombreByLang(categoria) }} <span *ngIf="i !== categoriasNavegacion.length-1">&nbsp;></span>
+            </button>
+    </div>
+    <h2 style="margin-top: 15px !important;">{{ 'trabajos.trabajos' | translate }}</h2>
     <ion-list *ngIf="trabajos.length > 0">
         <ion-item *ngFor="let trabajo of trabajos" (click)="verTrabajo(trabajo)">
             <h2>{{ trabajo.titulo }}</h2>

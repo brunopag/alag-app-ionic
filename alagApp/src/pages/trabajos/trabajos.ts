@@ -3,6 +3,8 @@ import { IonicPage, NavController, NavParams, LoadingController } from 'ionic-an
 import { TrabajosProvider } from '../../providers/trabajos/trabajos';
 import { TrabajoDetailsPage } from '../trabajo-details/trabajo-details';
 import { PagesFavoritesListPage } from '../pages-favorites-list/pages-favorites-list';
+import { CategoriaListPage } from '../categoria-list/categoria-list';
+import { TranslationProvider } from '../../providers/translation/translation';
 
 @IonicPage()
 @Component({
@@ -19,21 +21,8 @@ export class TrabajosPage {
   constructor(public navCtrl: NavController, 
               public navParams: NavParams, 
               public _TrabajosProvider: TrabajosProvider,
-              public loadingCtrl: LoadingController) {
-        let loading = this.loadingCtrl.create({
-            content: 'Cargando Categorias y Sub-categorias...'
-        });
-        loading.present();
-        this._TrabajosProvider.getAllCategoriasTrabajos().subscribe((categoriasTrabajos: any) => {
-        console.log(categoriasTrabajos);
-        for(let categoriaTrabajo of categoriasTrabajos) {
-          if(!categoriaTrabajo.parent) {
-            this.categoriasSelect.push(categoriaTrabajo);
-          }
-        }
-        loading.dismiss();
-        console.log('Categorias Padres', this.categoriasSelect);
-      });
+              public loadingCtrl: LoadingController,
+              public _translationProvider: TranslationProvider) {
   }
 
   ionViewDidLoad() {
@@ -42,70 +31,6 @@ export class TrabajosPage {
 
   getItems(event) {
 
-  }
-
-  categoriaChanged() {
-    console.log('categoriaSelected', this.categoriaSelected);
-    if(this.categoriaSelected) {
-      // cargo arbol de categorias
-      let loading = this.loadingCtrl.create({
-        content: 'Cargando Categorias y Sub-categorias...'
-      });
-      loading.present();
-      this.categoriasNavegacion.push(JSON.parse(JSON.stringify(this.categoriaSelected)));
-      console.log(this.categoriasNavegacion);
-      setTimeout(
-        ()=> { 
-          this._TrabajosProvider.getCategoriaContrabajos(this.categoriaSelected._id).subscribe(resp => {
-            console.log(resp);
-            this.categoriasSelect = resp.categoriaTrabajo[0].childrens;
-            this.trabajos = resp.trabajos;
-            loading.dismiss();
-          }); 
-        }, 1000);
-      
-    }
-  }
-
-  navegarAcategoria(categoria: any) {
-    console.log(categoria);
-    this.trabajos = []
-    this.categoriaSelected = categoria;
-    console.log(this.categoriasNavegacion)
-    let indexCategoria = this.categoriasNavegacion.findIndex(row => row._id === categoria._id);
-    console.log(indexCategoria);
-    this.categoriasNavegacion.splice(indexCategoria+1, this.categoriasNavegacion.length-1);
-    if(this.categoriaSelected) {
-      let loading = this.loadingCtrl.create({
-        content: 'Cargando Categorias y Sub-categorias...'
-      });
-      loading.present();
-      setTimeout(
-        ()=> { 
-          this._TrabajosProvider.getCategoriaContrabajos(this.categoriaSelected._id).subscribe(resp => {
-            console.log(resp);
-            this.categoriasSelect = resp.categoriaTrabajo[0].childrens;
-            this.trabajos = resp.trabajos;
-            loading.dismiss();
-          }); 
-        }, 2000);
-      
-    }
-  }
-
-  goHome() {
-    this.trabajos = [];
-    this.categoriasNavegacion = [];
-    this.categoriasSelect = []
-    this._TrabajosProvider.getAllCategoriasTrabajos().subscribe((categoriasTrabajos: any) => {
-      console.log(categoriasTrabajos);
-      for(let categoriaTrabajo of categoriasTrabajos) {
-        if(!categoriaTrabajo.parent) {
-          this.categoriasSelect.push(categoriaTrabajo);
-        }
-      }
-      console.log('Categorias Padres', this.categoriasSelect);
-    });
   }
 
   inicialesNombres(nombres: string) {
@@ -123,6 +48,49 @@ export class TrabajosPage {
 
   goFavorites() {
     this.navCtrl.push(PagesFavoritesListPage);
+  }
+
+  goSeleccionCategoria() {
+    // callback...
+    let myCallbackFunction = function(_params) {
+      console.log(_params);
+      this.categoriaSelected = _params.categoria;
+      this.categoriasNavegacion = _params.categoriasNavegacion;
+      this.loadTrabajos(_params.categoria);
+      return new Promise((resolve, reject) => {
+              resolve();
+          });
+    }.bind(this);
+    
+    // push page...
+    this.navCtrl.push(CategoriaListPage, {
+     callback: myCallbackFunction
+    });
+  }
+
+  loadTrabajos(categoria: any) {
+    console.log(categoria);
+    let loading = this.loadingCtrl.create({
+      content: 'Cargando Trabajos...'
+    });
+    loading.present();
+    this._TrabajosProvider.getCategoriaContrabajos(categoria._id).subscribe((resp: any) => {
+      this.trabajos = resp.trabajos;
+      loading.dismiss();
+    })
+  }
+
+  deleteCategoria() {
+    this.categoriaSelected = undefined;
+  }
+
+  getNombreByLang (objeto: any) {
+    if (this._translationProvider.lang === 'es') {
+      objeto.nombre_lang = objeto.nombre_es;
+    } else if (this._translationProvider.lang === 'en') {
+      objeto.nombre_lang = objeto.nombre_en;
+    }
+    return objeto.nombre_lang;
   }
 
 }

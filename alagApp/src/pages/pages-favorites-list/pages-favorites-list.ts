@@ -5,6 +5,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
 import { TranslationProvider } from '../../providers/translation/translation';
 import { ConferenciaDetailsPage } from '../conferencia-details/conferencia-details';
+import { TrabajoDetailsPage } from '../trabajo-details/trabajo-details';
 
 /**
  * Generated class for the PagesFavoritesListPage page.
@@ -21,6 +22,8 @@ import { ConferenciaDetailsPage } from '../conferencia-details/conferencia-detai
 export class PagesFavoritesListPage {
 
   conferencias: any[] = [];
+  trabajos: any[] = [];
+  lista = '0';
 
   constructor(public navCtrl: NavController, 
               public navParams: NavParams, 
@@ -30,6 +33,12 @@ export class PagesFavoritesListPage {
       console.log(data);
       if(data && data.length > 0) {
         this.conferencias = data
+      }
+    });
+    this.storage.get('favoriteTrabajos').then((data:any[]) => {
+      console.log(data);
+      if(data && data.length > 0) {
+        this.trabajos = data
       }
     });
   }
@@ -49,6 +58,19 @@ export class PagesFavoritesListPage {
 
   verCharla(charla: any, programa: any) {
     this.navCtrl.push(ConferenciaDetailsPage, {'conferencia': charla, 'programa': programa});
+  }
+
+  inicialesNombres(nombres: string) {
+    let iniciales: string = '';
+    let arrayNombres: any[] = nombres.split(' ');
+    for (let nombre of arrayNombres) {
+      iniciales = iniciales + nombre.substr(0, 1) + '.';
+    }
+    return iniciales.toUpperCase();
+  }
+
+  verTrabajo(trabajo: any) {
+    this.navCtrl.push(TrabajoDetailsPage, { 'trabajo': trabajo });
   }
 
 }

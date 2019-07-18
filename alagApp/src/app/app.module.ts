@@ -34,6 +34,7 @@ import { PagesFavoritesListPage } from '../pages/pages-favorites-list/pages-favo
 import { StartPage } from '../pages/start/start';
 import { TrabajosProvider } from '../providers/trabajos/trabajos';
 import { TrabajoDetailsPage } from '../pages/trabajo-details/trabajo-details';
+import { CategoriaListPage } from '../pages/categoria-list/categoria-list';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { TrabajoDetailsPage } from '../pages/trabajo-details/trabajo-details';
     ConferenciaDetailsPage,
     PagesFavoritesListPage,
     StartPage,
-    TrabajoDetailsPage
+    TrabajoDetailsPage,
+    CategoriaListPage
   ],
   imports: [
     BrowserModule,
@@ -82,7 +84,8 @@ import { TrabajoDetailsPage } from '../pages/trabajo-details/trabajo-details';
     ConferenciaDetailsPage,
     PagesFavoritesListPage,
     StartPage,
-    TrabajoDetailsPage
+    TrabajoDetailsPage,
+    CategoriaListPage
   ],
   providers: [
     StatusBar,
