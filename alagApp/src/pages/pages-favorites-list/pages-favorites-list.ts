@@ -41,6 +41,12 @@ export class PagesFavoritesListPage {
         this.trabajos = data
       }
     });
+    let from = this.navParams.get('from');
+    if(from === 'conferencias'){
+      this.lista = '0'
+    } else {
+      this.lista = '1'
+    }
   }
 
   ionViewDidLoad() {

@@ -47,7 +47,7 @@ export class TrabajosPage {
   }
 
   goFavorites() {
-    this.navCtrl.push(PagesFavoritesListPage);
+    this.navCtrl.push(PagesFavoritesListPage, {from: 'trabajos'});
   }
 
   goSeleccionCategoria() {

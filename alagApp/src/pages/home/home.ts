@@ -60,7 +60,7 @@ export class HomePage {
   }
 
   goFavorites() {
-    this.navCtrl.push(PagesFavoritesListPage);
+    this.navCtrl.push(PagesFavoritesListPage, {from: 'conferencias'});
   }
 
 }

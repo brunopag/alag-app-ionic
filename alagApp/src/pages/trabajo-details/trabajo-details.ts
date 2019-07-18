@@ -119,4 +119,12 @@ export class TrabajoDetailsPage {
     
   }
 
+  getFavoriteColor() {
+    if(this.isFavorite) {
+      return 'red !important';
+    } else {
+      return 'grey'
+    }
+  }
+
 }
