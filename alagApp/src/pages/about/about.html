@@ -1,11 +1,69 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      About
-    </ion-title>
-  </ion-navbar>
+    <header-navbar></header-navbar>
 </ion-header>
 
 <ion-content padding>
+    <h1>{{ 'info.infoTitle' | translate }}</h1>
+    <ion-card>
+        <img src="../../assets/imgs/CE4.jpg" />
+        <ion-card-content>
+            <ion-card-title>
+                {{ 'info.lugar1' | translate }}
+            </ion-card-title>
+
+            <p>{{ 'info.lugar2' | translate }}</p>
+            <ion-item>
+                <button ion-button icon-start clear item-center (click)="verPlano()">
+                  <ion-icon name="map"></ion-icon>
+                  {{ 'info.planoBoton' | translate }}
+                </button>
+            </ion-item>
+            <hr>
+            <p>{{ 'info.lugar3' | translate }}</p>
+            <ion-item>
+                <h3>{{ 'info.lugar4' | translate }}</h3>
+            </ion-item>
+            <p>{{ 'info.lugar5' | translate }}</p>
+            <ion-item>
+                <h3>{{ 'info.lugar6' | translate }}</h3>
+            </ion-item>
+            <p>{{ 'info.lugar7' | translate }}</p>
+            <ion-item>
+                <h3>{{ 'info.lugar8' | translate }}</h3>
+            </ion-item>
+            <p>{{ 'info.lugar9' | translate }}</p>
+            <ion-item>
+                <h3>{{ 'info.lugar10' | translate }}</h3>
+            </ion-item>
+            <p>{{ 'info.lugar11' | translate }}</p>
+
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-content>
+            <ion-card-title>
+                Sponsors
+            </ion-card-title>
+
+            <img src="../../assets/imgs/sponsors/turismo-mendoza.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/logoIGF.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/logoCONICET.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/logoAGENCIA.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/logoARFIC-1.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/LogoBSl.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/LogoMetasyste.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/logoCROP.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/logoCROPTRUST.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/logoNORAD.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/logoNORW.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/Logoanalytical.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/syngentalogo.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/logoCORTEVA.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/logoTECNOLAB.jpg" alt="">
+            <img src="../../assets/imgs/sponsors/logoBYODINAMICS.jpg" alt="">
+
+        </ion-card-content>
+    </ion-card>
 
 </ion-content>

@@ -16,7 +16,13 @@
         "conferenciaTitle": "Detalles de la Conferencia",
         "mesaTitle": "Detalles de la Mesa Redonda",
         "tallerTitle": "Detalles del Taller",
-        "favorito": "Favorito"
+        "cursoTitle": "Detalles del Curso",
+        "favorito": "Favorito",
+        "simposio": "Simposio",
+        "conferencia": "Conferencia",
+        "mesa": "Mesa Redonda",
+        "taller": "Taller",
+        "curso": "Curso"
     },
     "favorites": {
         "favorites": "Favoritos"
@@ -27,5 +33,20 @@
         "trabajos": "Trabajos",
         "detailsTrabajos": "Detalle del Trabajo",
         "seleccionarCategoria": "Seleccionar Categoría"
+    },
+    "info": {
+        "infoTitle": "Información",
+        "lugar1": "CENTRO DE CONGRESOS Y EXPOSICIONES »EMILIO CIVIT»",
+        "lugar2": "Avda. Peltier 611 – Ciudad de Mendoza – Mendoza – Argentina. ",
+        "lugar3": "El CENTRO DE CONGRESOS Y EXPOSICIONES “EMILIO CIVIT” se encuentra enclavado en el parque cívico de la ciudad de Mendoza, a pocos minutos del microcentro de la Ciudad. Sus instalaciones incluyen: ",
+        "lugar4": "EDIFICIO CENTRAL:",
+        "lugar5": "Con ocho salas de uso simultáneo distribuidas en tres plantas, con capacidad para 100 a 500 personas. ",
+        "lugar6": "ENOTECA",
+        "lugar7": "Ex bodega modelo perteneciente a la antigua quinta agronómica, data de 1900 y fue declarada patrimonio histórico y cultural de los mendocinos. Cuenta con dos salas y dos cavas donde se exponen toneles de madera de roble y maquinarias antiguas que pertenecieron a la bodega modelo. ",
+        "lugar8": "AUDITORIO ÁNGEL BUSTELO:",
+        "lugar9": "Con capacidad para 2000 personas, está equipado con tecnología de última generación en audio, video e iluminación.",
+        "lugar10": "MEDIOS DE TRANSPORTE:",
+        "lugar11": "Bus Público – Taxi",
+        "planoBoton": "Plano del centro de congresos"
     }
 }

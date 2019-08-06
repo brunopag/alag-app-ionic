@@ -54,6 +54,15 @@ export class ConferenciaDetailsPage {
     return objeto.titulo_lang;
   }
 
+  getDescByLang (objeto: any) {
+    if (this._translationProvider.lang === 'es') {
+      objeto.desc_lang = objeto.desc_es;
+    } else if (this._translationProvider.lang === 'en') {
+      objeto.desc_lang = objeto.desc_en;
+    }
+    return objeto.desc_lang;
+  }
+
   agregarFavorito(){
     if(!this.isFavorite) {
       this.storage.get('favoriteConferences').then((data:any[]) => {

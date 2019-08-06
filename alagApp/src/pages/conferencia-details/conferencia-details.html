@@ -18,6 +18,9 @@
         <div *ngIf="conferencia.tipo === 'taller'">
             <ion-title>{{ 'conferencia.tallerTitle' | translate }}</ion-title>
         </div>
+        <div *ngIf="conferencia.tipo === 'curso'">
+            <ion-title>{{ 'conferencia.cursoTitle' | translate }}</ion-title>
+        </div>
 
     </ion-navbar>
 </ion-header>
@@ -26,8 +29,10 @@
     <ion-card>
 
         <ion-item>
-            <h1>{{ getTituloByLang(conferencia) }}</h1>
-            <p>{{ fechaConferencia | date }}</p>
+            <ion-label style="white-space: unset !important;">
+                <h1>{{ getTituloByLang(conferencia) }}</h1>
+                <p>{{ fechaConferencia | date }} - Lugar: {{ conferencia.lugar }}</p>
+            </ion-label>
         </ion-item>
 
         <ion-item>
@@ -36,6 +41,75 @@
             <ion-icon name="heart"></ion-icon>
             {{ 'conferencia.favorito' | translate }}
           </button>
+        </ion-item>
+
+    </ion-card>
+
+    <ion-card>
+
+        <ion-item *ngIf="conferencia?.coordinadora">
+            <span item-start>Coordinador</span>
+            <ion-label style="white-space: unset !important;">
+                {{conferencia.coordinadora}}
+            </ion-label>
+        </ion-item>
+        <ion-item *ngIf="conferencia?.docentes && conferencia?.docentes.length > 0">
+            <span item-start>Docentes</span>
+            <ion-label style="white-space: unset !important;">
+                <ul>
+                    <li *ngFor="let docente of conferencia?.docentes">{{docente}}</li>
+                </ul>
+            </ion-label>
+        </ion-item>
+
+    </ion-card>
+
+    <ion-card *ngIf="conferencia?.autor">
+        <ion-item *ngIf="conferencia?.autor">
+            <span item-start>Autor</span>
+            <ion-label style="white-space: unset !important;">
+                {{conferencia.autor}}
+            </ion-label>
+        </ion-item>
+        <ion-item *ngIf="conferencia?.autorDesc" style="white-space: unset !important;">
+            <ion-label style="white-space: unset !important;">
+                <h3>Descripcion</h3>
+                <p [innerHTML]="conferencia.autorDesc"></p>
+            </ion-label>
+        </ion-item>
+    </ion-card>
+
+    <ion-card *ngIf="conferencia?.contenidos && conferencia?.contenidos.length > 0">
+        <ion-item>
+            <ion-label style="white-space: unset !important;">
+                <h3>Contenidos</h3>
+                <ul>
+                    <li *ngFor="let contenido of conferencia?.contenidos">{{contenido}}</li>
+                </ul>
+            </ion-label>
+        </ion-item>
+    </ion-card>
+
+    <ion-card *ngIf="conferencia.simposistas && conferencia.simposistas.length > 0">
+        <ion-item>
+            <ion-label style="white-space: unset !important;">
+                <h3>Simposistas</h3>
+                <ul>
+                    <li *ngFor="let simposista of conferencia?.simposistas">
+                        <h4>{{ simposista.titulo }}</h4>
+                        <p>{{simposista.desc}}</p>
+                    </li>
+                </ul>
+            </ion-label>
+        </ion-item>
+    </ion-card>
+
+    <ion-card>
+
+        <ion-item *ngIf="conferencia?.desc_es">
+            <ion-label style="white-space: unset !important;">
+                <p innerHtml="{{getDescByLang(conferencia)}}"></p>
+            </ion-label>
         </ion-item>
 
     </ion-card>

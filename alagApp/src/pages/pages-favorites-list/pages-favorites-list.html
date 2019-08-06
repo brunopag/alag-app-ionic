@@ -20,11 +20,13 @@
         <ion-list *ngSwitchCase="'0'">
             <ion-list *ngIf="conferencias.length > 0">
                 <ion-item *ngFor="let conferencia of conferencias" (click)="verCharla(conferencia.conferencia, conferencia.programa)">
-                    <h2>{{ getTituloByLang(conferencia.conferencia) }}</h2>
-                    <p>{{ conferencia.conferencia.horario }}: {{ conferencia.conferencia.lugar }}</p>
+                    <ion-label style="white-space: unset !important;">
+                        <h2>{{ getTituloByLang(conferencia.conferencia) }}</h2>
+                        <p>{{ conferencia.conferencia.horario }}: {{ conferencia.conferencia.lugar }}</p>
+                    </ion-label>
                     <button ion-button icon clear item-right>
-                                <ion-icon name="arrow-forward"></ion-icon>
-                            </button>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                    </button>
                 </ion-item>
             </ion-list>
         </ion-list>
@@ -32,13 +34,15 @@
         <ion-list *ngSwitchCase="'1'">
             <ion-list *ngIf="trabajos.length > 0">
                 <ion-item *ngFor="let trabajo of trabajos" (click)="verTrabajo(trabajo.trabajo)">
-                    <h2>{{ trabajo.trabajo.titulo }}</h2>
-                    <p>
-                        <span *ngFor="let autor of trabajo.trabajo.autores, let i = index">
-                                {{autor.apellido}} {{inicialesNombres(autor.nombres)}}
-                                <span *ngIf="i !== trabajo.trabajo.autores.length -1">,</span>
-                        </span>
-                    </p>
+                    <ion-label style="white-space: unset !important;">
+                        <h2>{{ trabajo.trabajo.titulo }}</h2>
+                        <p>
+                            <span *ngFor="let autor of trabajo.trabajo.autores, let i = index">
+                                            {{autor.apellido}} {{inicialesNombres(autor.nombres)}}
+                                            <span *ngIf="i !== trabajo.trabajo.autores.length -1">,</span>
+                            </span>
+                        </p>
+                    </ion-label>
                     <button ion-button icon clear item-right>
                                 <ion-icon name="arrow-forward"></ion-icon>
                             </button>

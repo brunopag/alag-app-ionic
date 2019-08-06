@@ -35,6 +35,10 @@ import { StartPage } from '../pages/start/start';
 import { TrabajosProvider } from '../providers/trabajos/trabajos';
 import { TrabajoDetailsPage } from '../pages/trabajo-details/trabajo-details';
 import { CategoriaListPage } from '../pages/categoria-list/categoria-list';
+import { PlanoAuditorioPage } from '../pages/plano-auditorio/plano-auditorio';
+import { PhotoViewer } from '@ionic-native/photo-viewer';
+import { File } from '@ionic-native/file';
+import { IonicImageViewerModule } from 'ionic-img-viewer';
 
 @NgModule({
   declarations: [
@@ -53,7 +57,8 @@ import { CategoriaListPage } from '../pages/categoria-list/categoria-list';
     PagesFavoritesListPage,
     StartPage,
     TrabajoDetailsPage,
-    CategoriaListPage
+    CategoriaListPage,
+    PlanoAuditorioPage
   ],
   imports: [
     BrowserModule,
@@ -66,7 +71,8 @@ import { CategoriaListPage } from '../pages/categoria-list/categoria-list';
         deps: [HttpClient]
       }
     }),
-    IonicStorageModule.forRoot()
+    IonicStorageModule.forRoot(),
+    IonicImageViewerModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -85,7 +91,8 @@ import { CategoriaListPage } from '../pages/categoria-list/categoria-list';
     PagesFavoritesListPage,
     StartPage,
     TrabajoDetailsPage,
-    CategoriaListPage
+    CategoriaListPage,
+    PlanoAuditorioPage
   ],
   providers: [
     StatusBar,
@@ -93,7 +100,9 @@ import { CategoriaListPage } from '../pages/categoria-list/categoria-list';
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     TranslationProvider,
     NotificationsProvider,
-    TrabajosProvider
+    TrabajosProvider,
+    PhotoViewer,
+    File
   ]
 })
 export class AppModule {}

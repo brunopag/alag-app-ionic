@@ -16,7 +16,13 @@
         "conferenciaTitle": "Conference Details",
         "mesaTitle": "Round Table Details",
         "tallerTitle": "Workshop Details",
-        "favorito": "Favorite"
+        "cursoTitle": "Course Details",
+        "favorito": "Favorite",
+        "simposio": "Symposium",
+        "conferencia": "Conference",
+        "mesa": "Round Table",
+        "taller": "Workshop",
+        "curso": "Course"
     },
     "favorites": {
         "favorites": "Favorites"
@@ -27,5 +33,20 @@
         "trabajos": "Abstracts",
         "detailsTrabajos": "Abstracts Details",
         "seleccionarCategoria": "Select Category"
+    },
+    "info": {
+        "infoTitle": "Information",
+        "lugar1": "CONVENTION CENTER ”EMILIO CIVIT”",
+        "lugar2": "Address: Avda. Peltier 611 – Mendoza city – Argentina.",
+        "lugar3": "The CONVENTION CENTER “EMILIO CIVIT” is located in the civic park of  Mendoza city, at a few minute distance from downtown. Its facilities include:",
+        "lugar4": "CENTRAL BUILDING: ",
+        "lugar5": "With eight rooms of simultaneous use distributed in three floors, with capacity for 100 to 500 people. ",
+        "lugar6": "ENOTECA",
+        "lugar7": "An ex model winery belonging to an old agronomic farm, dated back to 1900 and which was declared a historical and cultural heritage of  Mendoza people. It has two rooms and two cellars where barrels of oak and old machinery that belonged to the model winery are exhibited. ",
+        "lugar8": "AUDITORIUM ÁNGEL BUSTELO:",
+        "lugar9": "With capacity for 2000 people. It is equipped with the lastest technology in audio, video and lighting.",
+        "lugar10": "MEANS OF TRANSPORT:",
+        "lugar11": "Public bus – Taxi",
+        "planoBoton": "Plan of the congress center"
     }
 }
