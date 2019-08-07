@@ -32,7 +32,23 @@ export class PagesFavoritesListPage {
     this.storage.get('favoriteConferences').then((data:any[]) => {
       console.log(data);
       if(data && data.length > 0) {
-        this.conferencias = data
+        data.forEach(conferencia => {
+          let day = this.conferencias.find(row => row.dia === conferencia.programa.dia)
+          console.log('encontro dia', day);
+          if(day) {
+            day.conferencias.push(conferencia)
+          } else {
+            this.conferencias.push({dia: conferencia.programa.dia, 
+                                    mes: conferencia.programa.mes, 
+                                    anio: conferencia.programa.anio, 
+                                    conferencias: [conferencia]})
+          }
+        })
+        this.conferencias.sort((a, b) => (a.dia > b.dia) ? 1 : -1);
+        this.conferencias.forEach(dia => {
+          dia.conferencias.sort((a, b) => (a.conferencia.id > b.conferencia.id) ? 1 : -1)
+        });
+        console.log('conferencias', this.conferencias);
       }
     });
     this.storage.get('favoriteTrabajos').then((data:any[]) => {

@@ -25,7 +25,8 @@
         "curso": "Course"
     },
     "favorites": {
-        "favorites": "Favorites"
+        "favorites": "Favorites",
+        "vacio": "The favorites list is empty."
     },
     "trabajos": {
         "categoryTitle": "Categories and subcategories",

@@ -531,110 +531,394 @@ export const programa: any[] = [
         anio: 2019,
         cronograma:    [
             {
-                hora: '8:00 AM',
+                hora: '8:00 Hs.',
                 charlas: [
                     {
-                        id: 12,
-                        titulo_es: 'Un titulo de Conferencia',
-                        titulo_en: 'EN Un titulo de Conferencia',
+                        id: 27,
+                        titulo_es: 'Colocación de posters',
+                        titulo_en: 'Poster placement',
+                        tipo: 'varios',
+                        horario: '8:00 - 8:30',
+                        lugar: 'Sala 4'
+                    },
+                ]
+            },
+            {
+                hora: '8:30 Hs.',
+                charlas: [
+                    {
+                        id: 28,
+                        titulo_es: 'Genética médica populacional na America Latina',
+                        titulo_en: 'Genética médica populacional na America Latina',
                         tipo: 'simposio',
-                        desc_es: 'Una descripcion de la charla',
-                        desc_en: 'EN Una descripcion de la charla',
-                        horario: '8:00 - 9:00',
+                        horario: '8:30 - 10:30',
                         lugar: 'Sala 4',
-                        coordinadora: 'Una coordinadora',
+                        coordinadora: 'Lavinia Schuler-Faccini. Universidade Federal do Rio Grande do Sul. Porto Alegre, Brasil.',
                         simposistas: [
-                            'Un simposista',
-                            'Otro simposista'
+                            {
+                                titulo: 'Censo nacional de isolados no Brasil. ',
+                                desc: 'Lavinia Schuler-Faccini. Universidade Federal do Rio Grande do Sul. Porto Alegre, Brasil. '
+                            },
+                            {
+                                titulo: 'Adaptation and coadaptation of genes and culture in american native populations of South America.',
+                                desc: 'Bortolini M.C.1. 1 Universidade Federal do Rio Grande do Sul. Brasil.'
+                            },
+                            {
+                                titulo: 'Approaching clusters of mucopolysaccharidoses in Latin America with population medical genetics tools. ',
+                                desc: 'Kubaski F.1, F. Trapp2, F. Bender2, F. Bittencourt2, D. Malaga3, A. Bochernitsan2, J. De Mari2, F. Gameleira4, C. Ferrán5, J.. Ramirez5, F.. Jaquez5, A.C. Brusius-facchin3, S.. Leistner-segal3, M.G. Burin2, K.. Michelin-tirelli2, S.S.. Lopes6, P.F.. Medeiros6, A.X.. Acosta7, K.A.. Sandes8, M.L.C… Moreira9, H.P.Q.. Montano10, M.L.S.. Villareal11, H.M.B.. Sandoval12, R.. Bareiro13, G.. Cossio14, R.. Giugliani1. 1 MGS- HCPA, UFRGS, INAGEMP, Fundação Médica do RS, Porto Alegre, Brazil; 2 MGS-HCPA, Porto Alegre, Brazil; 3 MGS-HCPA, UFRGS, INAGEMP, Porto Alegre, Brazil; 4 Health Secretary, Municipality of Ouro Preto, Brazil; 5 Hospital Infantil Dr. Robert Reid Cabral, Santo Domingo, Dominican Republic; 6 Department of Biology, UFPB, Campina Grande, Brazil; 7 Department of Pediatrics, UFBA, Salvador, Brazil; 8 Laboratório Imunologia, UFBA, Salvador, Brazil; 9 Hospital Santa Casa da Misericordia, Campo Grande, Brazil; 10 Hospital Verdi Cevallos, Portoviejo, Ecuador; 11 Fundacion Cardioinfantil de Bogota, Colombia; 12 Hospital Provincial Del Puyo, Ecuador; 13 Hospital Adventista do Penfigo, Campo Grande, Brazil; 14 Hospital del Niño de Panamá, Panamá, Panamá. '
+                            },
+                            {
+                                titulo: 'Genética médica comunitaria en Colombia: experiencia en Boyacá.',
+                                desc: 'Velasco H.1,2, L. Torres2, Y. Sanchez3, A.. Martin1,2, L. Umaña4, S. Santos 5, T. Vinasco5, R. Pacheco1,2. 1 BOGOTA COLOMBIA; 2 UNIVERSIDAD NACIONAL DE COLOMBIA; 3 UNIVERSIDAD PEDAGOGICA Y TECNOLOGICA DE COLOMBIA ; 4 Universidad de Texas SW ; 5 Laboratorio de Genética Humana y Médica – Universidad Federal de Pará. '
+                            }
                         ]
                     },
                     {
-                        id: 13,
-                        titulo_es: 'Otra Un titulo de Conferencia',
-                        titulo_en: 'EN Otra Un titulo de Conferencia',
+                        id: 29,
+                        titulo_es: 'Farmacogenómica y Medicina de Precisión',
+                        titulo_en: 'Farmacogenómica y Medicina de Precisión',
                         tipo: 'simposio',
-                        desc_es: 'Una descripcion de la charla',
-                        desc_en: 'EN Una descripcion de la charla',
-                        horario: '9:00 - 10:00',
+                        horario: '8:30 - 10:30',
                         lugar: 'Sala 4',
-                        coordinadora: 'Una coordinadora',
+                        coordinadora: 'Maria Ana Redal. Facultad de Farmacia y Bioquímica, UBA. Buenos Aires, Argentina.',
                         simposistas: [
-                            'Un simposista',
-                            'Otro simposista'
+                            {
+                                titulo: 'Farmacogenómica cardiovascular: experiencias en terapia anticoagulante. ',
+                                desc: 'Quiñones L.A.1, A. Roco2, E. Nieto3, M. Suarez1. 1 Facultad de Medicina, Universidad de Chile; 2 Servicio de Salud Occidente, Ministerio de Salud Chile; 3 Hospital San Juan de Dios, Santiago, Chile.  '
+                            },
+                            {
+                                titulo: 'Medicina de Precisión en enfermedades infecciosas. Farmacogenómica de la Tuberculosis.',
+                                desc: 'Julián Chamorro. Hospital Muñiz. Buenos Aires, Argentina.'
+                            },
+                            {
+                                titulo: 'Variabilidad individual en la respuesta y toxicidad a metrotexate. ',
+                                desc: 'Patricia Esperón. Agdo. Biología Molecular. Dpto. Bioquímica Clínica. Facultad de Química. Montevideo, Uruguay. '
+                            },
+                            {
+                                titulo: 'Biomarcadores moleculares en gliomas y su importancia en la farmacogenómica.',
+                                desc: 'Germán Pérez. Grupo Gamma. Facultad de Ciencias Bioquímicas y Farmacéuticas, Universidad Nacional de Rosario (UNR). Rosario, Argentina.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 30,
+                        titulo_es: 'Recursos Genéticos Vegetales en el pre-mejoramiento genético',
+                        titulo_en: 'Recursos Genéticos Vegetales en el pre-mejoramiento genético',
+                        tipo: 'simposio',
+                        horario: '8:30 - 10:30',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Mónica Poverene. UNSur, Bahía Blanca, Argentina.',
+                        simposistas: [
+                            {
+                                titulo: 'Implicaciones de la evolución del género Phaseolus para su uso en mejoramiento del poroto.  ',
+                                desc: 'Beebe S.1, D. Debouck1. 1 Centro Internacional de Agricultura Tropical (CIAT). Colombia. '
+                            },
+                            {
+                                titulo: 'Recursos genéticos y pre-mejoramiento de girasol (Helianthus annuus l.). ',
+                                desc: 'Mónica Poverene. UNSur, Bahía Blanca, Argentina.'
+                            },
+                            {
+                                titulo: 'Developing an alfalfa GWAS-population for understanding genetic complexity of drought tolerance in mediterranean environments. ',
+                                desc: 'Inostroza L..1, C. Ovalle1, A. Del Pozo1, S.. Espìnoza1, V. Barahona1, M. Gerding1, A. Humphries2. 1 Chile; 2 Australia.  '
+                            },
+                            {
+                                titulo: 'Germplasm collecting: filling the gaps on crop wild relatives in ex situ collections in Brazil.',
+                                desc: 'Marcelo Brilhante. EMBRAPA, Brasil. '
+                            }
+                        ]
+                    },
+                    {
+                        id: 31,
+                        titulo_es: 'Impacto de las nuevas tecnologías moleculares en el estudio de las Zoonosis Virales emergentes y reemergentes en América',
+                        titulo_en: 'Impacto de las nuevas tecnologías moleculares en el estudio de las Zoonosis Virales emergentes y reemergentes en América',
+                        tipo: 'simposio',
+                        horario: '8:30 - 10:30',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Jorge B. García. INEVH J.I Maiztegui. Pergamino, Argentina.',
+                        simposistas: [
+                            {
+                                titulo: 'Herramientas moleculares utilizadas actualmente para la vigilancia y caracterización genética de Arbovirus en Argentina. ',
+                                desc: 'Fabbri C.1. 1 INEVH. Argentina. '
+                            },
+                            {
+                                titulo: 'Mobile real time genomic of arboviruses in Brazil. ',
+                                desc: 'Alcantara L.1. 1 Fundação Oswaldo Cruz. Brasil.'
+                            },
+                            {
+                                titulo: 'Impacto de las nuevas tecnologías moleculares en el estudio de las zoonosis virales emergentes y reemergentes en América.',
+                                desc: 'Iglesias G.1. 1 Laboratorio de Virus Emergentes. Departamento de Ciencia y Tecnología. Universidad Nacional de Quilmes. Argentina. '
+                            },
+                            {
+                                titulo: 'Aplicación de herramientas bioinformáticas en virología: análisis filodinámico de los hantavirus de Argentina.',
+                                desc: 'Sen C.N.1, J.B. García1. 1 Instituto Nacional de Enfermedades Virales Humanas «Dr. Julio I. Maiztegui» (INEVH). Pergamino, Buenos Aires, Argentina.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 32,
+                        titulo_es: 'Poliploidía',
+                        titulo_en: 'Poliploidía',
+                        tipo: 'simposio',
+                        horario: '8:30 - 10:30',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Evelin Kovalsky. Facultad de Ciencias Exactas y Naturales y Agrimensura, Corrientes, Argentina.',
+                        simposistas: [
+                            {
+                                titulo: 'Solanum elaeagnifolium: poliploidía y biogeografía. ',
+                                desc: 'Chiarini F.1, M. Mancini2, L. Stiefkens2. 1 Argentina; 2 Instituto Multidisciplinario de Biología Vegetal (CONICET-UNC). '
+                            },
+                            {
+                                titulo: 'Psidium cattleyanum sabine (myrtaceae) como modelo de estudo de citogeografia e de diversidade em citótipos poliploides.',
+                                desc: 'Forni Martins E.R.1, R. Moura Machado1, F.. Ancelmo De Oliveira1, F. Matos Alves1, A.C. Devides Castello1, A. Pereira De Souza1. 1 Universidade Estadual de Campinas – UNICAMP. '
+                            },
+                            {
+                                titulo: 'Citogeografía de especies del género sudamericano Chrysolaena (vernonieae, asteraceae).',
+                                desc: 'Via Do Pico G.M.1,2, M.B. Angulo1,2, Y.D.J. Pérez1, M. Dematteis1,2. 1 Instituto de Botánica del Nordeste (UNNE-CONICET); 2 Facultad de Ciencias Exactas y Naturales y Agrimensura (UNNE). Argentina.'
+                            },
+                            {
+                                titulo: 'Dinámica de zonas mixtas diploide-poliploide en Turnera sidoides.',
+                                desc: 'Kovalsky I.E.1,2, S.A. Fernández1,2, V.G. Solís Neffa1,2. 1 Instituto de Botánica del Nordeste (UNNE-CONICET); 2 Facultad de Ciencias Exactas y Naturales y Agrimensura (UNNE). Argentina.'
+                            },
+                            {
+                                titulo: 'Abordaje desde la citogenética clásica y molecular de las relaciones entre especies de distintos niveles de ploidía en Andropogon l.',
+                                desc: 'Hidalgo M.I.M.1, E.J.. Greizerstein2, G.A. Norrmann1. 1 Cátedra de Genética. Facultad de Ciencias Agrarias. Universidad Nacional del Nordeste; 2 Cátedra de Mejoramiento Genético. Facultad de Ciencias Agrarias, UNLZ, Llavallol, Argentina. IIPAAS (FCA, UNLZ-CIC). Argentina.'
+                            },
+                            {
+                                titulo: 'Origen y distribucion geografica de algunos poliploides en Paspalum.',
+                                desc: 'Honfi A.I.1. 1 Programa de Estudios Florísticos y Genética Vegetal, Instituto de Biología Subtropical (CONICET- UNaM) nodo Posadas, Facultad de Ciencias Exactas Químicas y Naturales, Universidad Nacional de Misiones. Argentina. '
+                            }
                         ]
                     }
                 ]
             },
             {
-                hora: '8:00 AM',
+                hora: '10:30 Hs.',
                 charlas: [
                     {
-                        id: 14,
-                        titulo_es: 'Un titulo de Conferencia',
-                        titulo_en: 'EN Un titulo de Conferencia',
-                        tipo: 'simposio',
-                        desc_es: 'Una descripcion de la charla',
-                        desc_en: 'EN Una descripcion de la charla',
-                        horario: '8:00 - 9:00',
+                        id: 33,
+                        titulo_es: 'Sección de posters',
+                        titulo_en: 'Posters Section',
+                        tipo: 'varios',
+                        horario: '10:30 - 12:00',
+                        lugar: 'Sala 4'
+                    }
+                ]
+            },
+            {
+                hora: '12:00 Hs.',
+                charlas: [
+                    {
+                        id: 34,
+                        titulo_es: 'Conferencia SBG: A unique insect-fungal interaction leads to pokka boheng disease in sugarcane. Marcio de Castro Silva Filho',
+                        titulo_en: 'Conferencia SBG: A unique insect-fungal interaction leads to pokka boheng disease in sugarcane. Marcio de Castro Silva Filho',
+                        tipo: 'conferencia',
+                        horario: '12.00 – 13.00',
                         lugar: 'Sala 4',
-                        coordinadora: 'Una coordinadora',
+                        autor: 'Marcio de Castro Silva Filho. Universidade do Sao Paulo. Brasil.',
+                        autorDesc: '<p>PhD in Plant Molecular Biology by the University of Louvain, Belgium. Full Member of the Brazilian Academy of Sciences, Full Professor of the Genetics, University of São Paulo (USP), President of the Brazilian Society of Genetics (2018-2020), Commander of the National Order of Scientific Merit, Deputy Provost of Postgraduate studies at USP. President-elect of the National Forum of Pro-Rectors of Research and Post-Graduation (FOPROP).</p>'
+                    }
+                ]
+            },
+            {
+                hora: '13:00 Hs.',
+                charlas: [
+                    {
+                        id: 35,
+                        titulo_es: 'Libre',
+                        titulo_en: 'Free',
+                        tipo: 'varios',
+                        horario: '13.00 – 14.30',
+                        lugar: 'Sala 4'
+                    }
+                ]
+            },
+            {
+                hora: '14:30 Hs.',
+                charlas: [
+                    {
+                        id: 36,
+                        titulo_es: 'Conferencia ALAG: La dinámica contemporánea de conservación de los recursos genéticos de cultivos: el caso de la papa en su centro de origen. Stefan De Haan',
+                        titulo_en: 'Conferencia ALAG: La dinámica contemporánea de conservación de los recursos genéticos de cultivos: el caso de la papa en su centro de origen. Stefan De Haan',
+                        tipo: 'conferencia',
+                        horario: '14.30 – 15.30',
+                        lugar: 'Sala 4',
+                        autor: 'Stefan De Haan. Centro Internacional de la Papa (CIP). Perú.',
+                        autorDesc: '<p>Stef de Haan trabaja como investigador principal en el Centro Internacional de la Papa (CIP) en Perú. Tiene un PhD en Biosistemática y MSc en Agroecología. Tiene un interés particular en el manejo contemporáneo y el uso in-situ de recursos genéticos de cultivos con un enfoque geográfico en los Andes y el sudeste asiático. Su principal enfoque de investigación ha sido comprender la conservación y el uso de los recursos genéticos bajo la gestión de los agricultores, incluso la evolución continua, sistemas de semillas, patrones geoespaciales, la nutrición humana y acuerdos de distribución de beneficios. Actualmente coordina la Iniciativa Andina del CIP con un enfoque en la agrobiodiversidad, los sistemas alimentarios y el cambio climático.</p>'
+                    }
+                ]
+            },
+            {
+                hora: '15:45 Hs.',
+                charlas: [
+                    {
+                        id: 37,
+                        titulo_es: 'Desafíos en el diagnóstico genético: Nodos del Human Variome Project en Sudamérica.',
+                        titulo_en: 'Desafíos en el diagnóstico genético: Nodos del Human Variome Project en Sudamérica.',
+                        tipo: 'simposio',
+                        horario: '15:45 - 17:45',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Solano A.R.1. 1 INBIOMED, Fac. de Medicina, UBA/CONICET y Genotipificación, DAC, CEMIC. Argentina.',
                         simposistas: [
-                            'Un simposista',
-                            'Otro simposista'
+                            {
+                                titulo: 'Nodo argentino del Human Variome Project: diagnóstico genético por análisis de ADN en Argentina. Interacción y cooperación latinoamericanas.',
+                                desc: 'Solano A.R.1. 1 INBIOMED, Fac de Medicina, UBA/CONICET y Genotipificación, DAC, CEMIC. Argentina.'
+                            },
+                            {
+                                titulo: 'The brazilian node of the Human Variome Project.',
+                                desc: 'S. Rocha C.1,2, B. S. Carvalho2,3, I.. Lopes-cendes1,2. 1 Department of Medical Genetics and Genomic Medicine, School of Medical Sciences, University of Campinas (UNICAMP), Campinas, SP, BRAZIL; 2 Brazilian Institute of Neuroscience and Neurotechnology (BRAINN), Campinas, SP, BRAZIL; 3 Department of Statistics, Institute of Mathematics, Statistics and Scientific Computing; University of Campinas (UNICAMP), Campinas, SP, BRAZIL. '
+                            },
+                            {
+                                titulo: 'Variantes de susceptibilidad al cáncer de mama hereditario. Un camino hacia la medicina genómica.',
+                                desc: 'Jara L..1. 1 Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile. '
+                            },
+                            {
+                                titulo: 'El asesoramiento genético oncológico y la optimización del abordaje de pacientes de alto riesgo.',
+                                desc: 'Mampel A.1,2,3. 1 Hospital Universitario, UN de Cuyo, Mendoza, Argentina; 2 Instituto de Genética, FC Médicas, UN de Cuyo, Mendoza, Argentina; 3 Centro Oncológico de Integración Regional (COIR), Mendoza, Argentina. '
+                            },
+                            {
+                                titulo: 'Detección de portadoras de mutaciones en cáncer de mama hereditario del programa TEC Salud, Monterrey,México.',
+                                desc: 'Ortiz-lopez R.1, D. Aguilar Y Méndez1, C. Villarreal Garza1. 1 TECNOLOGICO DE MONTERREY, MONTERREY, NUEVO LEÓN. México. '
+                            }
                         ]
                     },
                     {
-                        id: 15,
-                        titulo_es: 'Otra Un titulo de Conferencia',
-                        titulo_en: 'EN Otra Un titulo de Conferencia',
+                        id: 38,
+                        titulo_es: 'Un cambio de mirada en la cría animal aprovechando la información genómica',
+                        titulo_en: 'Un cambio de mirada en la cría animal aprovechando la información genómica',
                         tipo: 'simposio',
-                        desc_es: 'Una descripcion de la charla',
-                        desc_en: 'EN Una descripcion de la charla',
-                        horario: '9:00 - 10:00',
+                        horario: '15:45 - 17:45',
                         lugar: 'Sala 4',
-                        coordinadora: 'Una coordinadora',
+                        coordinadora: 'Poli M.1. 1 INTA. CICVyA-Instituto de Genetica. Argentina.',
                         simposistas: [
-                            'Un simposista',
-                            'Otro simposista'
+                            {
+                                titulo: 'Estrategias de investigación multidisciplinarias usando información genómica para la elección de animales superiores.',
+                                desc: 'Poli M.1. 1 INTA. CICVyA-Instituto de Genética. Argentina. '
+                            },
+                            {
+                                titulo: 'Mejoramiento genético de ovinos en la Patagonia: actualidad y desafíos ante nuevos escenarios climáticos y comerciales.',
+                                desc: 'Vozzi P.A.1. 1 INTA EEA Chubut. Argentina.'
+                            },
+                            {
+                                titulo: 'Clonación equina, herramienta práctica para preservar genética.',
+                                desc: 'Kaiser G.1, N. Mucci1, J.. Mertián2, R. Santa Cruz2. 1 Grupo de Biotecnologia de la Reproduccion, INTA Balcarce; 2 Crestview Genetics Argentina.'
+                            },
+                            {
+                                titulo: 'El cerdo Criollo Pampa Rocha de Uruguay como recurso zoogenético local (una mirada desde la genética).',
+                                desc: 'Llambí M.S.1, M. Montenegro1, C. Carballo2, G. Castro1. 1 Facultad de Veterinaria, UdelaR-Uruguay; 2 Facultad de Agronomía, UdelaR-Uruguay. '
+                            },
+                            {
+                                titulo: 'Avances en el conocimiento del genoma de la alpaca. ',
+                                desc: 'Gutierrez Reynoso G.A.1, F.A. Ponce De Leon2. 1 UNIVERSIDAD NACIONAL AGRARIA LA MOLINA; 2 UNIVERSITY OF MINNESOTA.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 39,
+                        titulo_es: 'Perspectivas en el Mejoramiento Vegetal desde la Maestría en Genética Vegetal (UNR-INTA) y sus 40 años en la formación académica de posgrado',
+                        titulo_en: 'Perspectivas en el Mejoramiento Vegetal desde la Maestría en Genética Vegetal (UNR-INTA) y sus 40 años en la formación académica de posgrado',
+                        tipo: 'simposio',
+                        horario: '15:45 - 17:45',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Gustavo Rodríguez. IICAR-CONICET-UNR. Cátedra de Genética. Facultad de Ciencias Agrarias, Universidad Nacional de Rosario. Zavalla, Santa Fe, Argentina.',
+                        simposistas: [
+                            {
+                                titulo: 'Caracterización molecular y mapeo por asociación para la resistencia al tizón común (Exserohilum turcicum) en líneas públicas de maíz templado.',
+                                desc: 'Torrent I.1, R.D. Lorea2, J. Roig1, M.D.P. Gonzalez3. 1 Bayer Argentina; 2 EEA INTA Pergamino-UNNOBA; 3 Facultad de Ciencias Agrarias-UNR. '
+                            },
+                            {
+                                titulo: 'Mejoramiento genético de zanahoria (Daucus carota l.).',
+                                desc: 'Alessandro M.S.1. 1 INTA. Argentina.'
+                            },
+                            {
+                                titulo: 'Mejoramiento genético de arroz.',
+                                desc: 'Colazo J.1, A. Livore1. 1 GTMGA-INTA. Grupo de Trabajo Mejoramiento Genético de Arroz . Argentina.'
+                            },
+                            {
+                                titulo: 'Latin America: a development pole for phenomics.',
+                                desc: 'Lobos G.1. 1 Maule. Chile.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 40,
+                        titulo_es: 'Secuencias repetidas de ADN, cromosomas y evolución',
+                        titulo_en: 'Secuencias repetidas de ADN, cromosomas y evolución',
+                        tipo: 'simposio',
+                        horario: '15:45 - 17:45',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Andrea Pedrosa-Harand. Departamento de Botânica, UFPE, Recife/PE, Brasil.',
+                        simposistas: [
+                            {
+                                titulo: 'As diferentes faces do PcP190 – Um DNA satélite derivado de DNAr 5S e amplamente distribuído em anuros.',
+                                desc: 'Lourenço L.B.1. 1 Unicamp, Campinas-SP, Brasil.'
+                            },
+                            {
+                                titulo: ' Satellite DNAs illuminate origin and evolution of sex and B chromosomes in grasshoppers.',
+                                desc: 'Cabral-de-mello D.C.1. 1 Department of Biology, Institute of Biosciences, Sao Paulo State University (UNESP), Rio Claro, SP, Brazil. '
+                            },
+                            {
+                                titulo: 'Alopoliploidía y divergencia de secuencias repetidas de ADN en especies del género Paspalum (gramineae).',
+                                desc: 'Vaio M.1. 1 Facultad de Agronomía. Uruguay. '
+                            },
+                            {
+                                titulo: 'Composición de las regiones de heterocromatina en los diferentes genomas de la sección Arachis (genero Arachis, leguminosae).',
+                                desc: 'Samoluk S.S.1. 1 IBONE. Argentina. '
+                            }
                         ]
                     }
                 ]
             },
             {
-                hora: '8:00 AM',
+                hora: '17:45 Hs.',
                 charlas: [
                     {
-                        id: 16,
-                        titulo_es: 'Un titulo de Conferencia',
-                        titulo_en: 'EN Un titulo de Conferencia',
-                        tipo: 'simposio',
-                        desc_es: 'Una descripcion de la charla',
-                        desc_en: 'EN Una descripcion de la charla',
-                        horario: '8:00 - 9:00',
-                        lugar: 'Sala 4',
-                        coordinadora: 'Una coordinadora',
-                        simposistas: [
-                            'Un simposista',
-                            'Otro simposista'
-                        ]
-                    },
-                    {
-                        id: 17,
-                        titulo_es: 'Otra Un titulo de Conferencia',
-                        titulo_en: 'EN Otra Un titulo de Conferencia',
-                        tipo: 'simposio',
-                        desc_es: 'Una descripcion de la charla',
-                        desc_en: 'EN Una descripcion de la charla',
-                        horario: '9:00 - 10:00',
-                        lugar: 'Sala 4',
-                        coordinadora: 'Una coordinadora',
-                        simposistas: [
-                            'Un simposista',
-                            'Otro simposista'
-                        ]
+                        id: 41,
+                        titulo_es: 'Intervalo',
+                        titulo_en: 'Interval',
+                        tipo: 'varios',
+                        horario: '17:45 – 18.15',
+                        lugar: 'Sala 4'
                     }
                 ]
-            }
+            },
+            {
+                hora: '18:15 Hs.',
+                charlas: [
+                    {
+                        id: 42,
+                        titulo_es: 'Conferencia E Favret, SAG: Variabilidad genética y epigenética en especies tuberosas de Solanum. Ricardo Masuelli.',
+                        titulo_en: 'Conferencia E Favret, SAG: Variabilidad genética y epigenética en especies tuberosas de Solanum. Ricardo Masuelli.',
+                        tipo: 'conferencia',
+                        horario: '18:15 – 19:15',
+                        lugar: 'Sala 4',
+                        autor: 'Ricardo Masuelli. Instituto de Biología Agrícola de Mendoza. CONICET. Argentina. ',
+                        autorDesc: '<p>Especialidad: Genética Agronómica. Egresado en 1987 con el título de Ingeniero Agrónomo de la Facultad de Ciencias Agrarias de la Universidad Nacional de Cuyo. Magister en Producción Vegetal, 1989, y Doctor en Ciencias Agrarias, 1992, Universidad Nacional de Mar del Plata. Posdoctorado en la Universidad de Washington, Seattle, USA. Actualmente es Profesor Titular de Genética en la Facultad de Ciencias Agrarias de la U.N. de Cuyo e Investigador Principal del CONICET. Dirige el Laboratorio de Biología Molecular del Instituto de Biología Agrícola Mendoza (IBAM) CONICET-UNCuyo.</p>'
+                    },
+                    {
+                        id: 43,
+                        titulo_es: 'ESPACIO UNNOBA: Coordinadora: María Alejandra Morales. UNNOBA y Red Nacional de Laboratorios de Dengue y otros Arbovirus, Instituto Maiztegui de Pergamino, Argentina.',
+                        titulo_en: 'ESPACIO UNNOBA: Coordinadora: María Alejandra Morales. UNNOBA y Red Nacional de Laboratorios de Dengue y otros Arbovirus, Instituto Maiztegui de Pergamino, Argentina.',
+                        tipo: 'varios',
+                        horario: '18:15 – 19:15',
+                        lugar: 'Sala 4',
+                        desc_es: '<p>– Charla – Debate Experiencia Zibra (ZIKA/Brasil): Lineamientos de un proyecto de secuenciación genómica viral que lleva  ciencia e innovación al terreno,  priorizando: educación, acceso abierto, igualdad de género, compromiso social y respeto a los derechos y normas éticas. Luiz Carlos Alcantara. Fundação Oswaldo Cruz, Brasil.</p><p>–  La introducción de Zika en el continente Americano: Complicaciones en el diagnóstico y avances en la temática. Néstor G. Iglesias Laboratorio de Virus Emergentes. Departamento de Ciencia y Tecnología. Universidad Nacional de Quilmes, Argentina.</p>',
+                        desc_en: '<p>– Charla – Debate Experiencia Zibra (ZIKA/Brasil): Lineamientos de un proyecto de secuenciación genómica viral que lleva  ciencia e innovación al terreno,  priorizando: educación, acceso abierto, igualdad de género, compromiso social y respeto a los derechos y normas éticas. Luiz Carlos Alcantara. Fundação Oswaldo Cruz, Brasil.</p><p>–  La introducción de Zika en el continente Americano: Complicaciones en el diagnóstico y avances en la temática. Néstor G. Iglesias Laboratorio de Virus Emergentes. Departamento de Ciencia y Tecnología. Universidad Nacional de Quilmes, Argentina.</p>'
+                    }
+                ]
+            },
+            {
+                hora: '19:15 Hs.',
+                charlas: [
+                    {
+                        id: 44,
+                        titulo_es: 'Asamblea ALAG',
+                        titulo_en: 'Asamblea ALAG',
+                        tipo: 'varios',
+                        horario: '19:15 Hs.',
+                        lugar: 'Sala 4'
+                    }
+                ]
+            },
         ]
     },
     {
@@ -643,110 +927,381 @@ export const programa: any[] = [
         anio: 2019,
         cronograma:    [
             {
-                hora: '8:00 AM',
+                hora: '8:00 Hs.',
                 charlas: [
                     {
-                        id: 18,
-                        titulo_es: 'Un titulo de Conferencia',
-                        titulo_en: 'EN Un titulo de Conferencia',
-                        tipo: 'simposio',
-                        desc_es: 'Una descripcion de la charla',
-                        desc_en: 'EN Una descripcion de la charla',
-                        horario: '8:00 - 9:00',
-                        lugar: 'Sala 4',
-                        coordinadora: 'Una coordinadora',
-                        simposistas: [
-                            'Un simposista',
-                            'Otro simposista'
-                        ]
-                    },
-                    {
-                        id: 19,
-                        titulo_es: 'Otra Un titulo de Conferencia',
-                        titulo_en: 'EN Otra Un titulo de Conferencia',
-                        tipo: 'simposio',
-                        desc_es: 'Una descripcion de la charla',
-                        desc_en: 'EN Una descripcion de la charla',
-                        horario: '9:00 - 10:00',
-                        lugar: 'Sala 4',
-                        coordinadora: 'Una coordinadora',
-                        simposistas: [
-                            'Un simposista',
-                            'Otro simposista'
-                        ]
+                        id: 45,
+                        titulo_es: 'Colocación de posters',
+                        titulo_en: 'Poster placement',
+                        tipo: 'varios',
+                        horario: '8:00 - 8:30',
+                        lugar: 'Sala 4'
                     }
                 ]
             },
             {
-                hora: '8:00 AM',
+                hora: '8:30 Hs.',
                 charlas: [
                     {
-                        id: 20,
-                        titulo_es: 'Un titulo de Conferencia',
-                        titulo_en: 'EN Un titulo de Conferencia',
+                        id:46,
+                        titulo_es: 'A consortium for studying the effects of the prenatal exposure to alcohol, tobacco and drugs in Latin-America',
+                        titulo_en: 'A consortium for studying the effects of the prenatal exposure to alcohol, tobacco and drugs in Latin-America',
                         tipo: 'simposio',
-                        desc_es: 'Una descripcion de la charla',
-                        desc_en: 'EN Una descripcion de la charla',
-                        horario: '8:00 - 9:00',
+                        horario: '8:30 - 10:30',
                         lugar: 'Sala 4',
-                        coordinadora: 'Una coordinadora',
+                        coordinadora: 'Rojas Martinez A.1 1 Tecnológico de Monterrey; Mexico.',
                         simposistas: [
-                            'Un simposista',
-                            'Otro simposista'
+                            {
+                                titulo: 'Young pregnancy and prenatal exposure to alcohol, tobacco and drugs in Monterrey, Mexico.',
+                                desc: 'Rojas Martinez A.1, V.J. Lara Diaz1, A.L. Ruiz Barreto1. 1 Tecnológico de Monterrey. Mexico.'
+                            },
+                            {
+                                titulo: 'Epidemiología y carga del trastornos del espectro alcohólico fetal (TEAF) en América Latina.',
+                                desc: 'Sanseverino M.T.1. 1 Serviço de Genetica Medica-Hcpa; Escola de Medicina PUCRS.RS. Brasil. '
+                            },
+                            {
+                                titulo: 'Dismorfología y desórdenes del neurodesarrollo de los TEAF. Dysmorphology and neurobehavioral disorders in FASD. ',
+                                desc: 'Del Campo Casanelles M..1. 1 University of California San Diego. '
+                            },
+                            {
+                                titulo: 'Consorcio fALCON (Fetal Alcohol Latinoamerican Consortium).',
+                                desc: 'Castillo Taucher S.1. 1 Sección Genética Hospital Clínico Universidad de Chile. '
+                            }
                         ]
                     },
                     {
-                        id: 21,
-                        titulo_es: 'Otra Un titulo de Conferencia',
-                        titulo_en: 'EN Otra Un titulo de Conferencia',
+                        id: 47,
+                        titulo_es: 'Aspectos genómicos en el diagnóstico de enfermedades pediátricas',
+                        titulo_en: 'Aspectos genómicos en el diagnóstico de enfermedades pediátricas',
                         tipo: 'simposio',
-                        desc_es: 'Una descripcion de la charla',
-                        desc_en: 'EN Una descripcion de la charla',
-                        horario: '9:00 - 10:00',
+                        horario: '8:30 - 10:30',
                         lugar: 'Sala 4',
-                        coordinadora: 'Una coordinadora',
+                        coordinadora: 'Graciela del Rey. Laboratorio de Citogenética. Centro de Investigaciones Endocrinológicas “Dr. César Bergadá” (CEDIE). CONICET. FEI y División de Endocrinología, Hospital de Niños “Ricardo Gutiérrez”. Buenos Aires. Argentina',
                         simposistas: [
-                            'Un simposista',
-                            'Otro simposista'
+                            {
+                                titulo: 'Aplicación de la secuenciación de nueva generación en el diagnóstico de enfermedades genéticas en pediatría. ',
+                                desc: 'Luis Pablo Gravina. Laboratorio de Biología Molecular – Servicio de Genética. Hospital de Pediatría Garrahan. Buenos Aires, Argentina.'
+                            },
+                            {
+                                titulo: 'Abordaje del diagnóstico molecular de enfermedades poco frecuentes: genodermatosis. ',
+                                desc: 'Valinotto L.1,2,3, S.. Lusso1, A. Mistchenko1,2, G.. Manzur1,2, M.. Natale1. 1 Centro de Investigaciones en Genodermatosis y Epidermólisis Ampollar (CEDIGEA) – Facultad de Medicina, UBA; 2 Hospital de Niños R Gutiérrez; 3 CONICET. Argentina. '
+                            },
+                            {
+                                titulo: 'Ejemplos de la integración funcional de la genómica en la práctica clínica en un hospital de alta complejidad: hacia el nuevo genetista.',
+                                desc: 'Tizzano E.F.1. 1 España. '
+                            },
+                            {
+                                titulo: 'Nuevos estudios moleculares aplicados a las enfermedades raras en clínica e investigación.',
+                                desc: 'Bacino C.1. 1 Texas Children’s Hospital. '
+                            }
                         ]
+                    },
+                    {
+                        id: 48,
+                        titulo_es: 'Genome and chromosome evolution of Drosophila species of the Americas',
+                        titulo_en: 'Genome and chromosome evolution of Drosophila species of the Americas',
+                        tipo: 'simposio',
+                        horario: '8:30 - 10:30',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Maura Helena Manfrin. Universidade de São  Paulo. San Pablo, Brasil.',
+                        simposistas: [
+                            {
+                                titulo: 'Genome evolution and adaptation in cactophilic mexican drosophila of the sonora desert.',
+                                desc: 'Markow T.1. 1 LANGEBIO-CINVESTAV. Irapuato, Guanajuato, Mexico and Division of Biological Sciences UCSD La Jolla, California, USA. '
+                            },
+                            {
+                                titulo: 'The role of chromosomal inversions on patterns of genomic differentiation in the Drosophila pseudoobscura species group.',
+                                desc: 'Machado C.1, J. Carpinteyro1. 1 University of Maryland. '
+                            },
+                            {
+                                titulo: 'An improved genome assembly for drosophila navojoa, the basal species in the mojavensis cluster.',
+                                desc: 'Vanderline T.1, E. Dupim1, N. Nazario-yepiz2, A.B. Carvalho1. 1 Universidade Federal do Rio de Janeiro; 2 Instituto Politécnico Nacional (CINVESTAV).'
+                            }
+                        ]
+                    },
+                    {
+                        id: 49,
+                        titulo_es: 'The challenges of mineral nutrition in plants facing environmental stresses: molecular aspects',
+                        titulo_en: 'The challenges of mineral nutrition in plants facing environmental stresses: molecular aspects',
+                        tipo: 'simposio',
+                        horario: '8:30 - 10:30',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Marcia Margis-Pinheiro. Universidade Federal do Rio Grande do Sul. Porto Alegre. Brasil.',
+                        simposistas: [
+                            {
+                                titulo: 'Genetic approaches to adapt rice production to iron toxicity. ',
+                                desc: 'Frei M.1, L. Wu1, A. Wairich2, F. Ricachenevsky3, R. Margis2, J.P. Fett2, M. Margis-pinheiro2. 1 University of Bonn; 2 Universidad Federal de Rio Grande do Sul; 3 Universidad Federal de Santa Catarina. '
+                            },
+                            {
+                                titulo: 'The diverse iron distribution in eudicotyledoneae seeds: from Arabidopsis to quinoa.',
+                                desc: 'Ibeas M.1, S. Grant-grant1, J. Vargas-perez1, N.. Navarro1, I. Abreu2, H. Castillo-michel3, N. Avalos-cembrano1, J. Paez-valencia4, F. Perez1, M. Gonzalez-guerrero2, H. Roschzttardtz1. 1 Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile; 2 Universidad Politécnica de Madrid; 3 European Synchrotron Radiation Facility (ESRF); 4 Department of Botany, University of Wisconsin-Madison.'
+                            },
+                            {
+                                titulo: 'Who controls the ionome? Multiple approaches to identify genes regulating elemental variation in Arabidopsis and rice.',
+                                desc: 'Ricachenevsky F.1. 1 Universidade Federal de Santa Maria. Brazil.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 50,
+                        titulo_es: 'Citogenética y Evolución Vegetal',
+                        titulo_en: 'Citogenética y Evolución Vegetal',
+                        tipo: 'simposio',
+                        horario: '8:30 - 10:30',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Cristina Acosta. Instituto Multidisciplinario de Biología Vegetal (IMBIV), Córdoba. Argentina.',
+                        simposistas: [
+                            {
+                                titulo: 'Datos moleculares y cariotípicos plantean posible especiación a partir de dos especies simpátricas de Capsicum (C. recurvatum y C. schottianum).',
+                                desc: 'Scaldaferro M.1, C. Carrizo García1, G. Barboza1. 1 Instituto Multidisciplinario de Biología Vegetal (IMBIV), CONICET-Universidad Nacional de Córdoba.Córdoba, Argentina. '
+                            },
+                            {
+                                titulo: 'Afinidades genómicas entre el maíz y los teosintes reveladas por citogenética clásica y molecular.',
+                                desc: 'González G.E.1. 1 IEGEBA-CONICET. Argentina.'
+                            },
+                            {
+                                titulo: 'Reconstrucción filogenética del género Tephrocactus (Cactaceae) basada en datos moleculares, morfológicos y citogenéticos.',
+                                desc: 'Las Peñas M.L.1. 1 IMBIV. Argentina.'
+                            },
+                            {
+                                titulo: 'Parientes silvestres de la papa: herramientas citogenéticas y genómicas para evaluar homología cromosómica y colinealidad.',
+                                desc: 'Gaiero P.1, F.. Vilaró1,2, E. Schranz3, H. De Jong3, P. Speranza1. 1 Facultad de Agronomia, Universidad de la República ; 2 Instituto de Investigaciones Agropecuarias, Uruguay; 3 Wageningen University and Research. '
+                            },
+                            {
+                                titulo: 'Estudios citogenéticos y evolutivos de Arachis glabrata (especie tetraploide forrajera) y especies afines.',
+                                desc: 'Ortiz A.M.1, L. Chalup1, G. Seijo1, G. Lavia1. 1 IBONE. Argentina. '
+                            },
+                            {
+                                titulo: 'Variabilidad cariotípica de los maíces guaraníes del noreste de Argentina (NEA). ',
+                                desc: 'Realini M.F.1,2. 1 Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Instituto de Ecología, Genética y Evolución (IEGEBA), Ciudad Autónoma de Buenos Aires, Argentina.; 2 Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Departamento de Ecología, Genética y Evolución, Laboratorio de Citogenética y Evolución (LaCyE), Ciudad Autónoma de Buenos Aires, Argentina.'
+                            }
+                        ]
+                    },
+                ]
+            },
+            {
+                hora: '10:30 Hs.',
+                charlas: [
+                    {
+                        id: 51,
+                        titulo_es: 'Sección de posters',
+                        titulo_en: 'Posters Section',
+                        tipo: 'varios',
+                        horario: '10:30 - 12:00',
+                        lugar: 'Sala 4'
                     }
                 ]
             },
             {
-                hora: '8:00 AM',
+                hora: '12:00 Hs.',
                 charlas: [
                     {
-                        id: 22,
-                        titulo_es: 'Un titulo de Conferencia',
-                        titulo_en: 'EN Un titulo de Conferencia',
-                        tipo: 'simposio',
-                        desc_es: 'Una descripcion de la charla',
-                        desc_en: 'EN Una descripcion de la charla',
-                        horario: '8:00 - 9:00',
+                        id: 52,
+                        titulo_es: 'Conferencia Danko Brncic, SOCHIGEN: Escudriñando el pasado de las poblaciones originarias y mestizas del Cono Sur de Sudamérica mediante marcadores genéticos de herencia uniparental. Mauricio Moraga Vergara.',
+                        titulo_en: 'Conferencia Danko Brncic, SOCHIGEN: Escudriñando el pasado de las poblaciones originarias y mestizas del Cono Sur de Sudamérica mediante marcadores genéticos de herencia uniparental. Mauricio Moraga Vergara.',
+                        tipo: 'conferencia',
+                        horario: '12:00 – 13:00',
                         lugar: 'Sala 4',
-                        coordinadora: 'Una coordinadora',
+                        autor: 'Mauricio Moraga Vergara. Universidad de Chile. Chile.',
+                        autorDesc: '<p>Doctor en Bioquímica, Universidad de Chile; Bioquímico, Universidad de Chile. Profesor Asociado, Programa de Genética Humana, Instituto de Ciencias Biomédicas, Facultad de Medicina, y Departamento de Antropología, Facultad de Ciencias Sociales, Universidad de Chile.  Past president Sociedad de Genética de Chile, 2012-2013. Past president Asociación Latinoamericana de Antropología Biológica, 2014-2016. Su línea de investigación principal ha estado centrada en el estudio de las poblaciones originarias y mestizas de Chile y Sudamérica, mediante el uso de marcadores de herencia uniparental (ADN mitocondrial y cromosoma Y) así como autosómicos.  Ha trabajado tanto con muestras actuales como con ADN antiguo ayudando a entender las dinámicas del poblamiento de la Patagonia occidental. </p>'
+                    },
+                ]
+            },
+            {
+                hora: '13:00 Hs.',
+                charlas: [
+                    {
+                        id: 53,
+                        titulo_es: 'Libre',
+                        titulo_en: 'Free',
+                        tipo: 'varios',
+                        horario: '13:00 – 14:30'
+                    },
+                ]
+            },
+            {
+                hora: '14:30 Hs.',
+                charlas: [
+                    {
+                        id: 54,
+                        titulo_es: 'Conferencia SLACE: Uma visão genômica da filogenia e hibridação de espécies em mamíferos. Sandro Luis Bonatto.',
+                        titulo_en: 'Conferencia SLACE: Uma visão genômica da filogenia e hibridação de espécies em mamíferos. Sandro Luis Bonatto.',
+                        tipo: 'conferencia',
+                        horario: '14:30 – 15:30',
+                        lugar: 'Sala 4',
+                        autor: 'Sandro Luis Bonatto. Escola de Ciências. Pontifícia Universidade Católica do Rio Grande do Sul. Brazil.',
+                        autorDesc: '<p>Possui graduação no Curso de Ciências Biológicas (Bacharelado) pela Universidade Federal do Rio Grande do Sul, mestrado em Ciências Biológicas (Entomologia) pela Universidade Federal do Paraná e doutorado em Genética e Biologia Molecular pela Universidade Federal do Rio Grande do Sul. Atualmente é professor adjunto da Escola de Ciências na Pontifícia Universidade Católica do Rio Grande do Sul, onde coordena do Laboratório de Biologia Genômica e Molecular e orienta no Programa de Pós-Graduação em Ecologia e Evolução da Biodiversidade. Tem experiência na área de Genética e Zoologia, atuando principalmente nos seguintes temas: genômica da conservação, ecologia molecular, evolução animal e filogenia e sistemática molecular, tendo publicado mais de 130 artigos científicos.</p>'
+                    },
+                ]
+            },
+            {
+                hora: '15:45 Hs.',
+                charlas: [
+                    {
+                        id: 55,
+                        titulo_es: 'Enfermedades Raras en Latinoamérica: realidades y desafíos',
+                        titulo_en: 'Enfermedades Raras en Latinoamérica: realidades y desafíos',
+                        tipo: 'simposio',
+                        horario: '15:45 - 17:45',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Gabriela Repetto. Facultad de Medicina, Clínica Alemana Universidad del Desarrollo. Santiago, Chile.',
                         simposistas: [
-                            'Un simposista',
-                            'Otro simposista'
+                            {
+                                titulo: 'Data sharing.',
+                                desc: 'Lopes-cendes I..1. 1 Department of Medical Genetics and Genomic Medicine, School of Medical Sciences, and the Brazilian Institute of Neuroscience and Neurotechnology (BRAINN), Campinas, SP, BRAZIL. '
+                            },
+                            {
+                                titulo: 'Bioética y enfermedades raras.',
+                                desc: 'Ascurra M.1. 1 Programa Nacional de Prevención de Defectos Congénitos-Ministerio de Salud. Paraguay.'
+                            },
+                            {
+                                titulo: 'Exomic sequencing of chilean patients with rare undiagnosed diseases.',
+                                desc: 'Encina G.1, B. Rebolledo-jaramillo1, M. Rojas1, C. Poli1, L.M. Martin1, S. Fisher2, G. Repetto1. 1 Centro de Genética y Genómica, Instituto de Ciencias e Innovación en Medicina, Facultad de Medicina – Clínica Alemana, Universidad del Desarrollo; 2 Facultad de Medicina – Clínica Alemana, Universidad del Desarrollo. '
+                            },
+                            {
+                                titulo: 'Escenarios de manejo de las enfermedades raras en latinoamérica palabras.',
+                                desc: 'Velasco H.1. 1 Medellín, Colombia.'
+                            }
                         ]
                     },
                     {
-                        id: 23,
-                        titulo_es: 'Otra Un titulo de Conferencia',
-                        titulo_en: 'EN Otra Un titulo de Conferencia',
+                        id: 56,
+                        titulo_es: 'La herramienta tecnológica que deslumbra: la edición de genes',
+                        titulo_en: 'La herramienta tecnológica que deslumbra: la edición de genes',
                         tipo: 'simposio',
-                        desc_es: 'Una descripcion de la charla',
-                        desc_en: 'EN Una descripcion de la charla',
-                        horario: '9:00 - 10:00',
+                        horario: '15:45 - 17:45',
                         lugar: 'Sala 4',
-                        coordinadora: 'Una coordinadora',
+                        coordinadora: 'Liliana Amelia Picardi. IICAR (CONICET-UNR). Argentina.',
                         simposistas: [
-                            'Un simposista',
-                            'Otro simposista'
+                            {
+                                titulo: 'El desafío de la edición de genomas en Argentina y la región. ',
+                                desc: 'Feingold S.1. 1 Argentina. '
+                            },
+                            {
+                                titulo: 'Modificación genética en animales. Pasado, presente y futuro.',
+                                desc: 'Mucci N.1. 1 INTA. Argentina.'
+                            },
+                            {
+                                titulo: 'Crop breeding using genome engineering: new tools in an old toolbox.',
+                                desc: 'Zsögön A.1, L.E.P. Peres2. 1 Universidade Federal de Viçosa; 2 Universidade de São Paulo. Brazil.'
+                            },
+                            {
+                                titulo: 'La edición de genes en modelos animales y su transferencia al genoma humano. Preguntas necesarias a plantear.',
+                                desc: 'Lluis Montoliu. Centro Nacional de Biotecnología (CNB-CSIC) Campo de Cantoblanco – Madrid. España.'
+                            }
                         ]
-                    }
+                    },
+                    {
+                        id: 57,
+                        titulo_es: 'Genetic and Genomic Studies in Tropical and Sub-tropical Crop Plants',
+                        titulo_en: 'Genetic and Genomic Studies in Tropical and Sub-tropical Crop Plants',
+                        tipo: 'simposio',
+                        horario: '15:45 - 17:45',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Clara Pritsch. Facultad de Agronomía, UDELAR. Montevideo, Uruguay.',
+                        simposistas: [
+                            {
+                                titulo: 'Molecular breeding in Eucalyptus. ',
+                                desc: 'Susana Marcucci Poltri. INTA Castelar. Buenos Aires, Argentina.'
+                            },
+                            {
+                                titulo: 'Multipopulation QTL analyses for fruit quality traits in Acca sellowiana.',
+                                desc: 'Marianella Quezada. Facultad de Agronomía, UDELAR. Montevideo, Uruguay.'
+                            },
+                            {
+                                titulo: 'Genotyping and building linkage maps in complex autopolyploid species.',
+                                desc: 'Augusto Garcia. Escola Superior de Agronomia Luiz de Queiroz, USP. Brasil.'
+                            },
+                            {
+                                titulo: 'Revisiting meiosis in sugarcane: chromosomal irregularities, the prevalence of bivalent configurations and implications for breeding. ',
+                                desc: 'Maria Lucia Carneiro. Escola Superior de Agricultura Luiz de Queiroz, Universidade de São Paulo.  Brasil.'
+                            }
+                        ]
+                    },
+                    {
+                        id: 58,
+                        titulo_es: 'Evolución de la flora sudamericana',
+                        titulo_en: 'Evolución de la flora sudamericana',
+                        tipo: 'simposio',
+                        horario: '15:45 - 17:45',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Viviana Solís Neffa. Instituto de Botánica del Nordeste (IBONE), Corrientes Argentina.',
+                        simposistas: [
+                            {
+                                titulo: 'Phylogeographic approaches for south american grassland species.',
+                                desc: 'Freitas L.1. 1 Universidade Federal do Rio Grande do Sul. Brazil.'
+                            },
+                            {
+                                titulo: 'Eventos geo-climáticos involucrados en la diversificación de plantas nativas de Sudamérica. ',
+                                desc: 'Acosta M.C.1, A. Cosacov1, M.A. Scaldaferro1,2, D.L. Aguilar1,2, M.S. Chiabrando1,2, A.A. Cocucci1,2, A.N. Sérsic1. 1 Instituto Multidisciplinario de Biología Vegetal (IMBIV) CONICET-UNC; 2 Facultad de Ciencias Exactas, Físicas y Naturales, Universidad Nacional de Córdoba. Argentina.'
+                            },
+                            {
+                                titulo: 'Huellas de refugios, expansión y contracción en la flora uruguaya.',
+                                desc: 'Speranza P.1. 1 Facultad de Agronomía, Universidad de la República, Montevideo, Uruguay. '
+                            },
+                            {
+                                titulo: 'Patrones de diversidad genética y evolución de especies de la flora del gran chaco sudamericano.',
+                                desc: 'Solís Neffa V..1, E. Paredes1, N. Almirón1, S. Fernández1, C. Silva1, S. Moreno1, E. Kovalsky1. 1 IBONE (UNNE-CONICET) – FACENA (UNNE).  '
+                            }
+                        ]
+                    },
+                    {
+                        id: 59,
+                        titulo_es: 'Redes colaborativas y compartir datos en enfermedades genéticas neuromusculares',
+                        titulo_en: 'Redes colaborativas y compartir datos en enfermedades genéticas neuromusculares',
+                        tipo: 'mesa',
+                        horario: '15:45 - 17:45',
+                        lugar: 'Sala 4',
+                        coordinadora: 'Morales Saute J A. Serviço de Genética Médica, Hospital de Clinicas de Porto Alegre. Brasil.',
+                        panelistas: [
+                            {
+                                titulo: '“Arquivo Brasileiro Online de Mutações” (ABraOM) can contribute to the neuromuscular genetics field?',
+                                desc: 'Naslavsky M.1, G.L. Yamamoto 1,2, L. Santos E Souza1, M. Oliveira Scliar 1, J. Wang 1, Y. Aparacida De O. Duarte 1, M.R. Passos-bueno 1, M. Vainzof 1, M. Zatz 1. 1 Universidade de São Paulo. 2 Boston Children’s Hospital and Harvard Medical School.'
+                            },
+                            {
+                                titulo: 'The experience with WES for diagnosis of small mutations in DMD in Argentin',
+                                desc: 'Luce .L. 1,2, M. Carcione 1,2, C. Mazzanti 1,2, F. Giliberto 1,2. 1 Universidad de Buenos Aires, Facultad de Farmacia y Bioquímica, Cátedra de Genética. Buenos Aires, Argentina. 2 CONICET – Universidad de Buenos Aires, Instituto de Inmunología, Genética y Metabolismo (INIGEM). Buenos Aires, Argentina.'
+                            },
+                            {
+                                titulo: 'Distrofia muscular de Duchenne. Registros y bases de datos en Colombia.',
+                                desc: 'Suarez-Obando F. 1,2. 1 Instituto de Genética Humana. Facultad de Medicina. Pontificia Universidad Javeriana. 2 Servicio de Genética. Hospital Universitario San Ignacio. Colombia.'
+                            },
+                            {
+                                titulo: 'Studies on facioscapulohumeral muscular dystrophy in Argentina',
+                                desc: 'Rosa A.L. 1,2,3, J. Quintero 1, S. Pagnoni 1,2. 1 IRNASUS-CONICET / FCQ – UCC. 2 Fundacion Allende; 3 Sanatorio Allende. Argentina.'
+                            },
+                            {
+                                titulo: 'Preliminary data on the genetics of limb girdle muscle weakness in Chile',
+                                desc: 'Bevilacqua J.A. 1, P. González-hormazábal 2, C. Castiglioni 3, P. Caviedes 2, L. Jara 2.  1 Hospital Clínico Universidad de Chile/Facultad de Medicina, Universidad de Chile. 2 ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile. 3 Clinica Las Condes, Santiago, Chile.'
+                            }
+                        ]
+                    },
                 ]
-            }
+            },
+            {
+                hora: '17:45 Hs.',
+                charlas: [
+                    {
+                        id: 60,
+                        titulo_es: 'Intervalo',
+                        titulo_en: 'Interval',
+                        tipo: 'varios',
+                        horario: '17:45 – 18:15'
+                    },
+                ]
+            },
+            {
+                hora: '18:15 Hs.',
+                charlas: [
+                    {
+                        id: 61,
+                        titulo_es: 'Acto de cierre y fiesta clausura',
+                        titulo_en: 'Closing ceremony and closing party',
+                        tipo: 'varios',
+                        horario: '18:15 – 19:15'
+                    },
+                ]
+            },
         ]
     }
     

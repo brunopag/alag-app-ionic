@@ -30,7 +30,7 @@
                 <ion-item *ngFor="let charla of cronograma.charlas" (click)="verCharla(charla, program[days])">
                     <ion-label style="white-space: unset !important;">
                         <h2>{{ charla.titulo_es }}</h2>
-                        <p>{{ charla.horario }}: {{ charla.lugar }} <span *ngIf="charla.tipo !== 'mesa' && charla.tipo !== 'varios'">| Tipo: {{ 'conferencia.'+charla.tipo | translate }}</span><span *ngIf="charla.tipo === 'mesa'">| Tipo: {{ conferencia.mesa | translate }}</span></p>
+                        <p>{{ charla.horario }}: {{ charla.lugar }} <span *ngIf="charla.tipo !== 'mesa' && charla.tipo !== 'varios'">| Tipo: {{ 'conferencia.'+charla.tipo | translate }}</span><span *ngIf="charla.tipo === 'mesa'">| Tipo: {{ 'conferencia.mesa' | translate }}</span></p>
                     </ion-label>
                     <button ion-button icon clear item-right>
                         <ion-icon name="arrow-forward"></ion-icon>
@@ -44,7 +44,7 @@
                 <ion-item *ngFor="let charla of cronograma.charlas" (click)="verCharla(charla, program[days])">
                     <ion-label style="white-space: unset !important;">
                         <h2>{{ charla.titulo_es }}</h2>
-                        <p>{{ charla.horario }}: {{ charla.lugar }}</p>
+                        <p>{{ charla.horario }}: {{ charla.lugar }} <span *ngIf="charla.tipo !== 'mesa' && charla.tipo !== 'varios'">| Tipo: {{ 'conferencia.'+charla.tipo | translate }}</span><span *ngIf="charla.tipo === 'mesa'">| Tipo: {{ 'conferencia.mesa' | translate }}</span></p>
                     </ion-label>
                     <button ion-button icon clear item-right>
                             <ion-icon name="arrow-forward"></ion-icon>
@@ -58,7 +58,7 @@
                 <ion-item *ngFor="let charla of cronograma.charlas" (click)="verCharla(charla, program[days])">
                     <ion-label style="white-space: unset !important;">
                         <h2>{{ charla.titulo_es }}</h2>
-                        <p>{{ charla.horario }}: {{ charla.lugar }}</p>
+                        <p>{{ charla.horario }}: {{ charla.lugar }} <span *ngIf="charla.tipo !== 'mesa' && charla.tipo !== 'varios'">| Tipo: {{ 'conferencia.'+charla.tipo | translate }}</span><span *ngIf="charla.tipo === 'mesa'">| Tipo: {{ 'conferencia.mesa' | translate }}</span></p>
                     </ion-label>
                     <button ion-button icon clear item-right>
                                 <ion-icon name="arrow-forward"></ion-icon>
@@ -72,7 +72,7 @@
                 <ion-item *ngFor="let charla of cronograma.charlas" (click)="verCharla(charla, program[days])">
                     <ion-label style="white-space: unset !important;">
                         <h2>{{ charla.titulo_es }}</h2>
-                        <p>{{ charla.horario }}: {{ charla.lugar }}</p>
+                        <p>{{ charla.horario }}: {{ charla.lugar }} <span *ngIf="charla.tipo !== 'mesa' && charla.tipo !== 'varios'">| Tipo: {{ 'conferencia.'+charla.tipo | translate }}</span><span *ngIf="charla.tipo === 'mesa'">| Tipo: {{ 'conferencia.mesa' | translate }}</span></p>
                     </ion-label>
                     <button ion-button icon clear item-right>
                                     <ion-icon name="arrow-forward"></ion-icon>

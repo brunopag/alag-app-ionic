@@ -18,17 +18,24 @@
 
     <div [ngSwitch]="lista">
         <ion-list *ngSwitchCase="'0'">
-            <ion-list *ngIf="conferencias.length > 0">
-                <ion-item *ngFor="let conferencia of conferencias" (click)="verCharla(conferencia.conferencia, conferencia.programa)">
+            <ion-item-group *ngFor="let dia of conferencias">
+                <ion-item-divider color="light">{{ dia.dia }}/{{ dia.mes }}/{{ dia.anio }}</ion-item-divider>
+                <ion-item *ngFor="let charla of dia.conferencias" (click)="verCharla(charla.conferencia, charla.programa)">
                     <ion-label style="white-space: unset !important;">
-                        <h2>{{ getTituloByLang(conferencia.conferencia) }}</h2>
-                        <p>{{ conferencia.conferencia.horario }}: {{ conferencia.conferencia.lugar }}</p>
+                        <h2>{{ getTituloByLang(charla.conferencia) }}</h2>
+                        <p>{{ charla.conferencia.horario }}: {{ charla.conferencia.lugar }} <span *ngIf="charla.conferencia.tipo !== 'mesa' && charla.conferencia.tipo !== 'varios'">| Tipo: {{ 'conferencia.'+charla.conferencia.tipo | translate }}</span>
+                            <span *ngIf="charla.conferencia.tipo === 'mesa'">| Tipo: {{ 'conferencia.mesa' | translate }}</span>
+                        </p>
                     </ion-label>
                     <button ion-button icon clear item-right>
-                            <ion-icon name="arrow-forward"></ion-icon>
-                    </button>
+                                            <ion-icon name="arrow-forward"></ion-icon>
+                                        </button>
                 </ion-item>
-            </ion-list>
+            </ion-item-group>
+            <div style="text-align: center;padding: 10px; margin-top: 30px;" *ngIf="conferencias.length === 0">
+                <ion-icon style="font-size: 80px;" name="ios-information-circle-outline"></ion-icon>
+                <h1>{{ 'favorites.vacio' | translate }}</h1>
+            </div>
         </ion-list>
 
         <ion-list *ngSwitchCase="'1'">

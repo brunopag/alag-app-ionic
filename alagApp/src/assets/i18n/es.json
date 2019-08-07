@@ -25,7 +25,8 @@
         "curso": "Curso"
     },
     "favorites": {
-        "favorites": "Favoritos"
+        "favorites": "Favoritos",
+        "vacio": "La lista de favoritos esta vacia"
     },
     "trabajos": {
         "categoryTitle": "Categorías y subcategorías",
