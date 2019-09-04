@@ -29,4 +29,11 @@ export class TrabajosProvider {
     });
   }
 
+  busquedaTrabajos(busqueda) {
+    let url = URL_SERVICES + '/trabajo/buscar/' + CONGRESO_ID + '/' + busqueda;
+    return this.http.get(url, {}).map((resp: any) => {
+      return resp;
+    });
+  }
+
 }

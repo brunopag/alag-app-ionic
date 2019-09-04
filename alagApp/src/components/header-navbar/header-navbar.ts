@@ -21,7 +21,7 @@ import { Notification } from '../../models/notification.model';
 export class HeaderNavbarComponent  {
 
   colorNotification: string = '';
-  notificationsQty: number = 2;
+  notificationsQty: number;
   notifications: Notification[];
 
   text: string;

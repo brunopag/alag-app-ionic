@@ -1,7 +1,7 @@
-<ion-header>
+<ion-header [ngClass]="{'header-without-tab': searchResult.length !== 0 && !textSearch}">
     <header-navbar></header-navbar>
     <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
-    <div>
+    <div *ngIf="searchResult.length === 0 && !textSearch">
         <ion-segment [(ngModel)]="days">
             <ion-segment-button value="0">
                 {{ program[0].dia }} / {{ program[0].mes }}
@@ -21,9 +21,9 @@
 
 
 
-<ion-content style="margin-top: 10px;">
+<ion-content>
 
-    <div [ngSwitch]="days">
+    <div style="margin-top: 10px;" [ngSwitch]="days" *ngIf="searchResult.length === 0 && !textSearch">
         <ion-list *ngSwitchCase="'0'">
             <ion-item-group *ngFor="let cronograma of program[days].cronograma">
                 <ion-item-divider color="light">{{ cronograma.hora }}</ion-item-divider>
@@ -81,7 +81,28 @@
             </ion-item-group>
         </ion-list>
 
+    </div>
 
+    <div [ngSwitch]="days" *ngIf="searchResult.length !== 0">
+        <ion-item-group *ngFor="let dia of searchResult">
+            <ion-item-divider color="light">{{ dia.dia }}/{{ dia.mes }}/{{ dia.anio }}</ion-item-divider>
+            <ion-item *ngFor="let charla of dia.charlas" (click)="verCharla(charla, {dia: dia.dia, mes: dia.mes, anio: dia.anio})">
+                <ion-label style="white-space: unset !important;">
+                    <h2>{{ getTituloByLang(charla) }}</h2>
+                    <p>{{ charla.horario }}: {{ charla.lugar }} <span *ngIf="charla.tipo !== 'mesa' && charla.tipo !== 'varios'">| Tipo: {{ 'conferencia.'+charla.tipo | translate }}</span>
+                        <span *ngIf="charla.tipo === 'mesa'">| Tipo: {{ 'conferencia.mesa' | translate }}</span>
+                    </p>
+                </ion-label>
+                <button ion-button icon clear item-right>
+                                        <ion-icon name="arrow-forward"></ion-icon>
+                                    </button>
+            </ion-item>
+        </ion-item-group>
+    </div>
+
+    <div style="text-align: center;padding: 10px; margin-top: 30px;" *ngIf="searchResult.length === 0 && textSearch">
+        <ion-icon style="font-size: 80px;" name="ios-information-circle-outline"></ion-icon>
+        <h1>{{ 'home.resultadosVacio' | translate }}</h1>
     </div>
 
     <ion-fab right bottom>

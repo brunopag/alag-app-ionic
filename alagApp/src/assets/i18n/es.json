@@ -1,6 +1,7 @@
 {
     "home": {
-        "dia": "Día"
+        "dia": "Día",
+        "resultadosVacio": "No hay resultados para esta busqueda"
     },
     "tabs": {
         "cronograma": "Cronograma",
@@ -22,7 +23,8 @@
         "conferencia": "Conferencia",
         "mesa": "Mesa Redonda",
         "taller": "Taller",
-        "curso": "Curso"
+        "curso": "Curso",
+        "codigo": "Código"
     },
     "favorites": {
         "favorites": "Favoritos",
@@ -37,7 +39,7 @@
     },
     "info": {
         "infoTitle": "Información",
-        "lugar1": "CENTRO DE CONGRESOS Y EXPOSICIONES »EMILIO CIVIT»",
+        "lugar1": "CENTRO DE CONGRESOS Y EXPOSICIONES 'EMILIO CIVIT'",
         "lugar2": "Avda. Peltier 611 – Ciudad de Mendoza – Mendoza – Argentina. ",
         "lugar3": "El CENTRO DE CONGRESOS Y EXPOSICIONES “EMILIO CIVIT” se encuentra enclavado en el parque cívico de la ciudad de Mendoza, a pocos minutos del microcentro de la Ciudad. Sus instalaciones incluyen: ",
         "lugar4": "EDIFICIO CENTRAL:",

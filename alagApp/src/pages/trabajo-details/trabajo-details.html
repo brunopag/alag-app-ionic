@@ -16,31 +16,40 @@
 </ion-header>
 
 <ion-content>
-
+    <ion-item>
+        <ion-badge *ngIf="trabajo.fecha">Fecha: {{trabajo.fecha}}</ion-badge>
+        <ion-badge *ngIf="trabajo.codigoTrabajo" item-end>{{ 'conferencia.codigo' | translate }}: {{trabajo.codigoTrabajo}}</ion-badge>
+    </ion-item>
     <ion-card>
 
         <ion-item>
-            <h1>{{ trabajo.titulo | uppercase }}</h1>
-            <p>
-                <span *ngFor="let autor of trabajo.autores, let i = index">
-                                        <span *ngIf="i === 0">
-                                                {{ autor.apellido }} {{ inicialesNombres(autor.nombres) }}<sup>{{ superindiceLugares(autor.lugaresTrabajo2) }}</sup><span *ngIf="trabajo.autores.length !== i+1">, </span>
-                <span *ngIf="trabajo.autores.length === i+1">. </span>
-                </span>
-                <span *ngIf="i !== 0">
-                                                {{ inicialesNombres(autor.nombres) }} {{ autor.apellido }}<sup>{{ superindiceLugares(autor.lugaresTrabajo2) }}</sup><span *ngIf="trabajo.autores.length !== i+1">, </span>
-                <span *ngIf="trabajo.autores.length === i+1">. </span>
-                </span>
-                </span>
-                <span *ngFor="let lugar of trabajo.lugaresTrabajo, let i = index"><span *ngIf="lugar.usado"><sup>{{ lugar.id }}</sup> {{ lugar.nombre }}</span><span *ngIf="i+1 !== trabajo.lugaresTrabajo.length">; </span><span *ngIf="i+1 === trabajo.lugaresTrabajo.length">. </span></span>
-                <br><span>E-mail: {{ trabajo.contactoAutor }}</span>
-            </p>
+            <ion-label style="white-space: unset !important;">
+                <h1>{{ trabajo.titulo | uppercase }}</h1>
+                <p>
+                    <span *ngFor="let autor of trabajo.autores, let i = index">
+                                                <span *ngIf="i === 0">
+                                                        {{ autor.apellido }} {{ inicialesNombres(autor.nombres) }}<sup>{{ superindiceLugares(autor.lugaresTrabajo) }}</sup><span *ngIf="trabajo.autores.length !== i+1">, </span>
+                    <span *ngIf="trabajo.autores.length === i+1">. </span>
+                    </span>
+                    <span *ngIf="i !== 0">
+                                                        {{ inicialesNombres(autor.nombres) }} {{ autor.apellido }}<sup>{{ superindiceLugares(autor.lugaresTrabajo) }}</sup><span *ngIf="trabajo.autores.length !== i+1">, </span>
+                    <span *ngIf="trabajo.autores.length === i+1">. </span>
+                    </span>
+                    </span>
+                    <span *ngFor="let lugar of trabajo.lugaresTrabajo, let i = index"><span *ngIf="lugar.usado"><sup>{{ lugar.id }}</sup> {{ lugar.nombre }}</span><span *ngIf="i+1 !== trabajo.lugaresTrabajo.length">; </span><span *ngIf="i+1 === trabajo.lugaresTrabajo.length">. </span></span>
+                    <br><span>E-mail: {{ trabajo.contactoAutor }}</span>
+                </p>
+            </ion-label>
         </ion-item>
 
     </ion-card>
 
     <ion-card>
-        <p [innerHTML]="trabajo.textoTrabajo"></p>
+        <ion-item>
+            <ion-label style="white-space: unset !important;">
+                <p [innerHTML]="trabajo.textoTrabajo"></p>
+            </ion-label>
+        </ion-item>
     </ion-card>
 
 </ion-content>

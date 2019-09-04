@@ -3,13 +3,6 @@ import { IonicPage, NavController, NavParams, LoadingController } from 'ionic-an
 import { TrabajosProvider } from '../../providers/trabajos/trabajos';
 import { TranslationProvider } from '../../providers/translation/translation';
 
-/**
- * Generated class for the CategoriaListPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-categoria-list',

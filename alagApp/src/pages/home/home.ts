@@ -14,44 +14,50 @@ export class HomePage {
   searchQuery: string = '';
   items: string[];
   days:string = '0';
-  program:any[] = programa.slice(0);
+  program:any[] = [...programa];
+  searchResult:any[] = [];
+  textSearch = false;
 
   constructor(public navCtrl: NavController,  
               public _translationProvider: TranslationProvider) {
-    this.initializeItems();
     console.log(this.program);
-  }
-
-  initializeItems() {
-    this.items = [
-      'Amsterdam',
-      'Bogota',
-      'Rosario',
-      'Lima',
-      'Buenos Aires'
-    ];
   }
 
   getItems(ev: any) {
-    console.log(this.program);
-    console.log(programa);
-    this.program = [];
-    this.program = programa.slice(0);
-    // Reset items back to all of the items
-    this.initializeItems();
 
     // set val to the value of the searchbar
     const val = ev.target.value;
+    this.searchResult = [];
 
     // if the value is an empty string don't filter the items
     if (val && val.trim() != '') {
-      for (var i = 0; i < this.program[this.days].cronograma.length; i++) {
-        this.program[this.days].cronograma[i].charlas = this.program[this.days].cronograma[i].charlas.filter((item) => {
-          console.log(item)
-          return (item.titulo_es.toLowerCase().indexOf(val.toLowerCase()) > -1);
+      this.textSearch = true;
+      this.program.forEach(dia => {
+        dia.cronograma.forEach(horario => {
+          horario.charlas.forEach(charla => {
+            if(
+              (charla.titulo_es.toLowerCase().indexOf(val.toLowerCase()) > -1) ||
+              (charla.titulo_en.toLowerCase().indexOf(val.toLowerCase()) > -1)
+            ) {
+              console.log('entro al if')
+              let day = this.searchResult.find(row => row.dia === dia.dia)
+              if(day) {
+                day.charlas.push(charla);
+              } else {
+                this.searchResult.push({
+                  dia: dia.dia,
+                  mes: dia.mes,
+                  anio: dia.anio,
+                  charlas: [charla]
+                })
+              }
+            }
+          })
         })
-      }
-      
+      })
+      console.log(this.searchResult);
+    } else { 
+      this.textSearch = false;
     }
   }
 
@@ -62,5 +68,15 @@ export class HomePage {
   goFavorites() {
     this.navCtrl.push(PagesFavoritesListPage, {from: 'conferencias'});
   }
+
+  getTituloByLang (objeto: any) {
+    if (this._translationProvider.lang === 'es') {
+      objeto.titulo_lang = objeto.titulo_es;
+    } else if (this._translationProvider.lang === 'en') {
+      objeto.titulo_lang = objeto.titulo_en;
+    }
+    return objeto.titulo_lang;
+  }
+
 
 }

@@ -130,4 +130,13 @@ export class ConferenciaDetailsPage {
     }
   }
 
+  getCategoriaByLang(categoria) {
+    if (this._translationProvider.lang === 'es') {
+      categoria.nombre_lang = categoria.nombre_es;
+    } else if (this._translationProvider.lang === 'en') {
+      categoria.nombre_lang = categoria.nombre_en;
+    }
+    return categoria.nombre_lang;
+  }
+
 }

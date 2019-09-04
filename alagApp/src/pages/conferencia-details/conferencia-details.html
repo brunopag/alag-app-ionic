@@ -137,6 +137,19 @@
         </ion-item>
     </ion-card>
 
+    <ion-card *ngIf="conferencia.categorias && conferencia.categorias.length > 0">
+        <ion-item>
+            <ion-label style="white-space: unset !important;">
+                <h3>Categorias</h3>
+                <ul>
+                    <li *ngFor="let categoria of conferencia?.categorias">
+                        {{getCategoriaByLang(categoria)}}
+                    </li>
+                </ul>
+            </ion-label>
+        </ion-item>
+    </ion-card>
+
     <ion-card>
 
         <ion-item *ngIf="conferencia?.desc_es">

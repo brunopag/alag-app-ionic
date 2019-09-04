@@ -17,6 +17,9 @@ export class TrabajosPage {
   categoriaSelected: any;
   categoriasNavegacion: any = [];
   trabajos: any = [];
+  trabajosBusqueda: any = [];
+  resultadoVacio = false;
+  buscandoTrabajos = false;
 
   constructor(public navCtrl: NavController, 
               public navParams: NavParams, 
@@ -27,10 +30,6 @@ export class TrabajosPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad TrabajosPage');
-  }
-
-  getItems(event) {
-
   }
 
   inicialesNombres(nombres: string) {
@@ -75,6 +74,7 @@ export class TrabajosPage {
     });
     loading.present();
     this._TrabajosProvider.getCategoriaContrabajos(categoria._id).subscribe((resp: any) => {
+      console.log('trabajos', resp);
       this.trabajos = resp.trabajos;
       loading.dismiss();
     })
@@ -91,6 +91,33 @@ export class TrabajosPage {
       objeto.nombre_lang = objeto.nombre_en;
     }
     return objeto.nombre_lang;
+  }
+
+  busuqedaTrabajos(busqueda) {
+    this.trabajos = [];
+    this.categoriasNavegacion = [];
+    this.buscandoTrabajos = false;
+    console.log(busqueda.target.value);
+    let terminoBusqueda = busqueda.target.value;
+    if(terminoBusqueda) {
+      this.buscandoTrabajos = true;
+      this._TrabajosProvider.busquedaTrabajos(terminoBusqueda).subscribe(resp => {
+        console.log(resp)
+        if(resp.trabajos.length !== 0 ){
+          this.resultadoVacio = false;
+          this.trabajosBusqueda = resp.trabajos
+        } else {
+          this.trabajosBusqueda = resp.trabajos
+          this.resultadoVacio = true;
+        }
+        this.buscandoTrabajos = false;
+      });
+    } else {
+      this.buscandoTrabajos = false;
+      this.resultadoVacio = false;
+      this.trabajosBusqueda = [];
+    }
+    
   }
 
 }

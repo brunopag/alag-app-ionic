@@ -1,6 +1,7 @@
 {
     "home": {
-        "dia": "Day"
+        "dia": "Day",
+        "resultadosVacio": "There is not results for this search"
     },
     "tabs": {
         "cronograma": "Schedule",
@@ -22,7 +23,8 @@
         "conferencia": "Conference",
         "mesa": "Round Table",
         "taller": "Workshop",
-        "curso": "Course"
+        "curso": "Course",
+        "codigo": "Code"
     },
     "favorites": {
         "favorites": "Favorites",

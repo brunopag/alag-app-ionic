@@ -39,6 +39,9 @@ import { PlanoAuditorioPage } from '../pages/plano-auditorio/plano-auditorio';
 import { PhotoViewer } from '@ionic-native/photo-viewer';
 import { File } from '@ionic-native/file';
 import { IonicImageViewerModule } from 'ionic-img-viewer';
+import { InfoCentroConvencionPage } from '../pages/info-centro-convencion/info-centro-convencion';
+import { InfoPatrocinadoresPage } from '../pages/info-patrocinadores/info-patrocinadores';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 @NgModule({
   declarations: [
@@ -58,7 +61,9 @@ import { IonicImageViewerModule } from 'ionic-img-viewer';
     StartPage,
     TrabajoDetailsPage,
     CategoriaListPage,
-    PlanoAuditorioPage
+    PlanoAuditorioPage,
+    InfoCentroConvencionPage,
+    InfoPatrocinadoresPage
   ],
   imports: [
     BrowserModule,
@@ -92,7 +97,9 @@ import { IonicImageViewerModule } from 'ionic-img-viewer';
     StartPage,
     TrabajoDetailsPage,
     CategoriaListPage,
-    PlanoAuditorioPage
+    PlanoAuditorioPage,
+    InfoCentroConvencionPage,
+    InfoPatrocinadoresPage
   ],
   providers: [
     StatusBar,
@@ -102,7 +109,8 @@ import { IonicImageViewerModule } from 'ionic-img-viewer';
     NotificationsProvider,
     TrabajosProvider,
     PhotoViewer,
-    File
+    File,
+    InAppBrowser 
   ]
 })
 export class AppModule {}

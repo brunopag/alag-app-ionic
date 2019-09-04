@@ -14,7 +14,7 @@ export const programa: any[] = [
                                     desc_es: '<p>La Biología se está convirtiendo de una Ciencia principalmente descriptiva a otra basada en el estudio del flujo de información y en la prospección y disección de una gran cantidad de datos. Este curso pretende introducir en el análisis de bases de datos de alta dimensionalidad en Genética, como contribución al conocimiento de la vida en sus aspectos molecular, individual, poblacional, ecosistémico y evolutivo.</p>',
                                     desc_en: '<p>Biology is being converted from a primarily descriptive science to another based on the study of the flow of information and the prospecting and dissection of a large amount of data. This course aims to introduce into the analysis of databases of high dimensionality in Genetics, as a contribution to the knowledge of life in its molecular, individual, population, ecosystem and evolutionary aspects. </p> ',
                                     horario: '9:30 - 16:30',
-                                    lugar: 'Sala 4',
+                                    lugar: 'Centro Civit',
                                     coordinadora: 'Dr. Guillermo Pratta, IICAR (CONICET/UNR), Argentina.',
                                     docentes: [
                                         'Dr. Pablo Reebs. Facultad de Ciencias Agrarias UNCo, Argentina.',
@@ -39,7 +39,7 @@ export const programa: any[] = [
                                     desc_es: '<p>La aplicación de meta-análisis (MA) permite el análisis combinado de un conjunto de estudios sobre un tema de interés, cuyos resultados son obtenidos de forma independiente. La finalidad de evaluar estos resultados conjuntamente es realizar una síntesis y obtener estimaciones globales de los efectos de interés con métricas apropiadas. La técnica puede ser aplicada para sintetizar estudios de QTL y posicionar con mayor evidencia estadística loci asociados a caracteres de importancia agronómica. Luego de una revisión sistemática de estudios de mapeo de QTL, tanto en poblaciones biparentales como el mapeo asociativo en poblaciones diversas, el MA se aplica para consolidar hallazgos y obtener estimaciones globales. El objetivo del presente curso es ofrecer una visión de los principios que rigen la síntesis de la evidencia científica en estudios genéticos mediante aplicaciones de rutinas de software que permiten realizar MA a partir de una recopilación de estudios de QTL en poblaciones vegetales. También se extenderá el uso de la técnica de MA hacia la estimación de otros efectos de interés en estudios de asociación genética.</p>',
                                     desc_en: '<p>La aplicación de meta-análisis (MA) permite el análisis combinado de un conjunto de estudios sobre un tema de interés, cuyos resultados son obtenidos de forma independiente. La finalidad de evaluar estos resultados conjuntamente es realizar una síntesis y obtener estimaciones globales de los efectos de interés con métricas apropiadas. La técnica puede ser aplicada para sintetizar estudios de QTL y posicionar con mayor evidencia estadística loci asociados a caracteres de importancia agronómica. Luego de una revisión sistemática de estudios de mapeo de QTL, tanto en poblaciones biparentales como el mapeo asociativo en poblaciones diversas, el MA se aplica para consolidar hallazgos y obtener estimaciones globales. El objetivo del presente curso es ofrecer una visión de los principios que rigen la síntesis de la evidencia científica en estudios genéticos mediante aplicaciones de rutinas de software que permiten realizar MA a partir de una recopilación de estudios de QTL en poblaciones vegetales. También se extenderá el uso de la técnica de MA hacia la estimación de otros efectos de interés en estudios de asociación genética.</p>',
                                     horario: '10:00 - 16:00',
-                                    lugar: 'Sala 4',
+                                    lugar: 'Centro Civit',
                                     modalidad: 'Cada participante deberá asistir con notebook y tener instalado el software libre Zotero (gestor bibliográfico), los software estadísticos R e Info-Gen. Previo al curso se enviarán instrucciones para su descarga.',
                                     coordinadora: 'Dra. Mónica Balzarini. FCA. Universidad Nacional de Córdoba. Argentina.',
                                     duracion: '6hs.',
@@ -70,7 +70,7 @@ export const programa: any[] = [
                                     desc_en: '<p>La Teoría de los Juegos: el área de la matemática que a partir del uso de modelos estudia las tomas de decisiones y las interacciones en lo que se conoce como estructuras formalizadas de incentivos. Es decir, la lógica que usamos siempre que interactuamos con otro ser humano cuando, por ejemplo, tratamos de quedarnos con el último pedazo de torta en la cafetería o le hacemos un favor a un colega que esperamos retorne en el futuro.</p><p>Hoy en día, la Teoría de los Juegos es usada por muchas personas distintas en un amplio espectro de intereses. «La principal razón de su éxito fue la variedad de escenarios en los que la gente empezó a darse cuenta que tenían que pensar formal y sistemáticamente sobre las interacciones estratégicas».</p>',
                                     horario: '13:00 - 16:00',
                                     duracion: '3 Hs.',
-                                    lugar: 'Sala 4',
+                                    lugar: 'Universidad Maza',
                                     docentes: [
                                         'David Almorza Gomar. Dpto. de Estadística experimental. Universidad de Cádiz, España.'
                                     ],
@@ -90,7 +90,7 @@ export const programa: any[] = [
                                     tipo: 'varios',
                                     horario: '13:00 - 16:00',
                                     duracion: '3 Hs.',
-                                    lugar: 'Sala 4'
+                                    lugar: 'Centro Civit'
                                 },
                                 {
                                     id: 5,
@@ -98,7 +98,7 @@ export const programa: any[] = [
                                     titulo_en: 'Genética y genómica de la vid. Una perspectiva regional y multisectorial',
                                     tipo: 'simposio',
                                     horario: '13:00 - 16:00',
-                                    lugar: 'Sala 4',
+                                    lugar: 'Centro Civit',
                                     coordinadora: 'Diego Lijavetzky. IBAM (CONICET-UNCuyo). Mendoza. Argentina.',
                                     simposistas: [
                                         {
@@ -134,7 +134,7 @@ export const programa: any[] = [
                                     titulo_en: 'OPENING SESSION',
                                     tipo: 'varios',
                                     horario: '18:00 - 20:30',
-                                    lugar: 'Sala 4',
+                                    lugar: 'Sala 1 (Bustelo)',
                                     
                                 },
                                 {
@@ -143,7 +143,7 @@ export const programa: any[] = [
                                     titulo_en: 'Conferencia F Sáez, SAG: La Genética Médica y la Medicina hoy.',
                                     tipo: 'conferencia',
                                     horario: '18:00 - 20:30',
-                                    lugar: 'Sala 4',
+                                    lugar: 'Sala 1 (Bustelo)',
                                     autor: 'Norma C. Magnelli. Facultad de Ciencias Médicas. UNCuyo. Argentina.',
                                     autorDesc: '<p>Médica y Doctora en Medicina. Fue becaria de la Fundación Rockefeller en la Universidad de San Pablo, bajo la dirección de Oswaldo Frota Pessoa y en la de Wisconsin  bajo la dirección de Klaus Patau. Fundadora del Instituto de Genética de la Facultad de Ciencias Médicas de la UNCuyo. Autora de artículos de la especialidad en revistas y libros nacionales y extranjeros.</p><p>Presidente de la Sociedad Argentina de Genética e integrante del Consejo Asesor y Editorial de Mendeliana. Secretaria Académica y Decana de la Facultad de Ciencias Médicas de la UNCuyo.</p><p>Ha recibido distinciones por la labor en investigación, docencia y por la formación de recursos humanos.</p>'
                                 }
@@ -165,7 +165,37 @@ export const programa: any[] = [
                         titulo_en: 'Poster set up',
                         tipo: 'varios',
                         horario: '8:00 - 8:30',
-                        lugar: 'Sala 4',
+                        lugar: '',
+                        categorias: [
+                            {
+                                nombre_es: 'Citogenética Humana',
+                                nombre_en: 'Human Cytogenetics'
+                            },
+                            {
+                                nombre_es: 'Farmacogenética',
+                                nombre_en: 'Pharmacogenetics'
+                            },
+                            {
+                                nombre_es: 'Genética de Microorganismos',
+                                nombre_en: 'Genetics of Microorganisms'
+                            },
+                            {
+                                nombre_es: 'Genética y Educación',
+                                nombre_en: 'Genetics and Education'
+                            },
+                            {
+                                nombre_es: 'Genética y Mejoramiento Animal',
+                                nombre_en: 'Genetics and Animal Improvement'
+                            },
+                            {
+                                nombre_es: 'Genómica y Genética Molecular',
+                                nombre_en: 'Genomics and Molecular Genetics'
+                            },
+                            {
+                                nombre_es: 'Mutagénesis, Carcinogénesis y Teratogénesis Ambiental',
+                                nombre_en: 'Mutagenesis, Carcinogenesis and Environmental Teratogenesis'
+                            }
+                        ]
                     }
                 ]
             },
@@ -179,7 +209,7 @@ export const programa: any[] = [
                         tipo: 'taller',
                         responsables: 'Francisco López Cortés, Claudio Palma-Rojas, Camilo Ibacache, Cristian Araya-Jaime. Universidad La Serena. Chile.',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Uspallata. Sala 4.',
                         temario: [
                             'Introducción: Presentación y caracterización de la tecnología de realidad aumentada.',
                             'Estrategias de aprendizaje utilizando la realidad aumentada para la enseñanza de los procesos de reproducción celular.',
@@ -194,7 +224,7 @@ export const programa: any[] = [
                         titulo_en: 'Sistemas de vigilancia de anomalías congénitas en Am Latina y el Caribe',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         coordinadora: 'Mariela Larrandaburu. Ministerio de Salud. Montevideo, Uruguay.',
                         simposistas: [
                             {
@@ -221,7 +251,7 @@ export const programa: any[] = [
                         titulo_en: 'Update in cancer genetics and implementation challenges for precision medicine in Latin America',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 2',
                         coordinadora: 'Mev Domínguez Valentin. Oslo University Hospital. Oslo, Noruega.',
                         simposistas: [
                             {
@@ -248,7 +278,7 @@ export const programa: any[] = [
                         titulo_en: 'Recursos genéticos y sociedad',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Magna. Sala 3',
                         coordinadora: 'Elsa Camadro. Universidad Nacional de Mar del Plata. CONICET. Argentina.',
                         simposistas: [
                             {
@@ -275,7 +305,7 @@ export const programa: any[] = [
                         titulo_en: 'Marcelo Guerra',
                         tipo: 'conferencia',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4'
+                        lugar: 'Plumerillo. Sala 5'
                     },
                     {
                         id: 14,
@@ -283,7 +313,7 @@ export const programa: any[] = [
                         titulo_en: 'Impactos da Pintura Cromossômica na Citogenética Comparativa',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Plumerillo. Sala 5',
                         coordinadora: 'Andrea Pedrosa-Harand. Departamento de Botânica, UFPE, Recife/PE, Brasil.',
                         simposistas: [
                             {
@@ -311,7 +341,37 @@ export const programa: any[] = [
                         titulo_en: 'Posters Section',
                         tipo: 'varios',
                         horario: '10:30 - 12:00',
-                        lugar: 'Sala 4'
+                        lugar: '',
+                        categorias: [
+                            {
+                                nombre_es: 'Citogenética Humana',
+                                nombre_en: 'Human Cytogenetics'
+                            },
+                            {
+                                nombre_es: 'Farmacogenética',
+                                nombre_en: 'Pharmacogenetics'
+                            },
+                            {
+                                nombre_es: 'Genética de Microorganismos',
+                                nombre_en: 'Genetics of Microorganisms'
+                            },
+                            {
+                                nombre_es: 'Genética y Educación',
+                                nombre_en: 'Genetics and Education'
+                            },
+                            {
+                                nombre_es: 'Genética y Mejoramiento Animal',
+                                nombre_en: 'Genetics and Animal Improvement'
+                            },
+                            {
+                                nombre_es: 'Genómica y Genética Molecular',
+                                nombre_en: 'Genomics and Molecular Genetics'
+                            },
+                            {
+                                nombre_es: 'Mutagénesis, Carcinogénesis y Teratogénesis Ambiental',
+                                nombre_en: 'Mutagenesis, Carcinogenesis and Environmental Teratogenesis'
+                            }
+                        ]
                     }
                 ]
             },
@@ -324,7 +384,7 @@ export const programa: any[] = [
                         titulo_en: 'Conferencia Constancio Lázaro, SUG: Diversidad genética humana en América Latina: implicaciones médicas e identitarias. Mónica Sans.',
                         tipo: 'conferencia',
                         horario: '12:00 - 13:00',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         autor: 'Mónica Sans. Departamento de Antropología Biológica. Faculltad de Humanidades y Ciencias de la Educación. UDeLaR. Uruguay.',
                         autorDesc: '<p>Es Antropóloga (1983), posee Maestría (1991) y Doctorado (1994) en Biología (Genética) (UDeLaR-PEDECIBA). Es actualmente Prof. Titular de Antropología Biológica, Coordinadora de la Licenciatura en Antropología, Investigadora del PEDECIBA e integrante del Sistena Nacional de Investigadores. Fue Directora de la Licenciatura en Biología Humana y Coordinadora del Instituto de Antropología; Presidente de la Sociedad Uruguaya de Genética y de la Asociación Latinoamericana de Antropología Biológica, y Vice-Presidente de la Asociación Latinoamericana de Genética. Recibió el Premio al “Académico de trayectoria más distinguida” de la ALAB (2018). Ha publicado más de 100 artículos, libros y capítulos de libros, fundamentalmente sobre las poblaciones humanas de Uruguay y la región, la ancestría indígena y el mestizaje.</p>'
                     }
@@ -339,7 +399,7 @@ export const programa: any[] = [
                         titulo_en: 'Free',
                         tipo: 'varios',
                         horario: '13:00 - 14:30',
-                        lugar: 'Sala 4'
+                        lugar: ''
                     }
                 ]
             },
@@ -352,7 +412,7 @@ export const programa: any[] = [
                         titulo_en: 'Conferencia IGF: Genetics of complex traits in livestock and humans. Michael Goddard.',
                         tipo: 'conferencia',
                         horario: '14:30 - 15:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1.',
                         autor: 'Michael Goddard. University of Melbourne. Australia.',
                         autorDesc: '<p>Michael Goddard is distinguished for his research into quantitative genetics and the genetic improvement of livestock, in particular by incorporation of molecular genetic data. He co-proposed and developed ‘genomic selection’ in which dense molecular markers are fitted to quantitative data by using linkage disequilibrium with QTL, thereby enabling more accurate selection decisions, including among animals without phenotypic records. Within a decade, it is being used world wide in animal improvement programmes and has potential in plant breeding and prediction of risk of genetic disease in humans.</p>'
                     }
@@ -367,7 +427,7 @@ export const programa: any[] = [
                         titulo_en: 'Genetics and microorganisms',
                         tipo: 'simposio',
                         horario: '15.45 – 17.45',
-                        lugar: 'Sala 4',
+                        lugar: 'Magna. Sala 3',
                         coordinadora: 'Luis Zapata. The Institute of Cancer Research, London, UK.',
                         simposistas: [
                             {
@@ -394,7 +454,7 @@ export const programa: any[] = [
                         titulo_en: 'Genome Instability and Cancer',
                         tipo: 'simposio',
                         horario: '15.45 – 17.45',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         coordinadora: 'Vanesa Gottifredi. Fundación Instituto Leloir, IIBBA/ CONICET. Buenos Aires, Argentina.',
                         simposistas: [
                             {
@@ -421,7 +481,7 @@ export const programa: any[] = [
                         titulo_en: 'Caracterización, conservación y uso de recursos zoogenéticos',
                         tipo: 'simposio',
                         horario: '15.45 – 17.45',
-                        lugar: 'Sala 4',
+                        lugar: 'Plumerillo. Sala 5',
                         coordinadora: 'María Rosa Lanari. INTA Bariloche. Argentina.',
                         simposistas: [
                             {
@@ -452,7 +512,7 @@ export const programa: any[] = [
                         titulo_en: 'Análisis de bases de datos de alta dimensionalidad en el estudio del genoma y su expresión',
                         tipo: 'simposio',
                         horario: '15.45 – 17.45',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 2',
                         coordinadora: 'Guillermo R. Pratta. IICAR-CONICET-UNR. Facultad de Ciencias Agrarias, Universidad Nacional de Rosario, Zavalla, Santa Fe, Argentina.',
                         simposistas: [
                             {
@@ -479,7 +539,7 @@ export const programa: any[] = [
                         titulo_en: 'PRESENTACIÓN TÉCNICA. MGI Americas Inc.',
                         tipo: 'varios',
                         horario: '15.45 – 17.45',
-                        lugar: 'Sala 4'
+                        lugar: 'Uspallata. Sala 4'
                     },
                 ]
             },
@@ -504,7 +564,7 @@ export const programa: any[] = [
                         titulo_en: 'Conferencia SAG. Desarrollo de nuevas herramientas genómicas para zanahoria y su impacto en la investigación y el mejoramiento. Pablo Cavagnaro.',
                         tipo: 'conferencia',
                         horario: '18.15 – 19.15',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         autor: 'Pablo Cavagnaro. INTA E.E.A. La Consulta. Mendoza. Argentina.',
                         autorDesc: '<p>Especialidad: Genética y mejoramiento hortícola. Ingeniero agrónomo (1999) y Doctor en Ciencias Biológicas (2007), egresado de la Universidad Nacional de Cuyo, Argentina. Posdoctorado en la Universidad de Wisconsin, USA. Actualmente es Investigador Independiente del CONICET con lugar de trabajo en el INTA E.E.A. La Consulta. Su principal línea de investigación ha sido el desarrollo de herramientas moleculares y genómicas para asistir los programas de mejoramiento hortícola, principalmente en zanahoria, ajo y cebolla, y su aplicación para investigar las bases genéticas de algunos caracteres relacionados a las propiedades benéficas para la salud de estas hortalizas.</p>'
                     }
@@ -519,7 +579,7 @@ export const programa: any[] = [
                         titulo_en: 'Asamblea ALAG',
                         tipo: 'varios',
                         horario: '19:15 Hs.',
-                        lugar: 'Sala 4'
+                        lugar: 'Bustelo. Sala 1'
                     }
                 ]
             }
@@ -539,7 +599,25 @@ export const programa: any[] = [
                         titulo_en: 'Poster placement',
                         tipo: 'varios',
                         horario: '8:00 - 8:30',
-                        lugar: 'Sala 4'
+                        lugar: '',
+                        categorias: [
+                            {
+                                nombre_es: 'Citogenética Vegetal',
+                                nombre_en: 'Vegetable Cytogenetics'
+                            },
+                            {
+                                nombre_es: 'Genética de Poblaciones y Evolución',
+                                nombre_en: 'Population Genetics and Evolution'
+                            },
+                            {
+                                nombre_es: 'Genética Humana',
+                                nombre_en: 'Human Genetics'
+                            },
+                            {
+                                nombre_es: 'Genética Vegetal',
+                                nombre_en: 'Plant Genetics'
+                            }
+                        ]
                     },
                 ]
             },
@@ -552,7 +630,7 @@ export const programa: any[] = [
                         titulo_en: 'Genética médica populacional na America Latina',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         coordinadora: 'Lavinia Schuler-Faccini. Universidade Federal do Rio Grande do Sul. Porto Alegre, Brasil.',
                         simposistas: [
                             {
@@ -579,7 +657,7 @@ export const programa: any[] = [
                         titulo_en: 'Farmacogenómica y Medicina de Precisión',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 2',
                         coordinadora: 'Maria Ana Redal. Facultad de Farmacia y Bioquímica, UBA. Buenos Aires, Argentina.',
                         simposistas: [
                             {
@@ -606,7 +684,7 @@ export const programa: any[] = [
                         titulo_en: 'Recursos Genéticos Vegetales en el pre-mejoramiento genético',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Magna. Sala 3',
                         coordinadora: 'Mónica Poverene. UNSur, Bahía Blanca, Argentina.',
                         simposistas: [
                             {
@@ -633,7 +711,7 @@ export const programa: any[] = [
                         titulo_en: 'Impacto de las nuevas tecnologías moleculares en el estudio de las Zoonosis Virales emergentes y reemergentes en América',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Uspallata. Sala 4',
                         coordinadora: 'Jorge B. García. INEVH J.I Maiztegui. Pergamino, Argentina.',
                         simposistas: [
                             {
@@ -660,7 +738,7 @@ export const programa: any[] = [
                         titulo_en: 'Poliploidía',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Plumerillo. Sala 5',
                         coordinadora: 'Evelin Kovalsky. Facultad de Ciencias Exactas y Naturales y Agrimensura, Corrientes, Argentina.',
                         simposistas: [
                             {
@@ -700,7 +778,25 @@ export const programa: any[] = [
                         titulo_en: 'Posters Section',
                         tipo: 'varios',
                         horario: '10:30 - 12:00',
-                        lugar: 'Sala 4'
+                        lugar: '',
+                        categorias: [
+                            {
+                                nombre_es: 'Citogenética Vegetal',
+                                nombre_en: 'Vegetable Cytogenetics'
+                            },
+                            {
+                                nombre_es: 'Genética de Poblaciones y Evolución',
+                                nombre_en: 'Population Genetics and Evolution'
+                            },
+                            {
+                                nombre_es: 'Genética Humana',
+                                nombre_en: 'Human Genetics'
+                            },
+                            {
+                                nombre_es: 'Genética Vegetal',
+                                nombre_en: 'Plant Genetics'
+                            }
+                        ]
                     }
                 ]
             },
@@ -713,7 +809,7 @@ export const programa: any[] = [
                         titulo_en: 'Conferencia SBG: A unique insect-fungal interaction leads to pokka boheng disease in sugarcane. Marcio de Castro Silva Filho',
                         tipo: 'conferencia',
                         horario: '12.00 – 13.00',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         autor: 'Marcio de Castro Silva Filho. Universidade do Sao Paulo. Brasil.',
                         autorDesc: '<p>PhD in Plant Molecular Biology by the University of Louvain, Belgium. Full Member of the Brazilian Academy of Sciences, Full Professor of the Genetics, University of São Paulo (USP), President of the Brazilian Society of Genetics (2018-2020), Commander of the National Order of Scientific Merit, Deputy Provost of Postgraduate studies at USP. President-elect of the National Forum of Pro-Rectors of Research and Post-Graduation (FOPROP).</p>'
                     }
@@ -728,7 +824,7 @@ export const programa: any[] = [
                         titulo_en: 'Free',
                         tipo: 'varios',
                         horario: '13.00 – 14.30',
-                        lugar: 'Sala 4'
+                        lugar: ''
                     }
                 ]
             },
@@ -741,7 +837,7 @@ export const programa: any[] = [
                         titulo_en: 'Conferencia ALAG: La dinámica contemporánea de conservación de los recursos genéticos de cultivos: el caso de la papa en su centro de origen. Stefan De Haan',
                         tipo: 'conferencia',
                         horario: '14.30 – 15.30',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         autor: 'Stefan De Haan. Centro Internacional de la Papa (CIP). Perú.',
                         autorDesc: '<p>Stef de Haan trabaja como investigador principal en el Centro Internacional de la Papa (CIP) en Perú. Tiene un PhD en Biosistemática y MSc en Agroecología. Tiene un interés particular en el manejo contemporáneo y el uso in-situ de recursos genéticos de cultivos con un enfoque geográfico en los Andes y el sudeste asiático. Su principal enfoque de investigación ha sido comprender la conservación y el uso de los recursos genéticos bajo la gestión de los agricultores, incluso la evolución continua, sistemas de semillas, patrones geoespaciales, la nutrición humana y acuerdos de distribución de beneficios. Actualmente coordina la Iniciativa Andina del CIP con un enfoque en la agrobiodiversidad, los sistemas alimentarios y el cambio climático.</p>'
                     }
@@ -756,7 +852,7 @@ export const programa: any[] = [
                         titulo_en: 'Desafíos en el diagnóstico genético: Nodos del Human Variome Project en Sudamérica.',
                         tipo: 'simposio',
                         horario: '15:45 - 17:45',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 2',
                         coordinadora: 'Solano A.R.1. 1 INBIOMED, Fac. de Medicina, UBA/CONICET y Genotipificación, DAC, CEMIC. Argentina.',
                         simposistas: [
                             {
@@ -787,7 +883,7 @@ export const programa: any[] = [
                         titulo_en: 'Un cambio de mirada en la cría animal aprovechando la información genómica',
                         tipo: 'simposio',
                         horario: '15:45 - 17:45',
-                        lugar: 'Sala 4',
+                        lugar: 'Plumerillo. Sala 5',
                         coordinadora: 'Poli M.1. 1 INTA. CICVyA-Instituto de Genetica. Argentina.',
                         simposistas: [
                             {
@@ -818,7 +914,7 @@ export const programa: any[] = [
                         titulo_en: 'Perspectivas en el Mejoramiento Vegetal desde la Maestría en Genética Vegetal (UNR-INTA) y sus 40 años en la formación académica de posgrado',
                         tipo: 'simposio',
                         horario: '15:45 - 17:45',
-                        lugar: 'Sala 4',
+                        lugar: 'Magna. Sala 3',
                         coordinadora: 'Gustavo Rodríguez. IICAR-CONICET-UNR. Cátedra de Genética. Facultad de Ciencias Agrarias, Universidad Nacional de Rosario. Zavalla, Santa Fe, Argentina.',
                         simposistas: [
                             {
@@ -845,7 +941,7 @@ export const programa: any[] = [
                         titulo_en: 'Secuencias repetidas de ADN, cromosomas y evolución',
                         tipo: 'simposio',
                         horario: '15:45 - 17:45',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         coordinadora: 'Andrea Pedrosa-Harand. Departamento de Botânica, UFPE, Recife/PE, Brasil.',
                         simposistas: [
                             {
@@ -877,7 +973,7 @@ export const programa: any[] = [
                         titulo_en: 'Interval',
                         tipo: 'varios',
                         horario: '17:45 – 18.15',
-                        lugar: 'Sala 4'
+                        lugar: ''
                     }
                 ]
             },
@@ -890,7 +986,7 @@ export const programa: any[] = [
                         titulo_en: 'Conferencia E Favret, SAG: Variabilidad genética y epigenética en especies tuberosas de Solanum. Ricardo Masuelli.',
                         tipo: 'conferencia',
                         horario: '18:15 – 19:15',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         autor: 'Ricardo Masuelli. Instituto de Biología Agrícola de Mendoza. CONICET. Argentina. ',
                         autorDesc: '<p>Especialidad: Genética Agronómica. Egresado en 1987 con el título de Ingeniero Agrónomo de la Facultad de Ciencias Agrarias de la Universidad Nacional de Cuyo. Magister en Producción Vegetal, 1989, y Doctor en Ciencias Agrarias, 1992, Universidad Nacional de Mar del Plata. Posdoctorado en la Universidad de Washington, Seattle, USA. Actualmente es Profesor Titular de Genética en la Facultad de Ciencias Agrarias de la U.N. de Cuyo e Investigador Principal del CONICET. Dirige el Laboratorio de Biología Molecular del Instituto de Biología Agrícola Mendoza (IBAM) CONICET-UNCuyo.</p>'
                     },
@@ -900,7 +996,7 @@ export const programa: any[] = [
                         titulo_en: 'ESPACIO UNNOBA: Coordinadora: María Alejandra Morales. UNNOBA y Red Nacional de Laboratorios de Dengue y otros Arbovirus, Instituto Maiztegui de Pergamino, Argentina.',
                         tipo: 'varios',
                         horario: '18:15 – 19:15',
-                        lugar: 'Sala 4',
+                        lugar: 'Magna. Sala 3',
                         desc_es: '<p>– Charla – Debate Experiencia Zibra (ZIKA/Brasil): Lineamientos de un proyecto de secuenciación genómica viral que lleva  ciencia e innovación al terreno,  priorizando: educación, acceso abierto, igualdad de género, compromiso social y respeto a los derechos y normas éticas. Luiz Carlos Alcantara. Fundação Oswaldo Cruz, Brasil.</p><p>–  La introducción de Zika en el continente Americano: Complicaciones en el diagnóstico y avances en la temática. Néstor G. Iglesias Laboratorio de Virus Emergentes. Departamento de Ciencia y Tecnología. Universidad Nacional de Quilmes, Argentina.</p>',
                         desc_en: '<p>– Charla – Debate Experiencia Zibra (ZIKA/Brasil): Lineamientos de un proyecto de secuenciación genómica viral que lleva  ciencia e innovación al terreno,  priorizando: educación, acceso abierto, igualdad de género, compromiso social y respeto a los derechos y normas éticas. Luiz Carlos Alcantara. Fundação Oswaldo Cruz, Brasil.</p><p>–  La introducción de Zika en el continente Americano: Complicaciones en el diagnóstico y avances en la temática. Néstor G. Iglesias Laboratorio de Virus Emergentes. Departamento de Ciencia y Tecnología. Universidad Nacional de Quilmes, Argentina.</p>'
                     }
@@ -915,7 +1011,7 @@ export const programa: any[] = [
                         titulo_en: 'Asamblea ALAG',
                         tipo: 'varios',
                         horario: '19:15 Hs.',
-                        lugar: 'Sala 4'
+                        lugar: 'Plumerillo. Sala 5'
                     }
                 ]
             },
@@ -935,7 +1031,21 @@ export const programa: any[] = [
                         titulo_en: 'Poster placement',
                         tipo: 'varios',
                         horario: '8:00 - 8:30',
-                        lugar: 'Sala 4'
+                        lugar: '',
+                        categorias: [
+                            {
+                                nombre_es: 'Citogenética Animal',
+                                nombre_en: 'Animal Cytogenetics'
+                            },
+                            {
+                                nombre_es: 'Genética Médica',
+                                nombre_en: 'Medical Genetics'
+                            },
+                            {
+                                nombre_es: 'Mejoramiento Vegetal',
+                                nombre_en: 'Vegetable Improvement'
+                            }
+                        ]
                     }
                 ]
             },
@@ -948,7 +1058,7 @@ export const programa: any[] = [
                         titulo_en: 'A consortium for studying the effects of the prenatal exposure to alcohol, tobacco and drugs in Latin-America',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         coordinadora: 'Rojas Martinez A.1 1 Tecnológico de Monterrey; Mexico.',
                         simposistas: [
                             {
@@ -975,7 +1085,7 @@ export const programa: any[] = [
                         titulo_en: 'Aspectos genómicos en el diagnóstico de enfermedades pediátricas',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 2',
                         coordinadora: 'Graciela del Rey. Laboratorio de Citogenética. Centro de Investigaciones Endocrinológicas “Dr. César Bergadá” (CEDIE). CONICET. FEI y División de Endocrinología, Hospital de Niños “Ricardo Gutiérrez”. Buenos Aires. Argentina',
                         simposistas: [
                             {
@@ -1002,7 +1112,7 @@ export const programa: any[] = [
                         titulo_en: 'Genome and chromosome evolution of Drosophila species of the Americas',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Uspallata. Sala 4',
                         coordinadora: 'Maura Helena Manfrin. Universidade de São  Paulo. San Pablo, Brasil.',
                         simposistas: [
                             {
@@ -1025,7 +1135,7 @@ export const programa: any[] = [
                         titulo_en: 'The challenges of mineral nutrition in plants facing environmental stresses: molecular aspects',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Magna. Sala 3',
                         coordinadora: 'Marcia Margis-Pinheiro. Universidade Federal do Rio Grande do Sul. Porto Alegre. Brasil.',
                         simposistas: [
                             {
@@ -1048,7 +1158,7 @@ export const programa: any[] = [
                         titulo_en: 'Citogenética y Evolución Vegetal',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Plumerillo. Sala 5',
                         coordinadora: 'Cristina Acosta. Instituto Multidisciplinario de Biología Vegetal (IMBIV), Córdoba. Argentina.',
                         simposistas: [
                             {
@@ -1088,7 +1198,21 @@ export const programa: any[] = [
                         titulo_en: 'Posters Section',
                         tipo: 'varios',
                         horario: '10:30 - 12:00',
-                        lugar: 'Sala 4'
+                        lugar: '',
+                        categorias: [
+                            {
+                                nombre_es: 'Citogenética Animal',
+                                nombre_en: 'Animal Cytogenetics'
+                            },
+                            {
+                                nombre_es: 'Genética Médica',
+                                nombre_en: 'Medical Genetics'
+                            },
+                            {
+                                nombre_es: 'Mejoramiento Vegetal',
+                                nombre_en: 'Vegetable Improvement'
+                            }
+                        ]
                     }
                 ]
             },
@@ -1101,7 +1225,7 @@ export const programa: any[] = [
                         titulo_en: 'Conferencia Danko Brncic, SOCHIGEN: Escudriñando el pasado de las poblaciones originarias y mestizas del Cono Sur de Sudamérica mediante marcadores genéticos de herencia uniparental. Mauricio Moraga Vergara.',
                         tipo: 'conferencia',
                         horario: '12:00 – 13:00',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         autor: 'Mauricio Moraga Vergara. Universidad de Chile. Chile.',
                         autorDesc: '<p>Doctor en Bioquímica, Universidad de Chile; Bioquímico, Universidad de Chile. Profesor Asociado, Programa de Genética Humana, Instituto de Ciencias Biomédicas, Facultad de Medicina, y Departamento de Antropología, Facultad de Ciencias Sociales, Universidad de Chile.  Past president Sociedad de Genética de Chile, 2012-2013. Past president Asociación Latinoamericana de Antropología Biológica, 2014-2016. Su línea de investigación principal ha estado centrada en el estudio de las poblaciones originarias y mestizas de Chile y Sudamérica, mediante el uso de marcadores de herencia uniparental (ADN mitocondrial y cromosoma Y) así como autosómicos.  Ha trabajado tanto con muestras actuales como con ADN antiguo ayudando a entender las dinámicas del poblamiento de la Patagonia occidental. </p>'
                     },
@@ -1128,7 +1252,7 @@ export const programa: any[] = [
                         titulo_en: 'Conferencia SLACE: Uma visão genômica da filogenia e hibridação de espécies em mamíferos. Sandro Luis Bonatto.',
                         tipo: 'conferencia',
                         horario: '14:30 – 15:30',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         autor: 'Sandro Luis Bonatto. Escola de Ciências. Pontifícia Universidade Católica do Rio Grande do Sul. Brazil.',
                         autorDesc: '<p>Possui graduação no Curso de Ciências Biológicas (Bacharelado) pela Universidade Federal do Rio Grande do Sul, mestrado em Ciências Biológicas (Entomologia) pela Universidade Federal do Paraná e doutorado em Genética e Biologia Molecular pela Universidade Federal do Rio Grande do Sul. Atualmente é professor adjunto da Escola de Ciências na Pontifícia Universidade Católica do Rio Grande do Sul, onde coordena do Laboratório de Biologia Genômica e Molecular e orienta no Programa de Pós-Graduação em Ecologia e Evolução da Biodiversidade. Tem experiência na área de Genética e Zoologia, atuando principalmente nos seguintes temas: genômica da conservação, ecologia molecular, evolução animal e filogenia e sistemática molecular, tendo publicado mais de 130 artigos científicos.</p>'
                     },
@@ -1143,7 +1267,7 @@ export const programa: any[] = [
                         titulo_en: 'Enfermedades Raras en Latinoamérica: realidades y desafíos',
                         tipo: 'simposio',
                         horario: '15:45 - 17:45',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 2',
                         coordinadora: 'Gabriela Repetto. Facultad de Medicina, Clínica Alemana Universidad del Desarrollo. Santiago, Chile.',
                         simposistas: [
                             {
@@ -1170,7 +1294,7 @@ export const programa: any[] = [
                         titulo_en: 'La herramienta tecnológica que deslumbra: la edición de genes',
                         tipo: 'simposio',
                         horario: '15:45 - 17:45',
-                        lugar: 'Sala 4',
+                        lugar: 'Bustelo. Sala 1',
                         coordinadora: 'Liliana Amelia Picardi. IICAR (CONICET-UNR). Argentina.',
                         simposistas: [
                             {
@@ -1197,7 +1321,7 @@ export const programa: any[] = [
                         titulo_en: 'Genetic and Genomic Studies in Tropical and Sub-tropical Crop Plants',
                         tipo: 'simposio',
                         horario: '15:45 - 17:45',
-                        lugar: 'Sala 4',
+                        lugar: 'Uspallata. Sala 4',
                         coordinadora: 'Clara Pritsch. Facultad de Agronomía, UDELAR. Montevideo, Uruguay.',
                         simposistas: [
                             {
@@ -1224,7 +1348,7 @@ export const programa: any[] = [
                         titulo_en: 'Evolución de la flora sudamericana',
                         tipo: 'simposio',
                         horario: '15:45 - 17:45',
-                        lugar: 'Sala 4',
+                        lugar: 'Plumerillo. Sala 5',
                         coordinadora: 'Viviana Solís Neffa. Instituto de Botánica del Nordeste (IBONE), Corrientes Argentina.',
                         simposistas: [
                             {
@@ -1251,7 +1375,7 @@ export const programa: any[] = [
                         titulo_en: 'Redes colaborativas y compartir datos en enfermedades genéticas neuromusculares',
                         tipo: 'mesa',
                         horario: '15:45 - 17:45',
-                        lugar: 'Sala 4',
+                        lugar: 'Magna. Sala 3',
                         coordinadora: 'Morales Saute J A. Serviço de Genética Médica, Hospital de Clinicas de Porto Alegre. Brasil.',
                         panelistas: [
                             {
@@ -1298,7 +1422,8 @@ export const programa: any[] = [
                         titulo_es: 'Acto de cierre y fiesta clausura',
                         titulo_en: 'Closing ceremony and closing party',
                         tipo: 'varios',
-                        horario: '18:15 – 19:15'
+                        horario: '18:15 – 19:15',
+                        lugar: 'Bustelo. Sala 1'
                     },
                 ]
             },

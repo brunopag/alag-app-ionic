@@ -17,9 +17,11 @@
     <h1>{{ 'header.notification' | translate }}</h1>
     <ion-list>
         <ion-item [ngClass]="{'new-noti': !notification.read}" *ngFor="let notification of notifications" (click)="seeNotificationDetails(notification)">
-            <ion-icon item-left name="mail"></ion-icon>
-            <h2>{{ notification.titulo_es }}</h2>
-            <p>{{ getDateFormat(notification.fechaNotification) | date : "dd.MM.y" }}</p>
+            <ion-label style="white-space: unset !important;">
+                <ion-icon item-left name="mail"></ion-icon>
+                <h2>{{ notification.titulo_es }}</h2>
+                <p>{{ getDateFormat(notification.fechaNotification) | date : "dd.MM.y" }}</p>
+            </ion-label>
             <button ion-button icon clear item-right>
                 <ion-icon name="arrow-forward"></ion-icon>
             </button>

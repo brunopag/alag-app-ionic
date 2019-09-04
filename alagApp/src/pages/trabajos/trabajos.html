@@ -1,6 +1,6 @@
 <ion-header>
     <header-navbar></header-navbar>
-    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    <ion-searchbar (ionInput)="busuqedaTrabajos($event)"></ion-searchbar>
 </ion-header>
 
 <ion-content padding>
@@ -13,23 +13,48 @@
             </button>
     </div>
     <h2 style="margin-top: 15px !important;">{{ 'trabajos.trabajos' | translate }}</h2>
-    <ion-list *ngIf="trabajos.length > 0">
+    <div style="text-align: center; width: 100%; margin-top: 30px;">
+        <ion-spinner *ngIf="buscandoTrabajos"></ion-spinner>
+    </div>
+    <ion-list *ngIf="trabajos.length > 0 && !buscandoTrabajos">
         <ion-item *ngFor="let trabajo of trabajos" (click)="verTrabajo(trabajo)">
-            <h2>{{ trabajo.titulo }}</h2>
-            <p>
-                <span *ngFor="let autor of trabajo.autores, let i = index">
-                {{autor.apellido}} {{inicialesNombres(autor.nombres)}}
-                <span *ngIf="i !== trabajo.autores.length -1">,</span>
-                </span>
-            </p>
+            <ion-label style="white-space: unset !important;">
+                <h2>{{ trabajo.titulo }}</h2>
+                <p>
+                    <span *ngFor="let autor of trabajo.autores, let i = index">
+                        {{autor.apellido}} {{inicialesNombres(autor.nombres)}}
+                        <span *ngIf="i !== trabajo.autores.length -1">,</span>
+                    </span>
+                </p>
+            </ion-label>
             <button ion-button icon clear item-right>
                 <ion-icon name="arrow-forward"></ion-icon>
             </button>
         </ion-item>
     </ion-list>
-    <div style="text-align: center;" *ngIf="trabajos.length === 0">
+    <ion-list *ngIf="trabajosBusqueda.length > 0 && !buscandoTrabajos">
+        <ion-item *ngFor="let trabajo of trabajosBusqueda" (click)="verTrabajo(trabajo)">
+            <ion-label style="white-space: unset !important;">
+                <h2>{{ trabajo.titulo }}</h2>
+                <p>
+                    <span *ngFor="let autor of trabajo.autores, let i = index">
+                        {{autor.apellido}} {{inicialesNombres(autor.nombres)}}
+                        <span *ngIf="i !== trabajo.autores.length -1">,</span>
+                    </span>
+                </p>
+            </ion-label>
+            <button ion-button icon clear item-right>
+                <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+        </ion-item>
+    </ion-list>
+    <div style="text-align: center;" *ngIf="trabajos.length === 0 && trabajosBusqueda.length === 0 && !resultadoVacio && !buscandoTrabajos">
         <ion-icon style="font-size: 50px;" name="ios-alert-outline"></ion-icon>
         <h3>{{ 'trabajos.selectCategoryTitle' | translate }}</h3>
+    </div>
+    <div style="text-align: center;" *ngIf="resultadoVacio && !buscandoTrabajos">
+        <ion-icon style="font-size: 50px;" name="ios-alert-outline"></ion-icon>
+        <h3>No existen resutados para su busqueda</h3>
     </div>
 
     <ion-fab right bottom>

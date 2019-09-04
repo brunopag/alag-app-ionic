@@ -4,6 +4,7 @@ import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angu
 // Storage Module
 import { Storage } from '@ionic/storage';
 import { TranslationProvider } from '../../providers/translation/translation';
+import { fechaTrabajos } from '../../data/fechaTrabajos';
 
 @IonicPage()
 @Component({
@@ -21,6 +22,7 @@ export class TrabajoDetailsPage {
               public _translationProvider: TranslationProvider,
               public toastCtrl: ToastController) {
     this.trabajo = this.navParams.get('trabajo');
+    this.trabajo.fecha = this.getFechaTrabajo();
     console.log(this.trabajo);
     this.storage.get('favoriteTrabajos').then((data:any[]) => {
       console.log(data);
@@ -35,6 +37,17 @@ export class TrabajoDetailsPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad TrabajoDetailsPage');
+  }
+
+  getFechaTrabajo() {
+    let categoria = fechaTrabajos.find(categ => 
+      categ.nombre === 
+        this.trabajo.categoriasTrabajo[this.trabajo.categoriasTrabajo.length - 1].nombre_es);
+    if(categoria) {
+      return categoria.fecha;
+    } else {
+      return false;
+    }
   }
 
   superindiceLugares(lugaresTrabajo: any) {
