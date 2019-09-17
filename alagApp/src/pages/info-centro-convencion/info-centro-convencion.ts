@@ -1,13 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { PlanoAuditorioPage } from '../plano-auditorio/plano-auditorio';
-
-/**
- * Generated class for the InfoCentroConvencionPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 @IonicPage()
 @Component({
@@ -16,7 +10,7 @@ import { PlanoAuditorioPage } from '../plano-auditorio/plano-auditorio';
 })
 export class InfoCentroConvencionPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private iab: InAppBrowser) {
   }
 
   ionViewDidLoad() {
@@ -25,6 +19,10 @@ export class InfoCentroConvencionPage {
 
   verPlano() {
     this.navCtrl.push(PlanoAuditorioPage);
+  }
+
+  navegarPaginaWeb(url: string) {
+    this.iab.create(url, '_system');
   }
 
 }

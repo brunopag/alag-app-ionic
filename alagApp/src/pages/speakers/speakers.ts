@@ -1,12 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { disertantes } from '../../data/disertantes';
+import { SpeakersSpeakerDetailsPage } from '../speakers-speaker-details/speakers-speaker-details';
 
-/**
- * Generated class for the SpeakersPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -17,9 +13,9 @@ export class SpeakersPage {
 
   searchQuery: string = '';
   items: string[];
+  disertantes: any[] = disertantes;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.initializeItems();
   }
 
   ionViewDidLoad() {
@@ -27,13 +23,8 @@ export class SpeakersPage {
   }
 
   initializeItems() {
-    this.items = [
-      'Amsterdam',
-      'Bogota',
-      'Rosario',
-      'Lima',
-      'Buenos Aires'
-    ];
+    this.disertantes = [];
+    this.disertantes = disertantes;
   }
 
   getItems(ev: any) {
@@ -45,10 +36,21 @@ export class SpeakersPage {
 
     // if the value is an empty string don't filter the items
     if (val && val.trim() != '') {
-      this.items = this.items.filter((item) => {
-        return (item.toLowerCase().indexOf(val.toLowerCase()) > -1);
+      this.disertantes = this.disertantes.filter((item) => {
+        return ((this.eliminarDiacriticos(item.nombre).toLowerCase().indexOf(
+          this.eliminarDiacriticos(val).toLowerCase()) > -1) ||
+          this.eliminarDiacriticos(item.lugarTrabajo).toLowerCase().indexOf(
+            this.eliminarDiacriticos(val).toLowerCase()) > -1);
       })
     }
+  }
+
+  eliminarDiacriticos(texto) {
+    return texto.normalize('NFD').replace(/[\u0300-\u036f]/g,"");
+  }
+
+  goSpeakerDetail(disertante) {
+    this.navCtrl.push(SpeakersSpeakerDetailsPage, {'disertante': disertante});
   }
 
 }

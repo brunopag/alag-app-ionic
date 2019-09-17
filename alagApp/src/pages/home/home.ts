@@ -36,8 +36,10 @@ export class HomePage {
         dia.cronograma.forEach(horario => {
           horario.charlas.forEach(charla => {
             if(
-              (charla.titulo_es.toLowerCase().indexOf(val.toLowerCase()) > -1) ||
-              (charla.titulo_en.toLowerCase().indexOf(val.toLowerCase()) > -1)
+              (this.eliminarDiacriticos(charla.titulo_es).toLowerCase().indexOf(
+                this.eliminarDiacriticos(val).toLowerCase()) > -1) ||
+              (this.eliminarDiacriticos(charla.titulo_en).toLowerCase().indexOf(
+                this.eliminarDiacriticos(val).toLowerCase()) > -1)
             ) {
               console.log('entro al if')
               let day = this.searchResult.find(row => row.dia === dia.dia)
@@ -76,6 +78,10 @@ export class HomePage {
       objeto.titulo_lang = objeto.titulo_en;
     }
     return objeto.titulo_lang;
+  }
+
+  eliminarDiacriticos(texto) {
+    return texto.normalize('NFD').replace(/[\u0300-\u036f]/g,"");
   }
 
 

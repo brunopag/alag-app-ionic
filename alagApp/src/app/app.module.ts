@@ -42,6 +42,7 @@ import { IonicImageViewerModule } from 'ionic-img-viewer';
 import { InfoCentroConvencionPage } from '../pages/info-centro-convencion/info-centro-convencion';
 import { InfoPatrocinadoresPage } from '../pages/info-patrocinadores/info-patrocinadores';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { SpeakersSpeakerDetailsPage } from '../pages/speakers-speaker-details/speakers-speaker-details';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
     CategoriaListPage,
     PlanoAuditorioPage,
     InfoCentroConvencionPage,
-    InfoPatrocinadoresPage
+    InfoPatrocinadoresPage,
+    SpeakersSpeakerDetailsPage
   ],
   imports: [
     BrowserModule,
@@ -99,7 +101,8 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
     CategoriaListPage,
     PlanoAuditorioPage,
     InfoCentroConvencionPage,
-    InfoPatrocinadoresPage
+    InfoPatrocinadoresPage,
+    SpeakersSpeakerDetailsPage
   ],
   providers: [
     StatusBar,

@@ -1,6 +1,6 @@
 <ion-header [ngClass]="{'header-without-tab': searchResult.length !== 0 && !textSearch}">
     <header-navbar></header-navbar>
-    <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    <ion-searchbar placeholder="{{ 'home.placeholder' | translate }}" (ionInput)="getItems($event)"></ion-searchbar>
     <div *ngIf="searchResult.length === 0 && !textSearch">
         <ion-segment [(ngModel)]="days">
             <ion-segment-button value="0">

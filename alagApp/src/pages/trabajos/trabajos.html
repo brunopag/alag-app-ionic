@@ -1,6 +1,6 @@
 <ion-header>
     <header-navbar></header-navbar>
-    <ion-searchbar (ionInput)="busuqedaTrabajos($event)"></ion-searchbar>
+    <ion-searchbar (search)="busuqedaTrabajos($event)" (ionInput)="checkIfClear($event)"></ion-searchbar>
 </ion-header>
 
 <ion-content padding>

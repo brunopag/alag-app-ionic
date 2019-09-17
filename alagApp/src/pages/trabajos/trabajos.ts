@@ -120,4 +120,14 @@ export class TrabajosPage {
     
   }
 
+  checkIfClear(busqueda) {
+    console.log('checkIfClear');
+    let terminoBusqueda = busqueda.target.value;
+    if(!terminoBusqueda) {
+      this.buscandoTrabajos = false;
+      this.resultadoVacio = false;
+      this.trabajosBusqueda = [];
+    }
+  }
+
 }

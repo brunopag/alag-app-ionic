@@ -1,7 +1,8 @@
 {
     "home": {
         "dia": "Day",
-        "resultadosVacio": "There is not results for this search"
+        "resultadosVacio": "There is not results for this search",
+        "placeholder": "Search"
     },
     "tabs": {
         "cronograma": "Schedule",
@@ -51,5 +52,8 @@
         "lugar10": "MEANS OF TRANSPORT:",
         "lugar11": "Public bus – Taxi",
         "planoBoton": "Plan of the congress center"
+    },
+    "speakers": {
+        "placeholder": "Search by author or workplace"
     }
 }

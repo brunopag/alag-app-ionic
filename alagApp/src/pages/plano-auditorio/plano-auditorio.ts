@@ -17,6 +17,8 @@ import { PhotoViewer } from '@ionic-native/photo-viewer';
 })
 export class PlanoAuditorioPage {
 
+  url = 'http://www.inforsap.com/img/plano-congreso-alag.jpg';
+
   constructor(public navCtrl: NavController, public navParams: NavParams
     ,private photoViewer: PhotoViewer
     ,private file: File) {
