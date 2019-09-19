@@ -1,13 +1,13 @@
 webpackJsonp([13],{
 
-/***/ 111:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TrabajosProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(204);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -67,7 +67,7 @@ var TrabajosProvider = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CategoriaListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_trabajos_trabajos__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_trabajos_trabajos__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_translation_translation__ = __webpack_require__(28);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -166,10 +166,61 @@ var CategoriaListPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfoPatrocinadoresPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__ = __webpack_require__(65);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the InfoPatrocinadoresPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var InfoPatrocinadoresPage = /** @class */ (function () {
+    function InfoPatrocinadoresPage(navCtrl, navParams, iab) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.iab = iab;
+    }
+    InfoPatrocinadoresPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad InfoPatrocinadoresPage');
+    };
+    InfoPatrocinadoresPage.prototype.navegarPaginaWeb = function (url) {
+        this.iab.create(url, '_system');
+    };
+    InfoPatrocinadoresPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-info-patrocinadores',template:/*ion-inline-start:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\info-patrocinadores\info-patrocinadores.html"*/'<!--\n  Generated template for the InfoPatrocinadoresPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar>\n        <ion-title>Patrocinadores</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <ion-card>\n        <ion-card-content>\n            <ion-card-title>\n                Patrocinadores\n            </ion-card-title>\n\n            <img (click)="navegarPaginaWeb(\'https://www.argentina.gob.ar/ciencia\')" src="../../assets/imgs/sponsors/nuevos/LogoSECCIENCIA.png" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.turismo.mendoza.gov.ar/\')" src="../../assets/imgs/sponsors/turismo-mendoza.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.conicet.gov.ar/\')" src="../../assets/imgs/sponsors/logoCONICET.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.argentina.gob.ar/ciencia/agencia\')" src="../../assets/imgs/sponsors/logoAGENCIA.jpg" alt="">\n\n            <img src="../../assets/imgs/sponsors/logoIGF.jpg" alt="">\n\n            <img src="../../assets/imgs/sponsors/logoARFIC-1.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.biosystems.com.ar/\')" src="../../assets/imgs/sponsors/LogoBSl.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://metasystems-international.com/\')" src="../../assets/imgs/sponsors/LogoMetasyste.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://mgiamericas.com/\')" src="../../assets/imgs/sponsors/nuevos/mgi.png" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.analytical.com/\')" src="../../assets/imgs/sponsors/Logoanalytical.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.syngenta.com.ar/\')" src="../../assets/imgs/sponsors/syngentalogo.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.corteva.com/\')" src="../../assets/imgs/sponsors/logoCORTEVA.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.eppendorf.com/\')" src="../../assets/imgs/sponsors/nuevos/logoeppendorf.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://en.novogene.com/\')" src="../../assets/imgs/sponsors/novogene.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.biocientifica.com.ar/\')" src="../../assets/imgs/sponsors/nuevos/biocientífica.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.bio-optic.com/\')" src="../../assets/imgs/sponsors/nuevos/logobiooptic.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.biodynamics.com.ar/\')" src="../../assets/imgs/sponsors/logoBYODINAMICS.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.tecnolab.com.ar/\')" src="../../assets/imgs/sponsors/logoTECNOLAB.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.cwrdiversity.org/\')" src="../../assets/imgs/sponsors/logoCROP.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.croptrust.org/\')" src="../../assets/imgs/sponsors/logoCROPTRUST.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://norad.no/en/front/\')" src="../../assets/imgs/sponsors/logoNORAD.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.regjeringen.no/en/dep/ud/id833/\')" src="../../assets/imgs/sponsors/logoNORW.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.acacoop.com.ar/\')" src="../../assets/imgs/sponsors/nuevos/aca.png" alt="">\n\n        </ion-card-content>\n    </ion-card>\n</ion-content>'/*ion-inline-end:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\info-patrocinadores\info-patrocinadores.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */]])
+    ], InfoPatrocinadoresPage);
+    return InfoPatrocinadoresPage;
+}());
+
+//# sourceMappingURL=info-patrocinadores.js.map
+
+/***/ }),
+
+/***/ 146:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfoCentroConvencionPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__plano_auditorio_plano_auditorio__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__plano_auditorio_plano_auditorio__ = __webpack_require__(147);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_in_app_browser__ = __webpack_require__(65);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -212,14 +263,14 @@ var InfoCentroConvencionPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 146:
+/***/ 147:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlanoAuditorioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_file__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_file__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_photo_viewer__ = __webpack_require__(215);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -283,57 +334,6 @@ var PlanoAuditorioPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=plano-auditorio.js.map
-
-/***/ }),
-
-/***/ 147:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfoPatrocinadoresPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__ = __webpack_require__(65);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the InfoPatrocinadoresPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var InfoPatrocinadoresPage = /** @class */ (function () {
-    function InfoPatrocinadoresPage(navCtrl, navParams, iab) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.iab = iab;
-    }
-    InfoPatrocinadoresPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad InfoPatrocinadoresPage');
-    };
-    InfoPatrocinadoresPage.prototype.navegarPaginaWeb = function (url) {
-        this.iab.create(url, '_system');
-    };
-    InfoPatrocinadoresPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-info-patrocinadores',template:/*ion-inline-start:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\info-patrocinadores\info-patrocinadores.html"*/'<!--\n  Generated template for the InfoPatrocinadoresPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar>\n        <ion-title>Patrocinadores</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <ion-card>\n        <ion-card-content>\n            <ion-card-title>\n                Patrocinadores\n            </ion-card-title>\n\n            <img (click)="navegarPaginaWeb(\'https://www.argentina.gob.ar/ciencia\')" src="../../assets/imgs/sponsors/nuevos/LogoSECCIENCIA.png" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.turismo.mendoza.gov.ar/\')" src="../../assets/imgs/sponsors/turismo-mendoza.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.conicet.gov.ar/\')" src="../../assets/imgs/sponsors/logoCONICET.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.argentina.gob.ar/ciencia/agencia\')" src="../../assets/imgs/sponsors/logoAGENCIA.jpg" alt="">\n\n            <img src="../../assets/imgs/sponsors/logoIGF.jpg" alt="">\n\n            <img src="../../assets/imgs/sponsors/logoARFIC-1.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.biosystems.com.ar/\')" src="../../assets/imgs/sponsors/LogoBSl.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://metasystems-international.com/\')" src="../../assets/imgs/sponsors/LogoMetasyste.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://mgiamericas.com/\')" src="../../assets/imgs/sponsors/nuevos/mgi.png" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.analytical.com/\')" src="../../assets/imgs/sponsors/Logoanalytical.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.syngenta.com.ar/\')" src="../../assets/imgs/sponsors/syngentalogo.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.corteva.com/\')" src="../../assets/imgs/sponsors/logoCORTEVA.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.eppendorf.com/\')" src="../../assets/imgs/sponsors/nuevos/logoeppendorf.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://en.novogene.com/\')" src="../../assets/imgs/sponsors/novogene.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.biocientifica.com.ar/\')" src="../../assets/imgs/sponsors/nuevos/biocientífica.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.bio-optic.com/\')" src="../../assets/imgs/sponsors/nuevos/logobiooptic.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.biodynamics.com.ar/\')" src="../../assets/imgs/sponsors/logoBYODINAMICS.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.tecnolab.com.ar/\')" src="../../assets/imgs/sponsors/logoTECNOLAB.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.cwrdiversity.org/\')" src="../../assets/imgs/sponsors/logoCROP.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.croptrust.org/\')" src="../../assets/imgs/sponsors/logoCROPTRUST.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://norad.no/en/front/\')" src="../../assets/imgs/sponsors/logoNORAD.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.regjeringen.no/en/dep/ud/id833/\')" src="../../assets/imgs/sponsors/logoNORW.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.acacoop.com.ar/\')" src="../../assets/imgs/sponsors/nuevos/aca.png" alt="">\n\n        </ion-card-content>\n    </ion-card>\n</ion-content>'/*ion-inline-end:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\info-patrocinadores\info-patrocinadores.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */]])
-    ], InfoPatrocinadoresPage);
-    return InfoPatrocinadoresPage;
-}());
-
-//# sourceMappingURL=info-patrocinadores.js.map
 
 /***/ }),
 
@@ -452,9 +452,10 @@ var NotificationListPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SpeakersSpeakerDetailsPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StartPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_tabs__ = __webpack_require__(219);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -466,26 +467,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var SpeakersSpeakerDetailsPage = /** @class */ (function () {
-    function SpeakersSpeakerDetailsPage(navCtrl, navParams) {
+
+/**
+ * Generated class for the StartPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var StartPage = /** @class */ (function () {
+    function StartPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.disertante = this.navParams.get('disertante');
-        console.log('disertante', this.disertante);
     }
-    SpeakersSpeakerDetailsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad SpeakersSpeakerDetailsPage');
+    StartPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad StartPage');
     };
-    SpeakersSpeakerDetailsPage = __decorate([
+    StartPage.prototype.goHome = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__tabs_tabs__["a" /* TabsPage */]);
+    };
+    StartPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-speakers-speaker-details',template:/*ion-inline-start:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\speakers-speaker-details\speakers-speaker-details.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{disertante.nombre}}</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <img src="{{disertante.image}}" alt="" imageViewer>\n    <p style="text-align: center;"><small>(Toca para agrandar)</small></p>\n</ion-content>'/*ion-inline-end:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\speakers-speaker-details\speakers-speaker-details.html"*/,
+            selector: 'page-start',template:/*ion-inline-start:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\start\start.html"*/'<ion-content padding>\n\n    <img style="width: 100%; margin-top: 30px;margin-bottom: 10px;" src="../../assets/imgs/FondoSistemadeinscripcion.jpg" alt="">\n    <!-- <img src="../../assets/imgs/alag-home2.JPG" alt=""> -->\n\n    <div text-center style="margin-bottom: 30px;">\n        <h3>La arquitectura del genoma: su expresión en los fenotipos y las expresiones</h3>\n        <p>XVII Congreso Latinoamericano de Genética</p>\n        <p>XLVII Congreso Argentino de Genética</p>\n        <p>LII Reunión Anual de la Sociedad de Genética de Chile</p>\n        <p>VI Congreso de la Sociedad Uruguaya de Genética</p>\n        <p>V Congreso Latinoamericano de Genética Humana y</p>\n        <p>V Simposio Latinoamericano de Citogenética y Evolución</p>\n    </div>\n\n    <button ion-button block color="success" (click)="goHome()">Ingresar</button>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\start\start.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
-    ], SpeakersSpeakerDetailsPage);
-    return SpeakersSpeakerDetailsPage;
+    ], StartPage);
+    return StartPage;
 }());
 
-//# sourceMappingURL=speakers-speaker-details.js.map
+//# sourceMappingURL=start.js.map
 
 /***/ }),
 
@@ -496,8 +505,8 @@ var SpeakersSpeakerDetailsPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SpeakersPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_disertantes__ = __webpack_require__(323);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__speakers_speaker_details_speakers_speaker_details__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_disertantes__ = __webpack_require__(324);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__speakers_speaker_details_speakers_speaker_details__ = __webpack_require__(151);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -562,10 +571,9 @@ var SpeakersPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StartPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SpeakersSpeakerDetailsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tabs_tabs__ = __webpack_require__(219);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -577,34 +585,26 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
-/**
- * Generated class for the StartPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var StartPage = /** @class */ (function () {
-    function StartPage(navCtrl, navParams) {
+var SpeakersSpeakerDetailsPage = /** @class */ (function () {
+    function SpeakersSpeakerDetailsPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.disertante = this.navParams.get('disertante');
+        console.log('disertante', this.disertante);
     }
-    StartPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad StartPage');
+    SpeakersSpeakerDetailsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad SpeakersSpeakerDetailsPage');
     };
-    StartPage.prototype.goHome = function () {
-        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__tabs_tabs__["a" /* TabsPage */]);
-    };
-    StartPage = __decorate([
+    SpeakersSpeakerDetailsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-start',template:/*ion-inline-start:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\start\start.html"*/'<ion-content padding>\n\n    <img style="width: 100%; margin-top: 30px;margin-bottom: 10px;" src="../../assets/imgs/FondoSistemadeinscripcion.jpg" alt="">\n    <!-- <img src="../../assets/imgs/alag-home2.JPG" alt=""> -->\n\n    <div text-center style="margin-bottom: 30px;">\n        <h3>La arquitectura del genoma: su expresión en los fenotipos y las expresiones</h3>\n        <p>XVII Congreso Latinoamericano de Genética</p>\n        <p>XLVII Congreso Argentino de Genética</p>\n        <p>LII Reunión Anual de la Sociedad de Genética de Chile</p>\n        <p>VI Congreso de la Sociedad Uruguaya de Genética</p>\n        <p>V Congreso Latinoamericano de Genética Humana y</p>\n        <p>V Simposio Latinoamericano de Citogenética y Evolución</p>\n    </div>\n\n    <button ion-button block color="success" (click)="goHome()">Ingresar</button>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\start\start.html"*/,
+            selector: 'page-speakers-speaker-details',template:/*ion-inline-start:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\speakers-speaker-details\speakers-speaker-details.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>{{disertante.nombre}}</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <img src="{{disertante.image}}" alt="" imageViewer>\n    <p style="text-align: center;"><small>(Toca para agrandar)</small></p>\n</ion-content>'/*ion-inline-end:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\speakers-speaker-details\speakers-speaker-details.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */]])
-    ], StartPage);
-    return StartPage;
+    ], SpeakersSpeakerDetailsPage);
+    return SpeakersSpeakerDetailsPage;
 }());
 
-//# sourceMappingURL=start.js.map
+//# sourceMappingURL=speakers-speaker-details.js.map
 
 /***/ }),
 
@@ -615,7 +615,7 @@ var StartPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TrabajosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_trabajos_trabajos__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_trabajos_trabajos__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__trabajo_details_trabajo_details__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_favorites_list_pages_favorites_list__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__categoria_list_categoria_list__ = __webpack_require__(144);
@@ -785,19 +785,19 @@ webpackEmptyAsyncContext.id = 161;
 
 var map = {
 	"../pages/categoria-list/categoria-list.module": [
-		445,
+		444,
 		12
 	],
 	"../pages/conferencia-details/conferencia-details.module": [
-		444,
+		445,
 		11
 	],
 	"../pages/info-centro-convencion/info-centro-convencion.module": [
-		446,
+		447,
 		10
 	],
 	"../pages/info-patrocinadores/info-patrocinadores.module": [
-		447,
+		446,
 		9
 	],
 	"../pages/notification-list/notification-list.module": [
@@ -805,27 +805,27 @@ var map = {
 		8
 	],
 	"../pages/notification/notification.module": [
-		449,
+		450,
 		7
 	],
 	"../pages/pages-favorites-list/pages-favorites-list.module": [
-		450,
+		449,
 		6
 	],
 	"../pages/plano-auditorio/plano-auditorio.module": [
-		451,
+		452,
 		5
 	],
 	"../pages/speakers-speaker-details/speakers-speaker-details.module": [
-		452,
+		453,
 		4
 	],
 	"../pages/speakers/speakers.module": [
-		453,
+		454,
 		3
 	],
 	"../pages/start/start.module": [
-		454,
+		451,
 		2
 	],
 	"../pages/trabajo-details/trabajo-details.module": [
@@ -853,7 +853,7 @@ module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 211:
+/***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1092,8 +1092,8 @@ var TabsPage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__info_centro_convencion_info_centro_convencion__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__info_patrocinadores_info_patrocinadores__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__info_centro_convencion_info_centro_convencion__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__info_patrocinadores_info_patrocinadores__ = __webpack_require__(145);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_in_app_browser__ = __webpack_require__(65);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1144,7 +1144,7 @@ var AboutPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_translation_translation__ = __webpack_require__(28);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_programa__ = __webpack_require__(324);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_programa__ = __webpack_require__(323);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__conferencia_details_conferencia_details__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_favorites_list_pages_favorites_list__ = __webpack_require__(74);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1484,7 +1484,7 @@ var TranslationProvider = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(341);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_common_http__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ngx_translate_core__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ngx_translate_http_loader__ = __webpack_require__(342);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_about_about__ = __webpack_require__(220);
@@ -1503,18 +1503,18 @@ var TranslationProvider = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_notification_list_notification_list__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_conferencia_details_conferencia_details__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_pages_favorites_list_pages_favorites_list__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_start_start__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__providers_trabajos_trabajos__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_start_start__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__providers_trabajos_trabajos__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_trabajo_details_trabajo_details__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_categoria_list_categoria_list__ = __webpack_require__(144);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_plano_auditorio_plano_auditorio__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_plano_auditorio_plano_auditorio__ = __webpack_require__(147);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__ionic_native_photo_viewer__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_native_file__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_native_file__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31_ionic_img_viewer__ = __webpack_require__(343);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_info_centro_convencion_info_centro_convencion__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_info_patrocinadores_info_patrocinadores__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_info_centro_convencion_info_centro_convencion__ = __webpack_require__(146);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_info_patrocinadores_info_patrocinadores__ = __webpack_require__(145);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__ionic_native_in_app_browser__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_speakers_speaker_details_speakers_speaker_details__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_speakers_speaker_details_speakers_speaker_details__ = __webpack_require__(151);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1593,17 +1593,17 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["k" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/conferencia-details/conferencia-details.module#ConferenciaDetailsPageModule', name: 'ConferenciaDetailsPage', segment: 'conferencia-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/categoria-list/categoria-list.module#CategoriaListPageModule', name: 'CategoriaListPage', segment: 'categoria-list', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/info-centro-convencion/info-centro-convencion.module#InfoCentroConvencionPageModule', name: 'InfoCentroConvencionPage', segment: 'info-centro-convencion', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/conferencia-details/conferencia-details.module#ConferenciaDetailsPageModule', name: 'ConferenciaDetailsPage', segment: 'conferencia-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info-patrocinadores/info-patrocinadores.module#InfoPatrocinadoresPageModule', name: 'InfoPatrocinadoresPage', segment: 'info-patrocinadores', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/info-centro-convencion/info-centro-convencion.module#InfoCentroConvencionPageModule', name: 'InfoCentroConvencionPage', segment: 'info-centro-convencion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/notification-list/notification-list.module#NotificationListPageModule', name: 'NotificationListPage', segment: 'notification-list', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/notification/notification.module#NotificationPageModule', name: 'NotificationPage', segment: 'notification', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/pages-favorites-list/pages-favorites-list.module#PagesFavoritesListPageModule', name: 'PagesFavoritesListPage', segment: 'pages-favorites-list', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/notification/notification.module#NotificationPageModule', name: 'NotificationPage', segment: 'notification', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/start/start.module#StartPageModule', name: 'StartPage', segment: 'start', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/plano-auditorio/plano-auditorio.module#PlanoAuditorioPageModule', name: 'PlanoAuditorioPage', segment: 'plano-auditorio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/speakers-speaker-details/speakers-speaker-details.module#SpeakersSpeakerDetailsPageModule', name: 'SpeakersSpeakerDetailsPage', segment: 'speakers-speaker-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/speakers/speakers.module#SpeakersPageModule', name: 'SpeakersPage', segment: 'speakers', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/start/start.module#StartPageModule', name: 'StartPage', segment: 'start', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/trabajo-details/trabajo-details.module#TrabajoDetailsPageModule', name: 'TrabajoDetailsPage', segment: 'trabajo-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/trabajos/trabajos.module#TrabajosPageModule', name: 'TrabajosPage', segment: 'trabajos', priority: 'low', defaultHistory: [] }
                     ]
@@ -1730,723 +1730,6 @@ var fechaTrabajos = [
 /***/ }),
 
 /***/ 323:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return disertantes; });
-var disertantes = [
-    {
-        nombre: 'Marcelo Guerra',
-        lugarTrabajo: 'Brasil',
-        image: '../../assets/imgs/trabajos/marcelo-guerra.JPG'
-    },
-    {
-        nombre: 'Norma Circe Magnelli',
-        lugarTrabajo: 'Instituto de Genética, Facultad de Ciencias Médicas, UNCuyo, Argentina.',
-        image: '../../assets/imgs/trabajos/Norma-Circe-Magnelli.JPG'
-    },
-    {
-        nombre: 'Mónica Sans',
-        lugarTrabajo: 'Departamento de Antropología Biológica, Universidad de la República, Uruguay.',
-        image: '../../assets/imgs/trabajos/Monica-Sans.JPG'
-    },
-    {
-        nombre: 'Michael Goddard',
-        lugarTrabajo: 'University of Melbourne and Agriculture Victoria, Australia.',
-        image: '../../assets/imgs/trabajos/Michael-Goddard.JPG'
-    },
-    {
-        nombre: 'Pablo Cavagnaro',
-        lugarTrabajo: 'CONICET- INTA EEA La Consulta, Fac. Cs. Agrarias, UNCuyo, Argentina.',
-        image: '../../assets/imgs/trabajos/Pablo-Cavagnaro.JPG'
-    },
-    {
-        nombre: 'Marcio C. Silva-filho',
-        lugarTrabajo: 'Universidade de São Paulo.',
-        image: '../../assets/imgs/trabajos/Marcio-Silva-filho.JPG'
-    },
-    {
-        nombre: 'Stef De Haan',
-        lugarTrabajo: 'International Potato Center (CIP), Perú.',
-        image: '../../assets/imgs/trabajos/Stef-De-Haan.JPG',
-        image2: '../../assets/imgs/trabajos/Stef-De-Haan2.JPG'
-    },
-    {
-        nombre: 'Ricardo Masuelli',
-        lugarTrabajo: 'Facultad de Ciencias Agrarias, IBAM-CONICET-UNCUYO, Argentina.',
-        image: '../../assets/imgs/trabajos/Ricardo-Masuelli.JPG'
-    },
-    {
-        nombre: 'Mauricio Moraga',
-        lugarTrabajo: 'Programa de Genética Humana, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Departamento de Antropología, Facultad de Ciencias Sociales, Universidad de Chile, Santiago, Chile',
-        image: '../../assets/imgs/trabajos/Mauricio-Moraga.JPG'
-    },
-    {
-        nombre: 'Sandro Bonatto',
-        lugarTrabajo: 'Escola de Ciências, Pontifícia Universidade Católica do Rio Grande do Sul, Brasil.',
-        image: '../../assets/imgs/trabajos/Sandro-Bonatto.JPG'
-    },
-    {
-        nombre: 'Jonas Alex Morales Saute',
-        lugarTrabajo: 'Serviço de Genética Médica, Hospital de Clinicas de Porto Alegre.',
-        image: '../../assets/imgs/trabajos/Jonas-Alex-Morales-Saute.JPG'
-    },
-    {
-        nombre: 'Michel Naslavsky',
-        lugarTrabajo: 'Universidade de São Paulo.',
-        image: '../../assets/imgs/trabajos/Michel-Naslavsky.JPG'
-    },
-    {
-        nombre: 'Leonela Natalia Luce',
-        lugarTrabajo: 'Universidad de Buenos Aires, Facultad de Farmacia y Bioquímica, Cátedra de Genética, Buenos Aires, Argentina; CONICET- Universidad de Buenos Aires, Instituto de Inmunología, Genética y Metabolismo (INIGEM), Buenos Aires, Argentina.',
-        image: '../../assets/imgs/trabajos/Leonela-Natalia-Luce.JPG'
-    },
-    {
-        nombre: 'Fernando Suarez-obando',
-        lugarTrabajo: 'Instituto de Genética Humana, Facultad de Medicina, Pontificia Universidad Javeriana; Servicio de Genética, Hospital Universitario San Ignacio, Colombia.',
-        image: '../../assets/imgs/trabajos/Fernando-Suarez-obando.JPG'
-    },
-    {
-        nombre: 'Alberto Luis Rosa',
-        lugarTrabajo: 'IRNASUS-CONICET/FCQ-UCC; Fundación Allende; Sanatorio Allende, Argentina.',
-        image: '../../assets/imgs/trabajos/Alberto-Luis-Rosa.JPG'
-    },
-    {
-        nombre: 'Jorge Alfredo Bevilacqua',
-        lugarTrabajo: 'Hospital Clínico Universidad de Chile, Facultad de Medicina, Universidad de Chile.',
-        image: '../../assets/imgs/trabajos/Jorge-Alfredo-Bevilacqua.JPG'
-    },
-    {
-        nombre: 'Mariela Larrandaburu',
-        lugarTrabajo: 'Ministerio de Salud Pública, Montevideo, Uruguay.',
-        image: '../../assets/imgs/trabajos/Mariela-Larrandaburu.JPG',
-        image2: '../../assets/imgs/trabajos/Mariela-Larrandaburu2.JPG'
-    },
-    {
-        nombre: 'Rosa Liascovich',
-        lugarTrabajo: 'Centro Nacional de Genética Médica, ANLIS, Ministerio de Salud, Argentina.',
-        image: '../../assets/imgs/trabajos/Rosa-Liascovich.JPG'
-    },
-    {
-        nombre: 'Ignacio Zarante',
-        lugarTrabajo: 'Pontificia Universidad Javeriana Bogotá.',
-        image: '../../assets/imgs/trabajos/Ignacio-Zarante.JPG'
-    },
-    {
-        nombre: 'Iêda Maria Orioli',
-        lugarTrabajo: 'Department of Genetics, Institute of Biology, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil; National Institute of Population Medical Genetics (INAGEMP), Porto Alegre, Brasil.',
-        image: '../../assets/imgs/trabajos/Ieda-Maria-Orioli.JPG'
-    },
-    {
-        nombre: 'Mev Dominguez Valentin',
-        lugarTrabajo: 'Oslo University Hospital, Noruega.',
-        image: '../../assets/imgs/trabajos/Mev-Dominguez-Valentin.JPG'
-    },
-    {
-        nombre: 'Pilar Carvallo',
-        lugarTrabajo: 'Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile.',
-        image: '../../assets/imgs/trabajos/Pilar-Carvallo.JPG'
-    },
-    {
-        nombre: 'Benedito Rossi',
-        lugarTrabajo: 'Brazil.',
-        image: '../../assets/imgs/trabajos/Benedito-Rossi.JPG'
-    },
-    {
-        nombre: 'Adriana Della Valle',
-        lugarTrabajo: 'Hospital Central de las Fuerzas Armadas, Montevideo.',
-        image: '../../assets/imgs/trabajos/Adriana-Della-Valle.JPG'
-    },
-    {
-        nombre: 'Carlos Vaccaro',
-        lugarTrabajo: 'Hospital Italiano Buenos Aires, Argentina.',
-        image: '../../assets/imgs/trabajos/Carlos-Vaccaro.JPG'
-    },
-    {
-        nombre: 'Elsa Lucila Camadro',
-        lugarTrabajo: 'FCA, Universidad Nacional de Mar del Plata, Argentina.',
-        image: '../../assets/imgs/trabajos/Elsa-Lucila-Camadro.JPG'
-    },
-    {
-        nombre: 'Luciana Carla Silvestri',
-        lugarTrabajo: 'INCIHUSA, CONICET MENDOZA, Argentina.',
-        image: '../../assets/imgs/trabajos/Luciana-Carla-Silvestri.JPG'
-    },
-    {
-        nombre: 'Josita Soares Monteiro',
-        lugarTrabajo: 'Universidade Federal de Santa Maria, Brasil.',
-        image: '../../assets/imgs/trabajos/Josita-Soares-Monteiro.JPG'
-    },
-    {
-        nombre: 'Guillermo Vila Melo',
-        lugarTrabajo: 'Buenos Aires, Argentina.',
-        image: '../../assets/imgs/trabajos/Guillermo-Vila-Melo.JPG'
-    },
-    {
-        nombre: 'Andrea Pedrosa-harand',
-        lugarTrabajo: 'Departamento de Botânica, Universidade Federal of Pernambuco, Recife-PE, Brasil.',
-        image: '../../assets/imgs/trabajos/Andrea-Pedrosa-harand.JPG',
-        image2: '../../assets/imgs/trabajos/Andrea-Pedrosa-harand2.JPG'
-    },
-    {
-        nombre: 'Ana Christina Brasileiro-vidal',
-        lugarTrabajo: 'Universidade Federal de Pernambuco, Brasil.',
-        image: '../../assets/imgs/trabajos/Ana-Christina-Brasileiro-vidal.JPG'
-    },
-    {
-        nombre: 'Giovana Torres',
-        lugarTrabajo: 'Universidade Federal de Lavras, Brasil.',
-        image: '../../assets/imgs/trabajos/Giovana-Torres.JPG'
-    },
-    {
-        nombre: 'Julio Pieczarka',
-        lugarTrabajo: 'Universidade Federal do Para, Brasil.',
-        image: '../../assets/imgs/trabajos/Julio-Pieczarka.JPG'
-    },
-    {
-        nombre: 'Luis R Zapata Ortiz',
-        lugarTrabajo: 'ICR, London, UK.',
-        image: '../../assets/imgs/trabajos/Luis-Zapata-Ortiz.JPG',
-        image2: '../../assets/imgs/trabajos/Luis-Zapata-Ortiz2.JPG'
-    },
-    {
-        nombre: 'Dario Riccardo Valenzano',
-        lugarTrabajo: 'Max Planck Institute for Biology of Ageing, Cologne, Germany.',
-        image: '../../assets/imgs/trabajos/Dario-Riccardo-Valenzano.JPG'
-    },
-    {
-        nombre: 'Gregorio Iraola',
-        lugarTrabajo: 'Institut Pasteur de Montevideo, Uruguay.',
-        image: '../../assets/imgs/trabajos/Gregorio-Iraola.JPG'
-    },
-    {
-        nombre: 'Daniela Bezdan',
-        lugarTrabajo: 'Weill Cornell Medicine, USA.',
-        image: '../../assets/imgs/trabajos/Daniela-Bezdan.JPG'
-    },
-    {
-        nombre: 'Vanesa Gottifredi',
-        lugarTrabajo: 'Fundación Instituto Leloir, Buenos Aires, Argentina.',
-        image: '../../assets/imgs/trabajos/Vanesa-Gottifredi.JPG',
-        image2: '../../assets/imgs/trabajos/Vanesa-Gottifredi2.JPG'
-    },
-    {
-        nombre: 'Gaston Soria',
-        lugarTrabajo: 'CIBICI-CONICET, Universidad Nacional de Córdoba, Argentina.',
-        image: '../../assets/imgs/trabajos/Gaston-Soria.JPG'
-    },
-    {
-        nombre: 'Wilner Martinez',
-        lugarTrabajo: 'Epigenetics and Genomic Instability Laboratory, Instituto de Investigaciones Biológicas Clemente Estable, Montevideo, Uruguay.',
-        image: '../../assets/imgs/trabajos/Wilner-Martinez.JPG'
-    },
-    {
-        nombre: 'Clarissa Rocha',
-        lugarTrabajo: 'Federal University of Sao Paulo, Brazil.',
-        image: '../../assets/imgs/trabajos/Clarissa-Rocha.JPG',
-        image2: '../../assets/imgs/trabajos/Clarissa-Rocha2.JPG'
-    },
-    {
-        nombre: 'Maria Rosa Lanari',
-        lugarTrabajo: 'INTA EEA Bariloche, Argentina.',
-        image: '../../assets/imgs/trabajos/Maria-Rosa-Lanari.JPG',
-        image2: '../../assets/imgs/trabajos/Maria-Rosa-Lanari2.JPG'
-    },
-    {
-        nombre: 'Amparo Martinez',
-        lugarTrabajo: 'Departamento de Genética, Universidad de Córdoba, España.',
-        image: '../../assets/imgs/trabajos/Amparo-Martinez.JPG'
-    },
-    {
-        nombre: 'Juan Carlos Marín Contreras',
-        lugarTrabajo: 'Departamento de Ciencias Básicas, Universidad del Bío-Bío, Chile.',
-        image: '../../assets/imgs/trabajos/Juan-Carlos-Marin-Contreras.JPG'
-    },
-    {
-        nombre: 'Samuel Rezende Paiva',
-        lugarTrabajo: 'Embrapa Recursos Genéticos e Biotecnologia, Prédio Conservação Germoplasma, Laboratório Genética Animal, Brasília, DF, Brasil.',
-        image: '../../assets/imgs/trabajos/Samuel-Rezende-Paiva.JPG'
-    },
-    {
-        nombre: 'Elzbieta Martyniuk',
-        lugarTrabajo: 'Department of Animal Genetics and Breeding, Warsaw University of Life Sciences, Poland.',
-        image: '../../assets/imgs/trabajos/Elzbieta-Martyniuk.JPG'
-    },
-    {
-        nombre: 'Guillermo Pratta',
-        lugarTrabajo: 'IICAR, Argentina.',
-        image: '../../assets/imgs/trabajos/Guillermo-Pratta.JPG',
-        image2: '../../assets/imgs/trabajos/Guillermo-Pratta2.JPG'
-    },
-    {
-        nombre: 'Pablo Reeb',
-        lugarTrabajo: 'Universidad Nacional del Comahue, Argentina.',
-        image: '../../assets/imgs/trabajos/Pablo-Reeb.JPG'
-    },
-    {
-        nombre: 'Maria Vibranovski',
-        lugarTrabajo: 'Department of Genetics and Evolutionary Biology, Institute of Biosciences, Universidade de São Paulo, Brasil.',
-        image: '../../assets/imgs/trabajos/Maria-Vibranovski.JPG'
-    },
-    {
-        nombre: 'Marco Aurelio Cristancho',
-        lugarTrabajo: 'BIOS, Colombia.',
-        image: '../../assets/imgs/trabajos/Marco-Aurelio-Cristancho.JPG'
-    },
-    {
-        nombre: 'Lavinia Schuler Faccini',
-        lugarTrabajo: 'Universidade Federal do Rio Grande do Sul, Brasil.',
-        image: '../../assets/imgs/trabajos/Lavinia-Schuler-Faccini.JPG',
-        image2: '../../assets/imgs/trabajos/Lavinia-Schuler-Faccini2.JPG'
-    },
-    {
-        nombre: 'Maria Cátira Bortolini',
-        lugarTrabajo: 'Universidade Federal do Rio Grande do Sul, Brasil.',
-        image: '../../assets/imgs/trabajos/Maria-Catira-Bortolini.JPG'
-    },
-    {
-        nombre: 'Francyne Kubaski',
-        lugarTrabajo: 'MGS- HCPA, UFRGS, INAGEMP, Fundação Médica do RS, Porto Alegre, Brazil.',
-        image: '../../assets/imgs/trabajos/Francyne-Kubaski.JPG'
-    },
-    {
-        nombre: 'Harvy Velasco',
-        lugarTrabajo: 'Unidad de Genética, DINAMICA IPS, Medellín, Colombia.',
-        image: '../../assets/imgs/trabajos/Harvy-Velasco.JPG',
-        image2: '../../assets/imgs/trabajos/Harvy-Velasco2.JPG'
-    },
-    {
-        nombre: 'Maria Ana Redal',
-        lugarTrabajo: 'INFIBIOC, FFyB, UBA, Argentina.',
-        image: '../../assets/imgs/trabajos/Maria-Ana-Redal.JPG'
-    },
-    {
-        nombre: 'Luis Quiñones',
-        lugarTrabajo: 'Facultad de Medicina, Universidad de Chile.',
-        image: '../../assets/imgs/trabajos/Luis-Quinones.JPG'
-    },
-    {
-        nombre: 'Julian Chamorro',
-        lugarTrabajo: 'Laboratorio de Hemostasis y Trombosis, Hospital de Enfermedades Infecciosas “F.J. Muñíz”, Buenos Aires, Argentina.',
-        image: '../../assets/imgs/trabajos/Julian-Chamorro.JPG'
-    },
-    {
-        nombre: 'Patricia Esperon',
-        lugarTrabajo: 'Departamento Bioquímica Clínica, Facultad  de Química General, Montevideo, Uruguay.',
-        image: '../../assets/imgs/trabajos/Patricia-Esperon.JPG'
-    },
-    {
-        nombre: 'Germán Roberto Perez',
-        lugarTrabajo: 'FCByF (UNR) - Gammalab (Grupo Gamma), Rosario, Argentina.',
-        image: '../../assets/imgs/trabajos/German-Roberto-Perez.JPG'
-    },
-    {
-        nombre: 'Germán Roberto Perez',
-        lugarTrabajo: 'FCByF (UNR) - Gammalab (Grupo Gamma), Rosario, Argentina.',
-        image: '../../assets/imgs/trabajos/German-Roberto-Perez.JPG'
-    },
-    {
-        nombre: 'Monica Poverene',
-        lugarTrabajo: 'Universidad Nacional del Sur, Argentina.',
-        image: '../../assets/imgs/trabajos/Monica-Poverene.JPG',
-        image2: '../../assets/imgs/trabajos/Monica-Poverene2.JPG'
-    },
-    {
-        nombre: 'Steve Beebe',
-        lugarTrabajo: 'Centro Internacional de Agricultura Tropical (CIAT), Colombia.',
-        image: '../../assets/imgs/trabajos/Steve-Beebe.JPG'
-    },
-    {
-        nombre: 'Carlos Ovalle',
-        lugarTrabajo: 'Chile.',
-        image: '../../assets/imgs/trabajos/Carlos-Ovalle.JPG'
-    },
-    {
-        nombre: 'Marcelo Medeiros',
-        lugarTrabajo: 'Embrapa, Brazil.',
-        image: '../../assets/imgs/trabajos/Marcelo-Medeiros.JPG'
-    },
-    {
-        nombre: 'Jorge Braulio Garcia',
-        lugarTrabajo: 'INEVH, Argentina.',
-        image: '../../assets/imgs/trabajos/Jorge-Braulio-Garcia.JPG'
-    },
-    {
-        nombre: 'Jorge Braulio Garcia',
-        lugarTrabajo: 'INEVH, Argentina.',
-        image: '../../assets/imgs/trabajos/Jorge-Braulio-Garcia.JPG'
-    },
-    {
-        nombre: 'Cintia Fabbri',
-        lugarTrabajo: 'INEVH, Argentina.',
-        image: '../../assets/imgs/trabajos/Cintia-Fabbri.JPG'
-    },
-    {
-        nombre: 'Luiz Alcantara',
-        lugarTrabajo: 'Fundação Oswaldo Cruz, Brazil.',
-        image: '../../assets/imgs/trabajos/Luiz-Alcantara.JPG'
-    },
-    {
-        nombre: 'Gabriel Iglesias',
-        lugarTrabajo: 'Laboratorio de Virus Emergentes, Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Argentina.',
-        image: '../../assets/imgs/trabajos/Gabriel-Iglesias.JPG'
-    },
-    {
-        nombre: 'Carina Noé Sen',
-        lugarTrabajo: 'Instituto Nacional de Enfermedades Virales Humanas “Dr. Julio I. Maiztegui” (INEVH), Pergamino, Buenos Aires, Argentina.',
-        image: '../../assets/imgs/trabajos/Carina-Noe-Sen.JPG'
-    },
-    {
-        nombre: 'Ivana Evelin Kovalsky',
-        lugarTrabajo: 'Instituto de Botánica del Nordeste (UNNE-CONICET).',
-        image: '../../assets/imgs/trabajos/Ivana-Evelin-Kovalsky.JPG',
-        image2: '../../assets/imgs/trabajos/Ivana-Evelin-Kovalsky2.JPG'
-    },
-    {
-        nombre: 'Franco Chiarini',
-        lugarTrabajo: 'Instituto Multidisciplinario de Biología Vegetal, CONICET-UNC, Córdoba, Argentina.',
-        image: '../../assets/imgs/trabajos/Franco-Chiarini.JPG'
-    },
-    {
-        nombre: 'Eliana Regina Forni Martins',
-        lugarTrabajo: 'Universidade Estadual de Campinas-UNICAMP, Brasil.',
-        image: '../../assets/imgs/trabajos/Eliana-Regina-Forni-Martins.JPG'
-    },
-    {
-        nombre: 'Gisela Mariel Via Do Pico',
-        lugarTrabajo: 'Instituto de Botánica del Nordeste (UNNE-CONICET)',
-        image: '../../assets/imgs/trabajos/Gisela-Mariel-Via-Do-Pico.JPG'
-    },
-    {
-        nombre: 'María Irma De Las Mercedes Hidalgo',
-        lugarTrabajo: 'Cátedra de Genética, Facultad de Ciencias Agrarias, Universidad Nacional del Nordeste.',
-        image: '../../assets/imgs/trabajos/Maria-Irma-De-Las-Mercedes-Hidalgo.JPG'
-    },
-    {
-        nombre: 'Ana Isabel Honfi',
-        lugarTrabajo: 'Programa de Estudios Florísticos y Genética Vegetal, Instituto de Biología Subtropical (CONICET- UNaM) nodo Posadas, Facultad de Ciencias Exactas Químicas y Naturales, Universidad Nacional de Misiones, Argentina.',
-        image: '../../assets/imgs/trabajos/Ana-Isabel-Honfi.JPG'
-    },
-    {
-        nombre: 'Angela Solano',
-        lugarTrabajo: 'INBIOMED, Fac. de Medicina, UBA/CONICET y Genotipificación, DAC, CEMIC, Argentina.',
-        image: '../../assets/imgs/trabajos/Angela-Solano.JPG',
-        image2: '../../assets/imgs/trabajos/Angela-Solano2.JPG'
-    },
-    {
-        nombre: 'Lilian Jara',
-        lugarTrabajo: 'Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile.',
-        image: '../../assets/imgs/trabajos/Lilian-Jara.JPG'
-    },
-    {
-        nombre: 'Alejandra Mampel',
-        lugarTrabajo: 'Hospital Universitario, UN de Cuyo, Mendoza, Argentina.',
-        image: '../../assets/imgs/trabajos/Alejandra-Mampel.JPG'
-    },
-    {
-        nombre: 'Alejandra Mampel',
-        lugarTrabajo: 'Hospital Universitario, UN de Cuyo, Mendoza, Argentina.',
-        image: '../../assets/imgs/trabajos/Alejandra-Mampel.JPG'
-    },
-    {
-        nombre: 'Rocio Ortiz-lopez',
-        lugarTrabajo: 'Tecnológico de Monterrey, Monterrey, Nuevo León.',
-        image: '../../assets/imgs/trabajos/Rocio-Ortiz-lopez.JPG'
-    },
-    {
-        nombre: 'Mario Poli',
-        lugarTrabajo: 'INTA, CICVyA-Instituto de Genética, Argentina.',
-        image: '../../assets/imgs/trabajos/Mario-Poli.JPG',
-        image2: '../../assets/imgs/trabajos/Mario-Poli2.JPG'
-    },
-    {
-        nombre: 'Pedro Alejandro Vozzi',
-        lugarTrabajo: 'INTA EEA Chubut, Argentina.',
-        image: '../../assets/imgs/trabajos/Pedro-Alejandro-Vozzi.JPG'
-    },
-    {
-        nombre: 'Germán Kaiser',
-        lugarTrabajo: 'Grupo de Biotecnología de la Reproducción, INTA Balcarce, Argentina.',
-        image: '../../assets/imgs/trabajos/German-Kaiser.JPG'
-    },
-    {
-        nombre: 'Maria Silvia Llambí',
-        lugarTrabajo: 'Facultad de Veterinaria, UdelaR-Uruguay.',
-        image: '../../assets/imgs/trabajos/Maria-Silvia-Llambi.JPG'
-    },
-    {
-        nombre: 'Gustavo Augusto Gutierrez Reynoso',
-        lugarTrabajo: 'Universidad Nacional Agraria La Molina, Perú.',
-        image: '../../assets/imgs/trabajos/Gustavo-Augusto-Gutierrez-Reynoso.JPG'
-    },
-    {
-        nombre: 'Gustavo Rubén Rodríguez',
-        lugarTrabajo: 'Coordinador Maestría en Genética Vegetal de la Universidad Nacional de Rosario (UNR) y el Instituto Nacional de Tecnología Agropecuaria (INTA); Facultad de Ciencias Agrarias, Universidad Nacional de Rosario, Santa Fe, Argentina.',
-        image: '../../assets/imgs/trabajos/Gustavo-Ruben-Rodriguez.JPG'
-    },
-    {
-        nombre: 'Ignacio Torrent',
-        lugarTrabajo: 'Bayer Argentina.',
-        image: '../../assets/imgs/trabajos/Ignacio-Torrent.JPG'
-    },
-    {
-        nombre: 'María Soledad Alessandro',
-        lugarTrabajo: 'INTA La Consulta, Mendoza Argentina.',
-        image: '../../assets/imgs/trabajos/Maria-Soledad-Alessandro.JPG'
-    },
-    {
-        nombre: 'Jose Colazo',
-        lugarTrabajo: 'GTMGA-INTA, Grupo de Trabajo Mejoramiento Genético de Arroz, Entre Ríos, Argentina.',
-        image: '../../assets/imgs/trabajos/Jose-Colazo.JPG'
-    },
-    {
-        nombre: 'Gustavo Lobos',
-        lugarTrabajo: 'Maule, Chile.',
-        image: '../../assets/imgs/trabajos/Gustavo-Lobos.JPG'
-    },
-    {
-        nombre: 'Luciana Bolsoni Lourenço',
-        lugarTrabajo: 'Unicamp, Campinas-SP, Brasil.',
-        image: '../../assets/imgs/trabajos/Luciana-Bolsoni-Lourenco.JPG'
-    },
-    {
-        nombre: 'Diogo Cabral-de-mello',
-        lugarTrabajo: 'Department of Biology, Institute of Biosciences, Sao Paulo State University (UNESP), Rio Claro, SP, Brazil.',
-        image: '../../assets/imgs/trabajos/Diogo-Cabral-de-mello.JPG'
-    },
-    {
-        nombre: 'Magdalena Vaio',
-        lugarTrabajo: 'Facultad de Agronomía, Universidad de la República, Uruguay.',
-        image: '../../assets/imgs/trabajos/Magdalena-Vaio.JPG'
-    },
-    {
-        nombre: 'Sergio Sebastian Samoluk',
-        lugarTrabajo: 'IBONE, Argentina.',
-        image: '../../assets/imgs/trabajos/Sergio-Sebastian-Samoluk.JPG'
-    },
-    {
-        nombre: 'Augusto Rojas-martínez',
-        lugarTrabajo: 'Tecnológico de Monterrey, México.',
-        image: '../../assets/imgs/trabajos/Augusto-Rojas-martinez.JPG',
-        image2: '../../assets/imgs/trabajos/Augusto-Rojas-martinez2.JPG'
-    },
-    {
-        nombre: 'Maria Teresa Sanseverino',
-        lugarTrabajo: 'Serviço de Genetica Medica-Hcpa, Escola de Medicina PUCRS.RS, Brasil.',
-        image: '../../assets/imgs/trabajos/Maria-Teresa-Sanseverino.JPG'
-    },
-    {
-        nombre: 'Miguel Del Campo Casanelles',
-        lugarTrabajo: 'University of California San Diego, USA.',
-        image: '../../assets/imgs/trabajos/Miguel-Del-Campo-Casanelles.JPG'
-    },
-    {
-        nombre: 'Silvia Castillo Taucher',
-        lugarTrabajo: 'Sección Genética Hospital Clínico, Universidad de Chile, Chile.',
-        image: '../../assets/imgs/trabajos/Silvia-Castillo-Taucher.JPG'
-    },
-    {
-        nombre: 'Silvia Castillo Taucher',
-        lugarTrabajo: 'Sección Genética Hospital Clínico, Universidad de Chile, Chile.',
-        image: '../../assets/imgs/trabajos/Silvia-Castillo-Taucher.JPG'
-    },
-    {
-        nombre: 'Graciela Del Rey',
-        lugarTrabajo: 'Centro de Investigaciones Endocrinológicas “Dr. César Bergadá”, CEDIE-CONICET. FEI. Hospital de Niños “Ricardo Gutiérrez”, Argentina.',
-        image: '../../assets/imgs/trabajos/Graciela-Del-Rey.JPG'
-    },
-    {
-        nombre: 'Luis Pablo Gravina',
-        lugarTrabajo: 'Hospital de Pediatría Garrahan, Buenos Aires, Argentina.',
-        image: '../../assets/imgs/trabajos/Luis-Pablo-Gravina.JPG'
-    },
-    {
-        nombre: 'Laura Valinotto',
-        lugarTrabajo: 'Centro de Investigaciones en Genodermatosis y Epidermólisis Ampollar (CEDIGEA), Facultad de Medicina, UBA; Hospital de Niños R. Gutiérrez, Argentina; CONICET, Argentina.',
-        image: '../../assets/imgs/trabajos/Laura-Valinotto.JPG'
-    },
-    {
-        nombre: 'Eduardo Fidel Tizzano',
-        lugarTrabajo: 'Área Genética Clínica y Molecular, Hospital Universitario Valle Ebron, Barcelona, España.',
-        image: '../../assets/imgs/trabajos/Eduardo-Fidel-Tizzano.JPG'
-    },
-    {
-        nombre: 'Carlos Bacino',
-        lugarTrabajo: 'Texas Childrens Hospital, USA.',
-        image: '../../assets/imgs/trabajos/Carlos-Bacino.JPG'
-    },
-    {
-        nombre: 'Maura Helena Manfri',
-        lugarTrabajo: 'Departamento de Biologia - FFCLRP - Universidade de São Paulo, Brasil.',
-        image: '../../assets/imgs/trabajos/Maura-Helena-Manfri.JPG'
-    },
-    {
-        nombre: 'Therese Markow',
-        lugarTrabajo: 'LANGEBIO-CINVESTAV, Irapuato, Guanajuato, Mexico and Division of Biological Sciences UCSD La Jolla, California, USA.',
-        image: '../../assets/imgs/trabajos/Therese-Markow.JPG'
-    },
-    {
-        nombre: 'Carlos Machado',
-        lugarTrabajo: 'University of Maryland, USA.',
-        image: '../../assets/imgs/trabajos/Carlos-Machado.JPG'
-    },
-    {
-        nombre: 'Antonio Bernardo Carvalho',
-        lugarTrabajo: 'Universidade Federal do Rio de Janeiro, Brazil.',
-        image: '../../assets/imgs/trabajos/Antonio-Bernardo-Carvalho.JPG'
-    },
-    {
-        nombre: 'Antonio Bernardo Carvalho',
-        lugarTrabajo: 'Universidade Federal do Rio de Janeiro, Brazil.',
-        image: '../../assets/imgs/trabajos/Antonio-Bernardo-Carvalho.JPG'
-    },
-    {
-        nombre: 'Marcia Margis-pinheiro',
-        lugarTrabajo: 'Universidade Federal do Rio Grande do Sul, Brazil.',
-        image: '../../assets/imgs/trabajos/Marcia-Margis-pinheiro.JPG'
-    },
-    {
-        nombre: 'Michael Frei',
-        lugarTrabajo: 'University of Bonn, Germany',
-        image: '../../assets/imgs/trabajos/Michael-Frei.JPG'
-    },
-    {
-        nombre: 'Hannetz Roschzttardtz',
-        lugarTrabajo: 'Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Chile.',
-        image: '../../assets/imgs/trabajos/Hannetz-Roschzttardtz.JPG'
-    },
-    {
-        nombre: 'Felipe Ricachenevsky',
-        lugarTrabajo: 'Universidade Federal de Santa Maria, Brazil.',
-        image: '../../assets/imgs/trabajos/Felipe-Ricachenevsky.JPG'
-    },
-    {
-        nombre: 'María Cristina Acosta',
-        lugarTrabajo: 'Instituto Multidisciplinario de Biología Vegetal (IMBIV) CONICET-UNC, Argentina.',
-        image: '../../assets/imgs/trabajos/Maria-Cristina-Acosta.JPG'
-    },
-    {
-        nombre: 'Marisel Scaldaferro',
-        lugarTrabajo: 'Instituto Multidisciplinario de Biología Vegetal (IMBIV), CONICET-Universidad Nacional de Córdoba, Córdoba, Argentina.',
-        image: '../../assets/imgs/trabajos/Marisel-Scaldaferro.JPG'
-    },
-    {
-        nombre: 'Graciela Esther González',
-        lugarTrabajo: 'IEGEBA-CONICET, Argentina.',
-        image: '../../assets/imgs/trabajos/Graciela-Esther-Gonzalez.JPG'
-    },
-    {
-        nombre: 'Maria Laura Las Peñas',
-        lugarTrabajo: 'IMBIV, Argentina.',
-        image: '../../assets/imgs/trabajos/Maria-Laura-Las-Penas.JPG'
-    },
-    {
-        nombre: 'Paola Gaiero',
-        lugarTrabajo: 'Facultad de Agronomía, Universidad de la República',
-        image: '../../assets/imgs/trabajos/Paola-Gaiero.JPG'
-    },
-    {
-        nombre: 'Alejandra Marcela Ortiz',
-        lugarTrabajo: 'IBONE, Argentina.',
-        image: '../../assets/imgs/trabajos/Alejandra-Marcela-Ortiz.JPG'
-    },
-    {
-        nombre: 'María Florencia Realini',
-        lugarTrabajo: 'IBONE, Argentina.',
-        image: '../../assets/imgs/trabajos/Maria-Florencia-Realini.JPG'
-    },
-    {
-        nombre: 'Gabriela Repetto',
-        lugarTrabajo: 'RM, Chile.',
-        image: '../../assets/imgs/trabajos/Gabriela-Repetto.JPG'
-    },
-    {
-        nombre: 'Iscia Lopes-cendes',
-        lugarTrabajo: 'Department of Medical Genetics and Genomic Medicine, School of Medical Sciences, and the Brazilian Institute of Neuroscience and Neurotechnology (BRAINN), Campinas, SP, Brazil.',
-        image: '../../assets/imgs/trabajos/Iscia-Lopes-cendes.JPG'
-    },
-    {
-        nombre: 'Marta Ascurra',
-        lugarTrabajo: 'Programa Nacional de Prevención de Defectos Congénitos, Ministerio de Salud, Paraguay.',
-        image: '../../assets/imgs/trabajos/Marta-Ascurra.JPG'
-    },
-    {
-        nombre: 'Gonzalo Encina',
-        lugarTrabajo: 'Centro de Genética y Genómica, Instituto de Ciencias e Innovación en Medicina, Facultad de Medicina - Clínica Alemana, Universidad del Desarrollo, Santiago, Chile.',
-        image: '../../assets/imgs/trabajos/Gonzalo-Encina.JPG'
-    },
-    {
-        nombre: 'Liliana Picardi',
-        lugarTrabajo: 'Universidad Nacional de Rosario, Argentina.',
-        image: '../../assets/imgs/trabajos/Liliana-Picardi.JPG'
-    },
-    {
-        nombre: 'Sergio Feingold',
-        lugarTrabajo: 'INTA, Balcarce, Argentina',
-        image: '../../assets/imgs/trabajos/Sergio-Feingold.JPG'
-    },
-    {
-        nombre: 'Nicolás Mucci',
-        lugarTrabajo: 'INTA, Balcarce, Argentina.',
-        image: '../../assets/imgs/trabajos/Nicolas-Mucci.JPG'
-    },
-    {
-        nombre: 'Agustin Zsögön',
-        lugarTrabajo: 'Universidade Federal de Viçosa, Brazil; 2Universidade de São Paulo, Brazil.',
-        image: '../../assets/imgs/trabajos/Agustin-Zsogon.JPG'
-    },
-    {
-        nombre: 'Lluis Montoliu',
-        lugarTrabajo: 'CNB-CSIC, España.',
-        image: '../../assets/imgs/trabajos/Lluis-Montoliu.JPG'
-    },
-    {
-        nombre: 'Clara Pritsch',
-        lugarTrabajo: 'Facultad de Agronomía, UDELAR, Uruguay.',
-        image: '../../assets/imgs/trabajos/Clara-Pritsch.JPG'
-    },
-    {
-        nombre: 'Susana Noemí Marcucci Poltri',
-        lugarTrabajo: 'Instituto de Agrobiotecnología y Biología Molecular, (IABIMO), Instituto Nacional de Tecnología Agropecuaria y Consejo Nacional de Investigaciones Científicas y Tecnológicas (INTA-CONICET), Hurlingham, Buenos Aires, Argentina.',
-        image: '../../assets/imgs/trabajos/Susana-Noemi-Marcucci-Poltri.JPG'
-    },
-    {
-        nombre: 'Marianella Fernanda Quezada Macchiavello',
-        lugarTrabajo: 'Universidad de la República, Facultad de Agronomía, Uruguay.',
-        image: '../../assets/imgs/trabajos/Marianella-Fernanda-Quezada-Macchiavello.JPG'
-    },
-    {
-        nombre: 'Antonio Augusto Franco Garcia',
-        lugarTrabajo: 'Departamento Genética, Escola Superior de Agricultura Luiz de Queiroz, Universidade de São Paulo, Brazil.',
-        image: '../../assets/imgs/trabajos/Antonio-Augusto-Franco-Garcia.JPG'
-    },
-    {
-        nombre: 'Maria Lucia Carneiro Vieira',
-        lugarTrabajo: 'Universidade de São Paulo, Brazil.',
-        image: '../../assets/imgs/trabajos/Maria-Lucia-Carneiro-Vieira.JPG'
-    },
-    {
-        nombre: 'Viviana Solís Neffa',
-        lugarTrabajo: 'IBONE (UNNE-CONICET), FACENA (UNNE), Argentina.',
-        image: '../../assets/imgs/trabajos/Viviana-Solis-Neffa.JPG',
-        image2: '../../assets/imgs/trabajos/Viviana-Solis-Neffa2.JPG'
-    },
-    {
-        nombre: 'Freitas Loreta',
-        lugarTrabajo: 'Universidade Federal do Rio Grande do Sul, Brazil.',
-        image: '../../assets/imgs/trabajos/Freitas-Loreta.JPG'
-    },
-    {
-        nombre: 'Pablo Speranza',
-        lugarTrabajo: 'Facultad de Agronomía, Universidad de la República, Montevideo, Uruguay.',
-        image: '../../assets/imgs/trabajos/Pablo-Speranza.JPG'
-    },
-];
-//# sourceMappingURL=disertantes.js.map
-
-/***/ }),
-
-/***/ 324:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3886,6 +3169,723 @@ var programa = [
 
 /***/ }),
 
+/***/ 324:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return disertantes; });
+var disertantes = [
+    {
+        nombre: 'Marcelo Guerra',
+        lugarTrabajo: 'Brasil',
+        image: '../../assets/imgs/trabajos/marcelo-guerra.JPG'
+    },
+    {
+        nombre: 'Norma Circe Magnelli',
+        lugarTrabajo: 'Instituto de Genética, Facultad de Ciencias Médicas, UNCuyo, Argentina.',
+        image: '../../assets/imgs/trabajos/Norma-Circe-Magnelli.JPG'
+    },
+    {
+        nombre: 'Mónica Sans',
+        lugarTrabajo: 'Departamento de Antropología Biológica, Universidad de la República, Uruguay.',
+        image: '../../assets/imgs/trabajos/Monica-Sans.JPG'
+    },
+    {
+        nombre: 'Michael Goddard',
+        lugarTrabajo: 'University of Melbourne and Agriculture Victoria, Australia.',
+        image: '../../assets/imgs/trabajos/Michael-Goddard.JPG'
+    },
+    {
+        nombre: 'Pablo Cavagnaro',
+        lugarTrabajo: 'CONICET- INTA EEA La Consulta, Fac. Cs. Agrarias, UNCuyo, Argentina.',
+        image: '../../assets/imgs/trabajos/Pablo-Cavagnaro.JPG'
+    },
+    {
+        nombre: 'Marcio C. Silva-filho',
+        lugarTrabajo: 'Universidade de São Paulo.',
+        image: '../../assets/imgs/trabajos/Marcio-Silva-filho.JPG'
+    },
+    {
+        nombre: 'Stef De Haan',
+        lugarTrabajo: 'International Potato Center (CIP), Perú.',
+        image: '../../assets/imgs/trabajos/Stef-De-Haan.JPG',
+        image2: '../../assets/imgs/trabajos/Stef-De-Haan2.JPG'
+    },
+    {
+        nombre: 'Ricardo Masuelli',
+        lugarTrabajo: 'Facultad de Ciencias Agrarias, IBAM-CONICET-UNCUYO, Argentina.',
+        image: '../../assets/imgs/trabajos/Ricardo-Masuelli.JPG'
+    },
+    {
+        nombre: 'Mauricio Moraga',
+        lugarTrabajo: 'Programa de Genética Humana, ICBM, Facultad de Medicina, Universidad de Chile, Santiago, Chile; Departamento de Antropología, Facultad de Ciencias Sociales, Universidad de Chile, Santiago, Chile',
+        image: '../../assets/imgs/trabajos/Mauricio-Moraga.JPG'
+    },
+    {
+        nombre: 'Sandro Bonatto',
+        lugarTrabajo: 'Escola de Ciências, Pontifícia Universidade Católica do Rio Grande do Sul, Brasil.',
+        image: '../../assets/imgs/trabajos/Sandro-Bonatto.JPG'
+    },
+    {
+        nombre: 'Jonas Alex Morales Saute',
+        lugarTrabajo: 'Serviço de Genética Médica, Hospital de Clinicas de Porto Alegre.',
+        image: '../../assets/imgs/trabajos/Jonas-Alex-Morales-Saute.JPG'
+    },
+    {
+        nombre: 'Michel Naslavsky',
+        lugarTrabajo: 'Universidade de São Paulo.',
+        image: '../../assets/imgs/trabajos/Michel-Naslavsky.JPG'
+    },
+    {
+        nombre: 'Leonela Natalia Luce',
+        lugarTrabajo: 'Universidad de Buenos Aires, Facultad de Farmacia y Bioquímica, Cátedra de Genética, Buenos Aires, Argentina; CONICET- Universidad de Buenos Aires, Instituto de Inmunología, Genética y Metabolismo (INIGEM), Buenos Aires, Argentina.',
+        image: '../../assets/imgs/trabajos/Leonela-Natalia-Luce.JPG'
+    },
+    {
+        nombre: 'Fernando Suarez-obando',
+        lugarTrabajo: 'Instituto de Genética Humana, Facultad de Medicina, Pontificia Universidad Javeriana; Servicio de Genética, Hospital Universitario San Ignacio, Colombia.',
+        image: '../../assets/imgs/trabajos/Fernando-Suarez-obando.JPG'
+    },
+    {
+        nombre: 'Alberto Luis Rosa',
+        lugarTrabajo: 'IRNASUS-CONICET/FCQ-UCC; Fundación Allende; Sanatorio Allende, Argentina.',
+        image: '../../assets/imgs/trabajos/Alberto-Luis-Rosa.JPG'
+    },
+    {
+        nombre: 'Jorge Alfredo Bevilacqua',
+        lugarTrabajo: 'Hospital Clínico Universidad de Chile, Facultad de Medicina, Universidad de Chile.',
+        image: '../../assets/imgs/trabajos/Jorge-Alfredo-Bevilacqua.JPG'
+    },
+    {
+        nombre: 'Mariela Larrandaburu',
+        lugarTrabajo: 'Ministerio de Salud Pública, Montevideo, Uruguay.',
+        image: '../../assets/imgs/trabajos/Mariela-Larrandaburu.JPG',
+        image2: '../../assets/imgs/trabajos/Mariela-Larrandaburu2.JPG'
+    },
+    {
+        nombre: 'Rosa Liascovich',
+        lugarTrabajo: 'Centro Nacional de Genética Médica, ANLIS, Ministerio de Salud, Argentina.',
+        image: '../../assets/imgs/trabajos/Rosa-Liascovich.JPG'
+    },
+    {
+        nombre: 'Ignacio Zarante',
+        lugarTrabajo: 'Pontificia Universidad Javeriana Bogotá.',
+        image: '../../assets/imgs/trabajos/Ignacio-Zarante.JPG'
+    },
+    {
+        nombre: 'Iêda Maria Orioli',
+        lugarTrabajo: 'Department of Genetics, Institute of Biology, Federal University of Rio de Janeiro, Rio de Janeiro, Brazil; National Institute of Population Medical Genetics (INAGEMP), Porto Alegre, Brasil.',
+        image: '../../assets/imgs/trabajos/Ieda-Maria-Orioli.JPG'
+    },
+    {
+        nombre: 'Mev Dominguez Valentin',
+        lugarTrabajo: 'Oslo University Hospital, Noruega.',
+        image: '../../assets/imgs/trabajos/Mev-Dominguez-Valentin.JPG'
+    },
+    {
+        nombre: 'Pilar Carvallo',
+        lugarTrabajo: 'Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile.',
+        image: '../../assets/imgs/trabajos/Pilar-Carvallo.JPG'
+    },
+    {
+        nombre: 'Benedito Rossi',
+        lugarTrabajo: 'Brazil.',
+        image: '../../assets/imgs/trabajos/Benedito-Rossi.JPG'
+    },
+    {
+        nombre: 'Adriana Della Valle',
+        lugarTrabajo: 'Hospital Central de las Fuerzas Armadas, Montevideo.',
+        image: '../../assets/imgs/trabajos/Adriana-Della-Valle.JPG'
+    },
+    {
+        nombre: 'Carlos Vaccaro',
+        lugarTrabajo: 'Hospital Italiano Buenos Aires, Argentina.',
+        image: '../../assets/imgs/trabajos/Carlos-Vaccaro.JPG'
+    },
+    {
+        nombre: 'Elsa Lucila Camadro',
+        lugarTrabajo: 'FCA, Universidad Nacional de Mar del Plata, Argentina.',
+        image: '../../assets/imgs/trabajos/Elsa-Lucila-Camadro.JPG'
+    },
+    {
+        nombre: 'Luciana Carla Silvestri',
+        lugarTrabajo: 'INCIHUSA, CONICET MENDOZA, Argentina.',
+        image: '../../assets/imgs/trabajos/Luciana-Carla-Silvestri.JPG'
+    },
+    {
+        nombre: 'Josita Soares Monteiro',
+        lugarTrabajo: 'Universidade Federal de Santa Maria, Brasil.',
+        image: '../../assets/imgs/trabajos/Josita-Soares-Monteiro.JPG'
+    },
+    {
+        nombre: 'Guillermo Vila Melo',
+        lugarTrabajo: 'Buenos Aires, Argentina.',
+        image: '../../assets/imgs/trabajos/Guillermo-Vila-Melo.JPG'
+    },
+    {
+        nombre: 'Andrea Pedrosa-harand',
+        lugarTrabajo: 'Departamento de Botânica, Universidade Federal of Pernambuco, Recife-PE, Brasil.',
+        image: '../../assets/imgs/trabajos/Andrea-Pedrosa-harand.JPG',
+        image2: '../../assets/imgs/trabajos/Andrea-Pedrosa-harand2.JPG'
+    },
+    {
+        nombre: 'Ana Christina Brasileiro-vidal',
+        lugarTrabajo: 'Universidade Federal de Pernambuco, Brasil.',
+        image: '../../assets/imgs/trabajos/Ana-Christina-Brasileiro-vidal.JPG'
+    },
+    {
+        nombre: 'Giovana Torres',
+        lugarTrabajo: 'Universidade Federal de Lavras, Brasil.',
+        image: '../../assets/imgs/trabajos/Giovana-Torres.JPG'
+    },
+    {
+        nombre: 'Julio Pieczarka',
+        lugarTrabajo: 'Universidade Federal do Para, Brasil.',
+        image: '../../assets/imgs/trabajos/Julio-Pieczarka.JPG'
+    },
+    {
+        nombre: 'Luis R Zapata Ortiz',
+        lugarTrabajo: 'ICR, London, UK.',
+        image: '../../assets/imgs/trabajos/Luis-Zapata-Ortiz.JPG',
+        image2: '../../assets/imgs/trabajos/Luis-Zapata-Ortiz2.JPG'
+    },
+    {
+        nombre: 'Dario Riccardo Valenzano',
+        lugarTrabajo: 'Max Planck Institute for Biology of Ageing, Cologne, Germany.',
+        image: '../../assets/imgs/trabajos/Dario-Riccardo-Valenzano.JPG'
+    },
+    {
+        nombre: 'Gregorio Iraola',
+        lugarTrabajo: 'Institut Pasteur de Montevideo, Uruguay.',
+        image: '../../assets/imgs/trabajos/Gregorio-Iraola.JPG'
+    },
+    {
+        nombre: 'Daniela Bezdan',
+        lugarTrabajo: 'Weill Cornell Medicine, USA.',
+        image: '../../assets/imgs/trabajos/Daniela-Bezdan.JPG'
+    },
+    {
+        nombre: 'Vanesa Gottifredi',
+        lugarTrabajo: 'Fundación Instituto Leloir, Buenos Aires, Argentina.',
+        image: '../../assets/imgs/trabajos/Vanesa-Gottifredi.JPG',
+        image2: '../../assets/imgs/trabajos/Vanesa-Gottifredi2.JPG'
+    },
+    {
+        nombre: 'Gaston Soria',
+        lugarTrabajo: 'CIBICI-CONICET, Universidad Nacional de Córdoba, Argentina.',
+        image: '../../assets/imgs/trabajos/Gaston-Soria.JPG'
+    },
+    {
+        nombre: 'Wilner Martinez',
+        lugarTrabajo: 'Epigenetics and Genomic Instability Laboratory, Instituto de Investigaciones Biológicas Clemente Estable, Montevideo, Uruguay.',
+        image: '../../assets/imgs/trabajos/Wilner-Martinez.JPG'
+    },
+    {
+        nombre: 'Clarissa Rocha',
+        lugarTrabajo: 'Federal University of Sao Paulo, Brazil.',
+        image: '../../assets/imgs/trabajos/Clarissa-Rocha.JPG',
+        image2: '../../assets/imgs/trabajos/Clarissa-Rocha2.JPG'
+    },
+    {
+        nombre: 'Maria Rosa Lanari',
+        lugarTrabajo: 'INTA EEA Bariloche, Argentina.',
+        image: '../../assets/imgs/trabajos/Maria-Rosa-Lanari.JPG',
+        image2: '../../assets/imgs/trabajos/Maria-Rosa-Lanari2.JPG'
+    },
+    {
+        nombre: 'Amparo Martinez',
+        lugarTrabajo: 'Departamento de Genética, Universidad de Córdoba, España.',
+        image: '../../assets/imgs/trabajos/Amparo-Martinez.JPG'
+    },
+    {
+        nombre: 'Juan Carlos Marín Contreras',
+        lugarTrabajo: 'Departamento de Ciencias Básicas, Universidad del Bío-Bío, Chile.',
+        image: '../../assets/imgs/trabajos/Juan-Carlos-Marin-Contreras.JPG'
+    },
+    {
+        nombre: 'Samuel Rezende Paiva',
+        lugarTrabajo: 'Embrapa Recursos Genéticos e Biotecnologia, Prédio Conservação Germoplasma, Laboratório Genética Animal, Brasília, DF, Brasil.',
+        image: '../../assets/imgs/trabajos/Samuel-Rezende-Paiva.JPG'
+    },
+    {
+        nombre: 'Elzbieta Martyniuk',
+        lugarTrabajo: 'Department of Animal Genetics and Breeding, Warsaw University of Life Sciences, Poland.',
+        image: '../../assets/imgs/trabajos/Elzbieta-Martyniuk.JPG'
+    },
+    {
+        nombre: 'Guillermo Pratta',
+        lugarTrabajo: 'IICAR, Argentina.',
+        image: '../../assets/imgs/trabajos/Guillermo-Pratta.JPG',
+        image2: '../../assets/imgs/trabajos/Guillermo-Pratta2.JPG'
+    },
+    {
+        nombre: 'Pablo Reeb',
+        lugarTrabajo: 'Universidad Nacional del Comahue, Argentina.',
+        image: '../../assets/imgs/trabajos/Pablo-Reeb.JPG'
+    },
+    {
+        nombre: 'Maria Vibranovski',
+        lugarTrabajo: 'Department of Genetics and Evolutionary Biology, Institute of Biosciences, Universidade de São Paulo, Brasil.',
+        image: '../../assets/imgs/trabajos/Maria-Vibranovski.JPG'
+    },
+    {
+        nombre: 'Marco Aurelio Cristancho',
+        lugarTrabajo: 'BIOS, Colombia.',
+        image: '../../assets/imgs/trabajos/Marco-Aurelio-Cristancho.JPG'
+    },
+    {
+        nombre: 'Lavinia Schuler Faccini',
+        lugarTrabajo: 'Universidade Federal do Rio Grande do Sul, Brasil.',
+        image: '../../assets/imgs/trabajos/Lavinia-Schuler-Faccini.JPG',
+        image2: '../../assets/imgs/trabajos/Lavinia-Schuler-Faccini2.JPG'
+    },
+    {
+        nombre: 'Maria Cátira Bortolini',
+        lugarTrabajo: 'Universidade Federal do Rio Grande do Sul, Brasil.',
+        image: '../../assets/imgs/trabajos/Maria-Catira-Bortolini.JPG'
+    },
+    {
+        nombre: 'Francyne Kubaski',
+        lugarTrabajo: 'MGS- HCPA, UFRGS, INAGEMP, Fundação Médica do RS, Porto Alegre, Brazil.',
+        image: '../../assets/imgs/trabajos/Francyne-Kubaski.JPG'
+    },
+    {
+        nombre: 'Harvy Velasco',
+        lugarTrabajo: 'Unidad de Genética, DINAMICA IPS, Medellín, Colombia.',
+        image: '../../assets/imgs/trabajos/Harvy-Velasco.JPG',
+        image2: '../../assets/imgs/trabajos/Harvy-Velasco2.JPG'
+    },
+    {
+        nombre: 'Maria Ana Redal',
+        lugarTrabajo: 'INFIBIOC, FFyB, UBA, Argentina.',
+        image: '../../assets/imgs/trabajos/Maria-Ana-Redal.JPG'
+    },
+    {
+        nombre: 'Luis Quiñones',
+        lugarTrabajo: 'Facultad de Medicina, Universidad de Chile.',
+        image: '../../assets/imgs/trabajos/Luis-Quinones.JPG'
+    },
+    {
+        nombre: 'Julian Chamorro',
+        lugarTrabajo: 'Laboratorio de Hemostasis y Trombosis, Hospital de Enfermedades Infecciosas “F.J. Muñíz”, Buenos Aires, Argentina.',
+        image: '../../assets/imgs/trabajos/Julian-Chamorro.JPG'
+    },
+    {
+        nombre: 'Patricia Esperon',
+        lugarTrabajo: 'Departamento Bioquímica Clínica, Facultad  de Química General, Montevideo, Uruguay.',
+        image: '../../assets/imgs/trabajos/Patricia-Esperon.JPG'
+    },
+    {
+        nombre: 'Germán Roberto Perez',
+        lugarTrabajo: 'FCByF (UNR) - Gammalab (Grupo Gamma), Rosario, Argentina.',
+        image: '../../assets/imgs/trabajos/German-Roberto-Perez.JPG'
+    },
+    {
+        nombre: 'Germán Roberto Perez',
+        lugarTrabajo: 'FCByF (UNR) - Gammalab (Grupo Gamma), Rosario, Argentina.',
+        image: '../../assets/imgs/trabajos/German-Roberto-Perez.JPG'
+    },
+    {
+        nombre: 'Monica Poverene',
+        lugarTrabajo: 'Universidad Nacional del Sur, Argentina.',
+        image: '../../assets/imgs/trabajos/Monica-Poverene.JPG',
+        image2: '../../assets/imgs/trabajos/Monica-Poverene2.JPG'
+    },
+    {
+        nombre: 'Steve Beebe',
+        lugarTrabajo: 'Centro Internacional de Agricultura Tropical (CIAT), Colombia.',
+        image: '../../assets/imgs/trabajos/Steve-Beebe.JPG'
+    },
+    {
+        nombre: 'Carlos Ovalle',
+        lugarTrabajo: 'Chile.',
+        image: '../../assets/imgs/trabajos/Carlos-Ovalle.JPG'
+    },
+    {
+        nombre: 'Marcelo Medeiros',
+        lugarTrabajo: 'Embrapa, Brazil.',
+        image: '../../assets/imgs/trabajos/Marcelo-Medeiros.JPG'
+    },
+    {
+        nombre: 'Jorge Braulio Garcia',
+        lugarTrabajo: 'INEVH, Argentina.',
+        image: '../../assets/imgs/trabajos/Jorge-Braulio-Garcia.JPG'
+    },
+    {
+        nombre: 'Jorge Braulio Garcia',
+        lugarTrabajo: 'INEVH, Argentina.',
+        image: '../../assets/imgs/trabajos/Jorge-Braulio-Garcia.JPG'
+    },
+    {
+        nombre: 'Cintia Fabbri',
+        lugarTrabajo: 'INEVH, Argentina.',
+        image: '../../assets/imgs/trabajos/Cintia-Fabbri.JPG'
+    },
+    {
+        nombre: 'Luiz Alcantara',
+        lugarTrabajo: 'Fundação Oswaldo Cruz, Brazil.',
+        image: '../../assets/imgs/trabajos/Luiz-Alcantara.JPG'
+    },
+    {
+        nombre: 'Gabriel Iglesias',
+        lugarTrabajo: 'Laboratorio de Virus Emergentes, Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Argentina.',
+        image: '../../assets/imgs/trabajos/Gabriel-Iglesias.JPG'
+    },
+    {
+        nombre: 'Carina Noé Sen',
+        lugarTrabajo: 'Instituto Nacional de Enfermedades Virales Humanas “Dr. Julio I. Maiztegui” (INEVH), Pergamino, Buenos Aires, Argentina.',
+        image: '../../assets/imgs/trabajos/Carina-Noe-Sen.JPG'
+    },
+    {
+        nombre: 'Ivana Evelin Kovalsky',
+        lugarTrabajo: 'Instituto de Botánica del Nordeste (UNNE-CONICET).',
+        image: '../../assets/imgs/trabajos/Ivana-Evelin-Kovalsky.JPG',
+        image2: '../../assets/imgs/trabajos/Ivana-Evelin-Kovalsky2.JPG'
+    },
+    {
+        nombre: 'Franco Chiarini',
+        lugarTrabajo: 'Instituto Multidisciplinario de Biología Vegetal, CONICET-UNC, Córdoba, Argentina.',
+        image: '../../assets/imgs/trabajos/Franco-Chiarini.JPG'
+    },
+    {
+        nombre: 'Eliana Regina Forni Martins',
+        lugarTrabajo: 'Universidade Estadual de Campinas-UNICAMP, Brasil.',
+        image: '../../assets/imgs/trabajos/Eliana-Regina-Forni-Martins.JPG'
+    },
+    {
+        nombre: 'Gisela Mariel Via Do Pico',
+        lugarTrabajo: 'Instituto de Botánica del Nordeste (UNNE-CONICET)',
+        image: '../../assets/imgs/trabajos/Gisela-Mariel-Via-Do-Pico.JPG'
+    },
+    {
+        nombre: 'María Irma De Las Mercedes Hidalgo',
+        lugarTrabajo: 'Cátedra de Genética, Facultad de Ciencias Agrarias, Universidad Nacional del Nordeste.',
+        image: '../../assets/imgs/trabajos/Maria-Irma-De-Las-Mercedes-Hidalgo.JPG'
+    },
+    {
+        nombre: 'Ana Isabel Honfi',
+        lugarTrabajo: 'Programa de Estudios Florísticos y Genética Vegetal, Instituto de Biología Subtropical (CONICET- UNaM) nodo Posadas, Facultad de Ciencias Exactas Químicas y Naturales, Universidad Nacional de Misiones, Argentina.',
+        image: '../../assets/imgs/trabajos/Ana-Isabel-Honfi.JPG'
+    },
+    {
+        nombre: 'Angela Solano',
+        lugarTrabajo: 'INBIOMED, Fac. de Medicina, UBA/CONICET y Genotipificación, DAC, CEMIC, Argentina.',
+        image: '../../assets/imgs/trabajos/Angela-Solano.JPG',
+        image2: '../../assets/imgs/trabajos/Angela-Solano2.JPG'
+    },
+    {
+        nombre: 'Lilian Jara',
+        lugarTrabajo: 'Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile.',
+        image: '../../assets/imgs/trabajos/Lilian-Jara.JPG'
+    },
+    {
+        nombre: 'Alejandra Mampel',
+        lugarTrabajo: 'Hospital Universitario, UN de Cuyo, Mendoza, Argentina.',
+        image: '../../assets/imgs/trabajos/Alejandra-Mampel.JPG'
+    },
+    {
+        nombre: 'Alejandra Mampel',
+        lugarTrabajo: 'Hospital Universitario, UN de Cuyo, Mendoza, Argentina.',
+        image: '../../assets/imgs/trabajos/Alejandra-Mampel.JPG'
+    },
+    {
+        nombre: 'Rocio Ortiz-lopez',
+        lugarTrabajo: 'Tecnológico de Monterrey, Monterrey, Nuevo León.',
+        image: '../../assets/imgs/trabajos/Rocio-Ortiz-lopez.JPG'
+    },
+    {
+        nombre: 'Mario Poli',
+        lugarTrabajo: 'INTA, CICVyA-Instituto de Genética, Argentina.',
+        image: '../../assets/imgs/trabajos/Mario-Poli.JPG',
+        image2: '../../assets/imgs/trabajos/Mario-Poli2.JPG'
+    },
+    {
+        nombre: 'Pedro Alejandro Vozzi',
+        lugarTrabajo: 'INTA EEA Chubut, Argentina.',
+        image: '../../assets/imgs/trabajos/Pedro-Alejandro-Vozzi.JPG'
+    },
+    {
+        nombre: 'Germán Kaiser',
+        lugarTrabajo: 'Grupo de Biotecnología de la Reproducción, INTA Balcarce, Argentina.',
+        image: '../../assets/imgs/trabajos/German-Kaiser.JPG'
+    },
+    {
+        nombre: 'Maria Silvia Llambí',
+        lugarTrabajo: 'Facultad de Veterinaria, UdelaR-Uruguay.',
+        image: '../../assets/imgs/trabajos/Maria-Silvia-Llambi.JPG'
+    },
+    {
+        nombre: 'Gustavo Augusto Gutierrez Reynoso',
+        lugarTrabajo: 'Universidad Nacional Agraria La Molina, Perú.',
+        image: '../../assets/imgs/trabajos/Gustavo-Augusto-Gutierrez-Reynoso.JPG'
+    },
+    {
+        nombre: 'Gustavo Rubén Rodríguez',
+        lugarTrabajo: 'Coordinador Maestría en Genética Vegetal de la Universidad Nacional de Rosario (UNR) y el Instituto Nacional de Tecnología Agropecuaria (INTA); Facultad de Ciencias Agrarias, Universidad Nacional de Rosario, Santa Fe, Argentina.',
+        image: '../../assets/imgs/trabajos/Gustavo-Ruben-Rodriguez.JPG'
+    },
+    {
+        nombre: 'Ignacio Torrent',
+        lugarTrabajo: 'Bayer Argentina.',
+        image: '../../assets/imgs/trabajos/Ignacio-Torrent.JPG'
+    },
+    {
+        nombre: 'María Soledad Alessandro',
+        lugarTrabajo: 'INTA La Consulta, Mendoza Argentina.',
+        image: '../../assets/imgs/trabajos/Maria-Soledad-Alessandro.JPG'
+    },
+    {
+        nombre: 'Jose Colazo',
+        lugarTrabajo: 'GTMGA-INTA, Grupo de Trabajo Mejoramiento Genético de Arroz, Entre Ríos, Argentina.',
+        image: '../../assets/imgs/trabajos/Jose-Colazo.JPG'
+    },
+    {
+        nombre: 'Gustavo Lobos',
+        lugarTrabajo: 'Maule, Chile.',
+        image: '../../assets/imgs/trabajos/Gustavo-Lobos.JPG'
+    },
+    {
+        nombre: 'Luciana Bolsoni Lourenço',
+        lugarTrabajo: 'Unicamp, Campinas-SP, Brasil.',
+        image: '../../assets/imgs/trabajos/Luciana-Bolsoni-Lourenco.JPG'
+    },
+    {
+        nombre: 'Diogo Cabral-de-mello',
+        lugarTrabajo: 'Department of Biology, Institute of Biosciences, Sao Paulo State University (UNESP), Rio Claro, SP, Brazil.',
+        image: '../../assets/imgs/trabajos/Diogo-Cabral-de-mello.JPG'
+    },
+    {
+        nombre: 'Magdalena Vaio',
+        lugarTrabajo: 'Facultad de Agronomía, Universidad de la República, Uruguay.',
+        image: '../../assets/imgs/trabajos/Magdalena-Vaio.JPG'
+    },
+    {
+        nombre: 'Sergio Sebastian Samoluk',
+        lugarTrabajo: 'IBONE, Argentina.',
+        image: '../../assets/imgs/trabajos/Sergio-Sebastian-Samoluk.JPG'
+    },
+    {
+        nombre: 'Augusto Rojas-martínez',
+        lugarTrabajo: 'Tecnológico de Monterrey, México.',
+        image: '../../assets/imgs/trabajos/Augusto-Rojas-martinez.JPG',
+        image2: '../../assets/imgs/trabajos/Augusto-Rojas-martinez2.JPG'
+    },
+    {
+        nombre: 'Maria Teresa Sanseverino',
+        lugarTrabajo: 'Serviço de Genetica Medica-Hcpa, Escola de Medicina PUCRS.RS, Brasil.',
+        image: '../../assets/imgs/trabajos/Maria-Teresa-Sanseverino.JPG'
+    },
+    {
+        nombre: 'Miguel Del Campo Casanelles',
+        lugarTrabajo: 'University of California San Diego, USA.',
+        image: '../../assets/imgs/trabajos/Miguel-Del-Campo-Casanelles.JPG'
+    },
+    {
+        nombre: 'Silvia Castillo Taucher',
+        lugarTrabajo: 'Sección Genética Hospital Clínico, Universidad de Chile, Chile.',
+        image: '../../assets/imgs/trabajos/Silvia-Castillo-Taucher.JPG'
+    },
+    {
+        nombre: 'Silvia Castillo Taucher',
+        lugarTrabajo: 'Sección Genética Hospital Clínico, Universidad de Chile, Chile.',
+        image: '../../assets/imgs/trabajos/Silvia-Castillo-Taucher.JPG'
+    },
+    {
+        nombre: 'Graciela Del Rey',
+        lugarTrabajo: 'Centro de Investigaciones Endocrinológicas “Dr. César Bergadá”, CEDIE-CONICET. FEI. Hospital de Niños “Ricardo Gutiérrez”, Argentina.',
+        image: '../../assets/imgs/trabajos/Graciela-Del-Rey.JPG'
+    },
+    {
+        nombre: 'Luis Pablo Gravina',
+        lugarTrabajo: 'Hospital de Pediatría Garrahan, Buenos Aires, Argentina.',
+        image: '../../assets/imgs/trabajos/Luis-Pablo-Gravina.JPG'
+    },
+    {
+        nombre: 'Laura Valinotto',
+        lugarTrabajo: 'Centro de Investigaciones en Genodermatosis y Epidermólisis Ampollar (CEDIGEA), Facultad de Medicina, UBA; Hospital de Niños R. Gutiérrez, Argentina; CONICET, Argentina.',
+        image: '../../assets/imgs/trabajos/Laura-Valinotto.JPG'
+    },
+    {
+        nombre: 'Eduardo Fidel Tizzano',
+        lugarTrabajo: 'Área Genética Clínica y Molecular, Hospital Universitario Valle Ebron, Barcelona, España.',
+        image: '../../assets/imgs/trabajos/Eduardo-Fidel-Tizzano.JPG'
+    },
+    {
+        nombre: 'Carlos Bacino',
+        lugarTrabajo: 'Texas Childrens Hospital, USA.',
+        image: '../../assets/imgs/trabajos/Carlos-Bacino.JPG'
+    },
+    {
+        nombre: 'Maura Helena Manfri',
+        lugarTrabajo: 'Departamento de Biologia - FFCLRP - Universidade de São Paulo, Brasil.',
+        image: '../../assets/imgs/trabajos/Maura-Helena-Manfri.JPG'
+    },
+    {
+        nombre: 'Therese Markow',
+        lugarTrabajo: 'LANGEBIO-CINVESTAV, Irapuato, Guanajuato, Mexico and Division of Biological Sciences UCSD La Jolla, California, USA.',
+        image: '../../assets/imgs/trabajos/Therese-Markow.JPG'
+    },
+    {
+        nombre: 'Carlos Machado',
+        lugarTrabajo: 'University of Maryland, USA.',
+        image: '../../assets/imgs/trabajos/Carlos-Machado.JPG'
+    },
+    {
+        nombre: 'Antonio Bernardo Carvalho',
+        lugarTrabajo: 'Universidade Federal do Rio de Janeiro, Brazil.',
+        image: '../../assets/imgs/trabajos/Antonio-Bernardo-Carvalho.JPG'
+    },
+    {
+        nombre: 'Antonio Bernardo Carvalho',
+        lugarTrabajo: 'Universidade Federal do Rio de Janeiro, Brazil.',
+        image: '../../assets/imgs/trabajos/Antonio-Bernardo-Carvalho.JPG'
+    },
+    {
+        nombre: 'Marcia Margis-pinheiro',
+        lugarTrabajo: 'Universidade Federal do Rio Grande do Sul, Brazil.',
+        image: '../../assets/imgs/trabajos/Marcia-Margis-pinheiro.JPG'
+    },
+    {
+        nombre: 'Michael Frei',
+        lugarTrabajo: 'University of Bonn, Germany',
+        image: '../../assets/imgs/trabajos/Michael-Frei.JPG'
+    },
+    {
+        nombre: 'Hannetz Roschzttardtz',
+        lugarTrabajo: 'Facultad de Ciencias Biológicas, Pontificia Universidad Católica de Chile, Chile.',
+        image: '../../assets/imgs/trabajos/Hannetz-Roschzttardtz.JPG'
+    },
+    {
+        nombre: 'Felipe Ricachenevsky',
+        lugarTrabajo: 'Universidade Federal de Santa Maria, Brazil.',
+        image: '../../assets/imgs/trabajos/Felipe-Ricachenevsky.JPG'
+    },
+    {
+        nombre: 'María Cristina Acosta',
+        lugarTrabajo: 'Instituto Multidisciplinario de Biología Vegetal (IMBIV) CONICET-UNC, Argentina.',
+        image: '../../assets/imgs/trabajos/Maria-Cristina-Acosta.JPG'
+    },
+    {
+        nombre: 'Marisel Scaldaferro',
+        lugarTrabajo: 'Instituto Multidisciplinario de Biología Vegetal (IMBIV), CONICET-Universidad Nacional de Córdoba, Córdoba, Argentina.',
+        image: '../../assets/imgs/trabajos/Marisel-Scaldaferro.JPG'
+    },
+    {
+        nombre: 'Graciela Esther González',
+        lugarTrabajo: 'IEGEBA-CONICET, Argentina.',
+        image: '../../assets/imgs/trabajos/Graciela-Esther-Gonzalez.JPG'
+    },
+    {
+        nombre: 'Maria Laura Las Peñas',
+        lugarTrabajo: 'IMBIV, Argentina.',
+        image: '../../assets/imgs/trabajos/Maria-Laura-Las-Penas.JPG'
+    },
+    {
+        nombre: 'Paola Gaiero',
+        lugarTrabajo: 'Facultad de Agronomía, Universidad de la República',
+        image: '../../assets/imgs/trabajos/Paola-Gaiero.JPG'
+    },
+    {
+        nombre: 'Alejandra Marcela Ortiz',
+        lugarTrabajo: 'IBONE, Argentina.',
+        image: '../../assets/imgs/trabajos/Alejandra-Marcela-Ortiz.JPG'
+    },
+    {
+        nombre: 'María Florencia Realini',
+        lugarTrabajo: 'IBONE, Argentina.',
+        image: '../../assets/imgs/trabajos/Maria-Florencia-Realini.JPG'
+    },
+    {
+        nombre: 'Gabriela Repetto',
+        lugarTrabajo: 'RM, Chile.',
+        image: '../../assets/imgs/trabajos/Gabriela-Repetto.JPG'
+    },
+    {
+        nombre: 'Iscia Lopes-cendes',
+        lugarTrabajo: 'Department of Medical Genetics and Genomic Medicine, School of Medical Sciences, and the Brazilian Institute of Neuroscience and Neurotechnology (BRAINN), Campinas, SP, Brazil.',
+        image: '../../assets/imgs/trabajos/Iscia-Lopes-cendes.JPG'
+    },
+    {
+        nombre: 'Marta Ascurra',
+        lugarTrabajo: 'Programa Nacional de Prevención de Defectos Congénitos, Ministerio de Salud, Paraguay.',
+        image: '../../assets/imgs/trabajos/Marta-Ascurra.JPG'
+    },
+    {
+        nombre: 'Gonzalo Encina',
+        lugarTrabajo: 'Centro de Genética y Genómica, Instituto de Ciencias e Innovación en Medicina, Facultad de Medicina - Clínica Alemana, Universidad del Desarrollo, Santiago, Chile.',
+        image: '../../assets/imgs/trabajos/Gonzalo-Encina.JPG'
+    },
+    {
+        nombre: 'Liliana Picardi',
+        lugarTrabajo: 'Universidad Nacional de Rosario, Argentina.',
+        image: '../../assets/imgs/trabajos/Liliana-Picardi.JPG'
+    },
+    {
+        nombre: 'Sergio Feingold',
+        lugarTrabajo: 'INTA, Balcarce, Argentina',
+        image: '../../assets/imgs/trabajos/Sergio-Feingold.JPG'
+    },
+    {
+        nombre: 'Nicolás Mucci',
+        lugarTrabajo: 'INTA, Balcarce, Argentina.',
+        image: '../../assets/imgs/trabajos/Nicolas-Mucci.JPG'
+    },
+    {
+        nombre: 'Agustin Zsögön',
+        lugarTrabajo: 'Universidade Federal de Viçosa, Brazil; 2Universidade de São Paulo, Brazil.',
+        image: '../../assets/imgs/trabajos/Agustin-Zsogon.JPG'
+    },
+    {
+        nombre: 'Lluis Montoliu',
+        lugarTrabajo: 'CNB-CSIC, España.',
+        image: '../../assets/imgs/trabajos/Lluis-Montoliu.JPG'
+    },
+    {
+        nombre: 'Clara Pritsch',
+        lugarTrabajo: 'Facultad de Agronomía, UDELAR, Uruguay.',
+        image: '../../assets/imgs/trabajos/Clara-Pritsch.JPG'
+    },
+    {
+        nombre: 'Susana Noemí Marcucci Poltri',
+        lugarTrabajo: 'Instituto de Agrobiotecnología y Biología Molecular, (IABIMO), Instituto Nacional de Tecnología Agropecuaria y Consejo Nacional de Investigaciones Científicas y Tecnológicas (INTA-CONICET), Hurlingham, Buenos Aires, Argentina.',
+        image: '../../assets/imgs/trabajos/Susana-Noemi-Marcucci-Poltri.JPG'
+    },
+    {
+        nombre: 'Marianella Fernanda Quezada Macchiavello',
+        lugarTrabajo: 'Universidad de la República, Facultad de Agronomía, Uruguay.',
+        image: '../../assets/imgs/trabajos/Marianella-Fernanda-Quezada-Macchiavello.JPG'
+    },
+    {
+        nombre: 'Antonio Augusto Franco Garcia',
+        lugarTrabajo: 'Departamento Genética, Escola Superior de Agricultura Luiz de Queiroz, Universidade de São Paulo, Brazil.',
+        image: '../../assets/imgs/trabajos/Antonio-Augusto-Franco-Garcia.JPG'
+    },
+    {
+        nombre: 'Maria Lucia Carneiro Vieira',
+        lugarTrabajo: 'Universidade de São Paulo, Brazil.',
+        image: '../../assets/imgs/trabajos/Maria-Lucia-Carneiro-Vieira.JPG'
+    },
+    {
+        nombre: 'Viviana Solís Neffa',
+        lugarTrabajo: 'IBONE (UNNE-CONICET), FACENA (UNNE), Argentina.',
+        image: '../../assets/imgs/trabajos/Viviana-Solis-Neffa.JPG',
+        image2: '../../assets/imgs/trabajos/Viviana-Solis-Neffa2.JPG'
+    },
+    {
+        nombre: 'Freitas Loreta',
+        lugarTrabajo: 'Universidade Federal do Rio Grande do Sul, Brazil.',
+        image: '../../assets/imgs/trabajos/Freitas-Loreta.JPG'
+    },
+    {
+        nombre: 'Pablo Speranza',
+        lugarTrabajo: 'Facultad de Agronomía, Universidad de la República, Montevideo, Uruguay.',
+        image: '../../assets/imgs/trabajos/Pablo-Speranza.JPG'
+    },
+];
+//# sourceMappingURL=disertantes.js.map
+
+/***/ }),
+
 /***/ 341:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3895,7 +3895,7 @@ var programa = [
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(262);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(263);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_start_start__ = __webpack_require__(151);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_start_start__ = __webpack_require__(149);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3938,7 +3938,7 @@ var MyApp = /** @class */ (function () {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotificationsProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(318);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
@@ -3946,7 +3946,7 @@ var MyApp = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_catch__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__ = __webpack_require__(321);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_observable_throw__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__config_config__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__config_config__ = __webpack_require__(204);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
