@@ -706,29 +706,33 @@ export const programa: any[] = [
                         ]
                     },
                     {
-                        id: 31,
-                        titulo_es: 'Impacto de las nuevas tecnologías moleculares en el estudio de las Zoonosis Virales emergentes y reemergentes en América',
-                        titulo_en: 'Impacto de las nuevas tecnologías moleculares en el estudio de las Zoonosis Virales emergentes y reemergentes en América',
+                        id: 38,
+                        titulo_es: 'Un cambio de mirada en la cría animal aprovechando la información genómica',
+                        titulo_en: 'Un cambio de mirada en la cría animal aprovechando la información genómica',
                         tipo: 'simposio',
                         horario: '8:30 - 10:30',
-                        lugar: 'Uspallata. Sala 4',
-                        coordinadora: 'Jorge B. García. INEVH J.I Maiztegui. Pergamino, Argentina.',
+                        lugar: 'Plumerillo. Sala 5',
+                        coordinadora: 'Poli M.1. 1 INTA. CICVyA-Instituto de Genetica. Argentina.',
                         simposistas: [
                             {
-                                titulo: 'Herramientas moleculares utilizadas actualmente para la vigilancia y caracterización genética de Arbovirus en Argentina. ',
-                                desc: 'Fabbri C.1. 1 INEVH. Argentina. '
+                                titulo: 'Estrategias de investigación multidisciplinarias usando información genómica para la elección de animales superiores.',
+                                desc: 'Poli M.1. 1 INTA. CICVyA-Instituto de Genética. Argentina. '
                             },
                             {
-                                titulo: 'Mobile real time genomic of arboviruses in Brazil. ',
-                                desc: 'Alcantara L.1. 1 Fundação Oswaldo Cruz. Brasil.'
+                                titulo: 'Mejoramiento genético de ovinos en la Patagonia: actualidad y desafíos ante nuevos escenarios climáticos y comerciales.',
+                                desc: 'Vozzi P.A.1. 1 INTA EEA Chubut. Argentina.'
                             },
                             {
-                                titulo: 'Impacto de las nuevas tecnologías moleculares en el estudio de las zoonosis virales emergentes y reemergentes en América.',
-                                desc: 'Iglesias G.1. 1 Laboratorio de Virus Emergentes. Departamento de Ciencia y Tecnología. Universidad Nacional de Quilmes. Argentina. '
+                                titulo: 'Clonación equina, herramienta práctica para preservar genética.',
+                                desc: 'Kaiser G.1, N. Mucci1, J.. Mertián2, R. Santa Cruz2. 1 Grupo de Biotecnologia de la Reproduccion, INTA Balcarce; 2 Crestview Genetics Argentina.'
                             },
                             {
-                                titulo: 'Aplicación de herramientas bioinformáticas en virología: análisis filodinámico de los hantavirus de Argentina.',
-                                desc: 'Sen C.N.1, J.B. García1. 1 Instituto Nacional de Enfermedades Virales Humanas «Dr. Julio I. Maiztegui» (INEVH). Pergamino, Buenos Aires, Argentina.'
+                                titulo: 'El cerdo Criollo Pampa Rocha de Uruguay como recurso zoogenético local (una mirada desde la genética).',
+                                desc: 'Llambí M.S.1, M. Montenegro1, C. Carballo2, G. Castro1. 1 Facultad de Veterinaria, UdelaR-Uruguay; 2 Facultad de Agronomía, UdelaR-Uruguay. '
+                            },
+                            {
+                                titulo: 'Avances en el conocimiento del genoma de la alpaca. ',
+                                desc: 'Gutierrez Reynoso G.A.1, F.A. Ponce De Leon2. 1 UNIVERSIDAD NACIONAL AGRARIA LA MOLINA; 2 UNIVERSITY OF MINNESOTA.'
                             }
                         ]
                     },
@@ -878,33 +882,29 @@ export const programa: any[] = [
                         ]
                     },
                     {
-                        id: 38,
-                        titulo_es: 'Un cambio de mirada en la cría animal aprovechando la información genómica',
-                        titulo_en: 'Un cambio de mirada en la cría animal aprovechando la información genómica',
+                        id: 31,
+                        titulo_es: 'Impacto de las nuevas tecnologías moleculares en el estudio de las Zoonosis Virales emergentes y reemergentes en América',
+                        titulo_en: 'Impacto de las nuevas tecnologías moleculares en el estudio de las Zoonosis Virales emergentes y reemergentes en América',
                         tipo: 'simposio',
                         horario: '15:45 - 17:45',
-                        lugar: 'Plumerillo. Sala 5',
-                        coordinadora: 'Poli M.1. 1 INTA. CICVyA-Instituto de Genetica. Argentina.',
+                        lugar: 'Uspallata. Sala 4',
+                        coordinadora: 'Jorge B. García. INEVH J.I Maiztegui. Pergamino, Argentina.',
                         simposistas: [
                             {
-                                titulo: 'Estrategias de investigación multidisciplinarias usando información genómica para la elección de animales superiores.',
-                                desc: 'Poli M.1. 1 INTA. CICVyA-Instituto de Genética. Argentina. '
+                                titulo: 'Herramientas moleculares utilizadas actualmente para la vigilancia y caracterización genética de Arbovirus en Argentina. ',
+                                desc: 'Fabbri C.1. 1 INEVH. Argentina. '
                             },
                             {
-                                titulo: 'Mejoramiento genético de ovinos en la Patagonia: actualidad y desafíos ante nuevos escenarios climáticos y comerciales.',
-                                desc: 'Vozzi P.A.1. 1 INTA EEA Chubut. Argentina.'
+                                titulo: 'Mobile real time genomic of arboviruses in Brazil. ',
+                                desc: 'Alcantara L.1. 1 Fundação Oswaldo Cruz. Brasil.'
                             },
                             {
-                                titulo: 'Clonación equina, herramienta práctica para preservar genética.',
-                                desc: 'Kaiser G.1, N. Mucci1, J.. Mertián2, R. Santa Cruz2. 1 Grupo de Biotecnologia de la Reproduccion, INTA Balcarce; 2 Crestview Genetics Argentina.'
+                                titulo: 'Impacto de las nuevas tecnologías moleculares en el estudio de las zoonosis virales emergentes y reemergentes en América.',
+                                desc: 'Iglesias G.1. 1 Laboratorio de Virus Emergentes. Departamento de Ciencia y Tecnología. Universidad Nacional de Quilmes. Argentina. '
                             },
                             {
-                                titulo: 'El cerdo Criollo Pampa Rocha de Uruguay como recurso zoogenético local (una mirada desde la genética).',
-                                desc: 'Llambí M.S.1, M. Montenegro1, C. Carballo2, G. Castro1. 1 Facultad de Veterinaria, UdelaR-Uruguay; 2 Facultad de Agronomía, UdelaR-Uruguay. '
-                            },
-                            {
-                                titulo: 'Avances en el conocimiento del genoma de la alpaca. ',
-                                desc: 'Gutierrez Reynoso G.A.1, F.A. Ponce De Leon2. 1 UNIVERSIDAD NACIONAL AGRARIA LA MOLINA; 2 UNIVERSITY OF MINNESOTA.'
+                                titulo: 'Aplicación de herramientas bioinformáticas en virología: análisis filodinámico de los hantavirus de Argentina.',
+                                desc: 'Sen C.N.1, J.B. García1. 1 Instituto Nacional de Enfermedades Virales Humanas «Dr. Julio I. Maiztegui» (INEVH). Pergamino, Buenos Aires, Argentina.'
                             }
                         ]
                     },
