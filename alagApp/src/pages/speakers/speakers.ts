@@ -16,6 +16,7 @@ export class SpeakersPage {
   disertantes: any[] = disertantes;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.disertantes.sort((a, b) => (a.nombre > b.nombre) ? 1 : -1)
   }
 
   ionViewDidLoad() {

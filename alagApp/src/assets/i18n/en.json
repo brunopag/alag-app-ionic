@@ -2,7 +2,12 @@
     "home": {
         "dia": "Day",
         "resultadosVacio": "There is not results for this search",
-        "placeholder": "Search"
+        "placeholder": "Search",
+        "domingo": "Sunday",
+        "lunes": "Monday",
+        "martes": "Tuesday",
+        "miercoles": "Wednesday",
+        "tipo": "Class"
     },
     "tabs": {
         "cronograma": "Schedule",
@@ -51,7 +56,10 @@
         "lugar9": "With capacity for 2000 people. It is equipped with the lastest technology in audio, video and lighting.",
         "lugar10": "MEANS OF TRANSPORT:",
         "lugar11": "Public bus – Taxi",
-        "planoBoton": "Plan of the congress center"
+        "planoBoton": "Plan of the congress center",
+        "centroDeConvenciones": "Convention Center",
+        "patrocinadores": "Sponsors",
+        "libroDeActas": "Proceedings of ALAG 2109"
     },
     "speakers": {
         "placeholder": "Search by author or workplace"

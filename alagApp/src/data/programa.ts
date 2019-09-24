@@ -185,7 +185,7 @@ export const programa: any[] = [
                             },
                             {
                                 nombre_es: 'Genética y Mejoramiento Animal',
-                                nombre_en: 'Genetics and Animal Improvement'
+                                nombre_en: 'Genetics and Animal Breeding'
                             },
                             {
                                 nombre_es: 'Genómica y Genética Molecular',
@@ -361,7 +361,7 @@ export const programa: any[] = [
                             },
                             {
                                 nombre_es: 'Genética y Mejoramiento Animal',
-                                nombre_en: 'Genetics and Animal Improvement'
+                                nombre_en: 'Genetics and Animal Breeding'
                             },
                             {
                                 nombre_es: 'Genómica y Genética Molecular',
@@ -603,7 +603,7 @@ export const programa: any[] = [
                         categorias: [
                             {
                                 nombre_es: 'Citogenética Vegetal',
-                                nombre_en: 'Vegetable Cytogenetics'
+                                nombre_en: 'Plant Cytogenetics'
                             },
                             {
                                 nombre_es: 'Genética de Poblaciones y Evolución',
@@ -786,7 +786,7 @@ export const programa: any[] = [
                         categorias: [
                             {
                                 nombre_es: 'Citogenética Vegetal',
-                                nombre_en: 'Vegetable Cytogenetics'
+                                nombre_en: 'Plant Cytogenetics'
                             },
                             {
                                 nombre_es: 'Genética de Poblaciones y Evolución',
@@ -1043,7 +1043,7 @@ export const programa: any[] = [
                             },
                             {
                                 nombre_es: 'Mejoramiento Vegetal',
-                                nombre_en: 'Vegetable Improvement'
+                                nombre_en: 'Plant Breeding'
                             }
                         ]
                     }
@@ -1210,7 +1210,7 @@ export const programa: any[] = [
                             },
                             {
                                 nombre_es: 'Mejoramiento Vegetal',
-                                nombre_en: 'Vegetable Improvement'
+                                nombre_en: 'Plant Breeding'
                             }
                         ]
                     }

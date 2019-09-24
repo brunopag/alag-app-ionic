@@ -2,7 +2,12 @@
     "home": {
         "dia": "Día",
         "resultadosVacio": "No hay resultados para esta busqueda",
-        "placeholder": "Buscar"
+        "placeholder": "Buscar",
+        "domingo": "Domingo",
+        "lunes": "Lunes",
+        "martes": "Martes",
+        "miercoles": "Miércoles",
+        "tipo": "Tipo"
     },
     "tabs": {
         "cronograma": "Cronograma",
@@ -51,7 +56,10 @@
         "lugar9": "Con capacidad para 2000 personas, está equipado con tecnología de última generación en audio, video e iluminación.",
         "lugar10": "MEDIOS DE TRANSPORTE:",
         "lugar11": "Bus Público – Taxi",
-        "planoBoton": "Plano del centro de congresos"
+        "planoBoton": "Plano del centro de congresos",
+        "centroDeConvenciones": "Centro de Convenciones",
+        "patrocinadores": "Patrocinadores",
+        "libroDeActas": "Libro de Actas de Congreso ALAG 2019"
     },
     "speakers": {
         "placeholder": "Buscar autor o lugar de trabajo"
