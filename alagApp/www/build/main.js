@@ -437,7 +437,7 @@ var InfoPatrocinadoresPage = /** @class */ (function () {
     };
     InfoPatrocinadoresPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-info-patrocinadores',template:/*ion-inline-start:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\info-patrocinadores\info-patrocinadores.html"*/'<!--\n  Generated template for the InfoPatrocinadoresPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar>\n        <ion-title>Patrocinadores</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <ion-card>\n        <ion-card-content>\n            <ion-card-title>\n                Patrocinadores\n            </ion-card-title>\n\n            <img (click)="navegarPaginaWeb(\'https://www.argentina.gob.ar/ciencia\')" src="../../assets/imgs/sponsors/nuevos/LogoSECCIENCIA.png" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.turismo.mendoza.gov.ar/\')" src="../../assets/imgs/sponsors/turismo-mendoza.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.conicet.gov.ar/\')" src="../../assets/imgs/sponsors/logoCONICET.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.argentina.gob.ar/ciencia/agencia\')" src="../../assets/imgs/sponsors/logoAGENCIA.jpg" alt="">\n\n            <img src="../../assets/imgs/sponsors/logoIGF.jpg" alt="">\n\n            <img src="../../assets/imgs/sponsors/logoARFIC-1.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.biosystems.com.ar/\')" src="../../assets/imgs/sponsors/LogoBSl.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://metasystems-international.com/\')" src="../../assets/imgs/sponsors/LogoMetasyste.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://mgiamericas.com/\')" src="../../assets/imgs/sponsors/nuevos/mgi.png" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.analytical.com/\')" src="../../assets/imgs/sponsors/Logoanalytical.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.syngenta.com.ar/\')" src="../../assets/imgs/sponsors/syngentalogo.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.corteva.com/\')" src="../../assets/imgs/sponsors/logoCORTEVA.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.eppendorf.com/\')" src="../../assets/imgs/sponsors/nuevos/logoeppendorf.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://en.novogene.com/\')" src="../../assets/imgs/sponsors/nuevos/novogene.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.biocientifica.com.ar/\')" src="../../assets/imgs/sponsors/nuevos/biocientífica.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.bio-optic.com/\')" src="../../assets/imgs/sponsors/nuevos/logobiooptic.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.biodynamics.com.ar/\')" src="../../assets/imgs/sponsors/logoBYODINAMICS.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.tecnolab.com.ar/\')" src="../../assets/imgs/sponsors/logoTECNOLAB.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.cwrdiversity.org/\')" src="../../assets/imgs/sponsors/logoCROP.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.croptrust.org/\')" src="../../assets/imgs/sponsors/logoCROPTRUST.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://norad.no/en/front/\')" src="../../assets/imgs/sponsors/logoNORAD.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.regjeringen.no/en/dep/ud/id833/\')" src="../../assets/imgs/sponsors/logoNORW.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.acacoop.com.ar/\')" src="../../assets/imgs/sponsors/nuevos/aca.png" alt="">\n\n        </ion-card-content>\n    </ion-card>\n</ion-content>'/*ion-inline-end:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\info-patrocinadores\info-patrocinadores.html"*/,
+            selector: 'page-info-patrocinadores',template:/*ion-inline-start:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\info-patrocinadores\info-patrocinadores.html"*/'<!--\n  Generated template for the InfoPatrocinadoresPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar>\n        <ion-title>Patrocinadores</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <ion-card>\n        <ion-card-content>\n            <ion-card-title>\n                Patrocinadores\n            </ion-card-title>\n\n            <img (click)="navegarPaginaWeb(\'https://www.argentina.gob.ar/ciencia\')" src="../../assets/imgs/sponsors/nuevos/LogoSECCIENCIA.png" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.turismo.mendoza.gov.ar/\')" src="../../assets/imgs/sponsors/turismo-mendoza.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.conicet.gov.ar/\')" src="../../assets/imgs/sponsors/logoCONICET.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.argentina.gob.ar/ciencia/agencia\')" src="../../assets/imgs/sponsors/logoAGENCIA.jpg" alt="">\n\n            <img src="../../assets/imgs/sponsors/logoIGF.jpg" alt="">\n\n            <img src="../../assets/imgs/sponsors/logoARFIC-1.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.biosystems.com.ar/\')" src="../../assets/imgs/sponsors/LogoBSl.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://metasystems-international.com/\')" src="../../assets/imgs/sponsors/LogoMetasyste.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://mgiamericas.com/\')" src="../../assets/imgs/sponsors/nuevos/mgi.png" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.analytical.com/\')" src="../../assets/imgs/sponsors/Logoanalytical.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.syngenta.com.ar/\')" src="../../assets/imgs/sponsors/syngentalogo.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.corteva.com/\')" src="../../assets/imgs/sponsors/logoCORTEVA.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.eppendorf.com/\')" src="../../assets/imgs/sponsors/nuevos/logoeppendorf.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://en.novogene.com/\')" src="../assets/imgs/sponsors/nuevos/novogene2.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.biocientifica.com.ar/\')" src="../../assets/imgs/sponsors/nuevos/biocientífica.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.bio-optic.com/\')" src="../../assets/imgs/sponsors/nuevos/logobiooptic.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.biodynamics.com.ar/\')" src="../../assets/imgs/sponsors/logoBYODINAMICS.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.tecnolab.com.ar/\')" src="../../assets/imgs/sponsors/logoTECNOLAB.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.cwrdiversity.org/\')" src="../../assets/imgs/sponsors/logoCROP.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.croptrust.org/\')" src="../../assets/imgs/sponsors/logoCROPTRUST.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://norad.no/en/front/\')" src="../../assets/imgs/sponsors/logoNORAD.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.regjeringen.no/en/dep/ud/id833/\')" src="../../assets/imgs/sponsors/logoNORW.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.acacoop.com.ar/\')" src="../../assets/imgs/sponsors/nuevos/aca.png" alt="">\n\n        </ion-card-content>\n    </ion-card>\n</ion-content>'/*ion-inline-end:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\info-patrocinadores\info-patrocinadores.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */]])
     ], InfoPatrocinadoresPage);
@@ -517,6 +517,7 @@ var SpeakersPage = /** @class */ (function () {
         this.navParams = navParams;
         this.searchQuery = '';
         this.disertantes = __WEBPACK_IMPORTED_MODULE_2__data_disertantes__["a" /* disertantes */];
+        this.disertantes.sort(function (a, b) { return (a.nombre > b.nombre) ? 1 : -1; });
     }
     SpeakersPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad SpeakersPage');
@@ -805,15 +806,15 @@ var map = {
 		8
 	],
 	"../pages/notification/notification.module": [
-		451,
+		449,
 		7
 	],
 	"../pages/pages-favorites-list/pages-favorites-list.module": [
-		449,
+		450,
 		6
 	],
 	"../pages/plano-auditorio/plano-auditorio.module": [
-		450,
+		451,
 		5
 	],
 	"../pages/speakers-speaker-details/speakers-speaker-details.module": [
@@ -1598,9 +1599,9 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/info-centro-convencion/info-centro-convencion.module#InfoCentroConvencionPageModule', name: 'InfoCentroConvencionPage', segment: 'info-centro-convencion', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/notification-list/notification-list.module#NotificationListPageModule', name: 'NotificationListPage', segment: 'notification-list', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info-patrocinadores/info-patrocinadores.module#InfoPatrocinadoresPageModule', name: 'InfoPatrocinadoresPage', segment: 'info-patrocinadores', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/notification/notification.module#NotificationPageModule', name: 'NotificationPage', segment: 'notification', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/pages-favorites-list/pages-favorites-list.module#PagesFavoritesListPageModule', name: 'PagesFavoritesListPage', segment: 'pages-favorites-list', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/plano-auditorio/plano-auditorio.module#PlanoAuditorioPageModule', name: 'PlanoAuditorioPage', segment: 'plano-auditorio', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/notification/notification.module#NotificationPageModule', name: 'NotificationPage', segment: 'notification', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/speakers-speaker-details/speakers-speaker-details.module#SpeakersSpeakerDetailsPageModule', name: 'SpeakersSpeakerDetailsPage', segment: 'speakers-speaker-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/speakers/speakers.module#SpeakersPageModule', name: 'SpeakersPage', segment: 'speakers', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/start/start.module#StartPageModule', name: 'StartPage', segment: 'start', priority: 'low', defaultHistory: [] },
@@ -2637,7 +2638,7 @@ var programa = [
                             },
                             {
                                 nombre_es: 'Genética y Mejoramiento Animal',
-                                nombre_en: 'Genetics and Animal Improvement'
+                                nombre_en: 'Genetics and Animal Breeding'
                             },
                             {
                                 nombre_es: 'Genómica y Genética Molecular',
@@ -2813,7 +2814,7 @@ var programa = [
                             },
                             {
                                 nombre_es: 'Genética y Mejoramiento Animal',
-                                nombre_en: 'Genetics and Animal Improvement'
+                                nombre_en: 'Genetics and Animal Breeding'
                             },
                             {
                                 nombre_es: 'Genómica y Genética Molecular',
@@ -3055,7 +3056,7 @@ var programa = [
                         categorias: [
                             {
                                 nombre_es: 'Citogenética Vegetal',
-                                nombre_en: 'Vegetable Cytogenetics'
+                                nombre_en: 'Plant Cytogenetics'
                             },
                             {
                                 nombre_es: 'Genética de Poblaciones y Evolución',
@@ -3238,7 +3239,7 @@ var programa = [
                         categorias: [
                             {
                                 nombre_es: 'Citogenética Vegetal',
-                                nombre_en: 'Vegetable Cytogenetics'
+                                nombre_en: 'Plant Cytogenetics'
                             },
                             {
                                 nombre_es: 'Genética de Poblaciones y Evolución',
@@ -3495,7 +3496,7 @@ var programa = [
                             },
                             {
                                 nombre_es: 'Mejoramiento Vegetal',
-                                nombre_en: 'Vegetable Improvement'
+                                nombre_en: 'Plant Breeding'
                             }
                         ]
                     }
@@ -3662,7 +3663,7 @@ var programa = [
                             },
                             {
                                 nombre_es: 'Mejoramiento Vegetal',
-                                nombre_en: 'Vegetable Improvement'
+                                nombre_en: 'Plant Breeding'
                             }
                         ]
                     }
