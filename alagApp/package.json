@@ -30,6 +30,7 @@
     "@ngx-translate/core": "^9.1.1",
     "@ngx-translate/http-loader": "^3.0.1",
     "com-sarriaroman-photoviewer": "^1.2.4",
+    "cordova-ios": "^5.0.1",
     "cordova-plugin-file": "^6.0.2",
     "cordova-plugin-inappbrowser": "^3.1.0",
     "ionic-angular": "3.9.5",
@@ -64,6 +65,8 @@
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-inappbrowser": {}
     },
-    "platforms": []
+    "platforms": [
+      "ios"
+    ]
   }
 }
