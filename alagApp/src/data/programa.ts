@@ -62,35 +62,13 @@ export const programa: any[] = [
                             hora: '13:00 Hs.',
                             charlas: [
                                 {
-                                    id: 3,
-                                    titulo_es: 'Teoría de juegos y presentación del libro sobre el tema editado por la SAG',
-                                    titulo_en: 'Teoría de juegos y presentación del libro sobre el tema editado por la SAG',
-                                    tipo: 'curso',
-                                    desc_es: '<p>La Teoría de los Juegos: el área de la matemática que a partir del uso de modelos estudia las tomas de decisiones y las interacciones en lo que se conoce como estructuras formalizadas de incentivos. Es decir, la lógica que usamos siempre que interactuamos con otro ser humano cuando, por ejemplo, tratamos de quedarnos con el último pedazo de torta en la cafetería o le hacemos un favor a un colega que esperamos retorne en el futuro.</p><p>Hoy en día, la Teoría de los Juegos es usada por muchas personas distintas en un amplio espectro de intereses. «La principal razón de su éxito fue la variedad de escenarios en los que la gente empezó a darse cuenta que tenían que pensar formal y sistemáticamente sobre las interacciones estratégicas».</p>',
-                                    desc_en: '<p>La Teoría de los Juegos: el área de la matemática que a partir del uso de modelos estudia las tomas de decisiones y las interacciones en lo que se conoce como estructuras formalizadas de incentivos. Es decir, la lógica que usamos siempre que interactuamos con otro ser humano cuando, por ejemplo, tratamos de quedarnos con el último pedazo de torta en la cafetería o le hacemos un favor a un colega que esperamos retorne en el futuro.</p><p>Hoy en día, la Teoría de los Juegos es usada por muchas personas distintas en un amplio espectro de intereses. «La principal razón de su éxito fue la variedad de escenarios en los que la gente empezó a darse cuenta que tenían que pensar formal y sistemáticamente sobre las interacciones estratégicas».</p>',
-                                    horario: '13:00 - 16:00',
-                                    duracion: '3 Hs.',
-                                    lugar: 'Universidad Maza',
-                                    docentes: [
-                                        'David Almorza Gomar. Dpto. de Estadística experimental. Universidad de Cádiz, España.'
-                                    ],
-                                    contenidos: [
-                                        'Ideas básicas de la Teoría de Juegos.',
-                                        'Cálculo del momento de equilibrio.',
-                                        'Regla de Dominación.',
-                                        'Juegos bimatriciales.',
-                                        'El dilema del prisionero y otros dilemas.',
-                                        'Aplicaciones.'
-                                    ]
-                                },
-                                {
                                     id: 4,
                                     titulo_es: 'Reunión Latin America – Grupo de estudios de tumores hereditarios (LA-GETH)',
                                     titulo_en: 'Latin America Meeting - Group of hereditary tumor studies (LA-GETH)',
                                     tipo: 'varios',
                                     horario: '13:00 - 16:00',
                                     duracion: '3 Hs.',
-                                    lugar: 'Centro Civit'
+                                    lugar: 'Universidad Maza. Av. Acceso Este, Lateral Sur 2245, Guaymallén, Mendoza.'
                                 },
                                 {
                                     id: 5,

@@ -290,6 +290,57 @@ var PlanoAuditorioPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfoPatrocinadoresPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__ = __webpack_require__(65);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the InfoPatrocinadoresPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var InfoPatrocinadoresPage = /** @class */ (function () {
+    function InfoPatrocinadoresPage(navCtrl, navParams, iab) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.iab = iab;
+    }
+    InfoPatrocinadoresPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad InfoPatrocinadoresPage');
+    };
+    InfoPatrocinadoresPage.prototype.navegarPaginaWeb = function (url) {
+        this.iab.create(url, '_system');
+    };
+    InfoPatrocinadoresPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-info-patrocinadores',template:/*ion-inline-start:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\info-patrocinadores\info-patrocinadores.html"*/'<!--\n  Generated template for the InfoPatrocinadoresPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar>\n        <ion-title>Patrocinadores</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <ion-card>\n        <ion-card-content>\n            <ion-card-title>\n                Patrocinadores\n            </ion-card-title>\n\n            <img (click)="navegarPaginaWeb(\'https://www.argentina.gob.ar/ciencia\')" src="../../assets/imgs/sponsors/nuevos/LogoSECCIENCIA.png" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.turismo.mendoza.gov.ar/\')" src="../../assets/imgs/sponsors/turismo-mendoza.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.conicet.gov.ar/\')" src="../../assets/imgs/sponsors/logoCONICET.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.argentina.gob.ar/ciencia/agencia\')" src="../../assets/imgs/sponsors/logoAGENCIA.jpg" alt="">\n\n            <img src="../../assets/imgs/sponsors/logoIGF.jpg" alt="">\n\n            <img src="../../assets/imgs/sponsors/logoARFIC-1.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.biosystems.com.ar/\')" src="../../assets/imgs/sponsors/LogoBSl.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://metasystems-international.com/\')" src="../../assets/imgs/sponsors/LogoMetasyste.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://mgiamericas.com/\')" src="../../assets/imgs/sponsors/nuevos/mgi.png" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.analytical.com/\')" src="../../assets/imgs/sponsors/Logoanalytical.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.syngenta.com.ar/\')" src="../../assets/imgs/sponsors/syngentalogo.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.corteva.com/\')" src="../../assets/imgs/sponsors/logoCORTEVA.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.eppendorf.com/\')" src="../../assets/imgs/sponsors/nuevos/logoeppendorf.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://en.novogene.com/\')" src="../assets/imgs/sponsors/nuevos/novogene2.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.biocientifica.com.ar/\')" src="../../assets/imgs/sponsors/nuevos/biocientífica.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.bio-optic.com/\')" src="../../assets/imgs/sponsors/nuevos/logobiooptic.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.biodynamics.com.ar/\')" src="../../assets/imgs/sponsors/logoBYODINAMICS.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.tecnolab.com.ar/\')" src="../../assets/imgs/sponsors/logoTECNOLAB.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.cwrdiversity.org/\')" src="../../assets/imgs/sponsors/logoCROP.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.croptrust.org/\')" src="../../assets/imgs/sponsors/logoCROPTRUST.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://norad.no/en/front/\')" src="../../assets/imgs/sponsors/logoNORAD.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.regjeringen.no/en/dep/ud/id833/\')" src="../../assets/imgs/sponsors/logoNORW.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.acacoop.com.ar/\')" src="../../assets/imgs/sponsors/nuevos/aca.png" alt="">\n\n        </ion-card-content>\n    </ion-card>\n</ion-content>'/*ion-inline-end:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\info-patrocinadores\info-patrocinadores.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */]])
+    ], InfoPatrocinadoresPage);
+    return InfoPatrocinadoresPage;
+}());
+
+//# sourceMappingURL=info-patrocinadores.js.map
+
+/***/ }),
+
+/***/ 148:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NotificationListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
@@ -394,57 +445,6 @@ var NotificationListPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=notification-list.js.map
-
-/***/ }),
-
-/***/ 148:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfoPatrocinadoresPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__ = __webpack_require__(65);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the InfoPatrocinadoresPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var InfoPatrocinadoresPage = /** @class */ (function () {
-    function InfoPatrocinadoresPage(navCtrl, navParams, iab) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.iab = iab;
-    }
-    InfoPatrocinadoresPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad InfoPatrocinadoresPage');
-    };
-    InfoPatrocinadoresPage.prototype.navegarPaginaWeb = function (url) {
-        this.iab.create(url, '_system');
-    };
-    InfoPatrocinadoresPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-info-patrocinadores',template:/*ion-inline-start:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\info-patrocinadores\info-patrocinadores.html"*/'<!--\n  Generated template for the InfoPatrocinadoresPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n    <ion-navbar>\n        <ion-title>Patrocinadores</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <ion-card>\n        <ion-card-content>\n            <ion-card-title>\n                Patrocinadores\n            </ion-card-title>\n\n            <img (click)="navegarPaginaWeb(\'https://www.argentina.gob.ar/ciencia\')" src="../../assets/imgs/sponsors/nuevos/LogoSECCIENCIA.png" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.turismo.mendoza.gov.ar/\')" src="../../assets/imgs/sponsors/turismo-mendoza.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.conicet.gov.ar/\')" src="../../assets/imgs/sponsors/logoCONICET.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.argentina.gob.ar/ciencia/agencia\')" src="../../assets/imgs/sponsors/logoAGENCIA.jpg" alt="">\n\n            <img src="../../assets/imgs/sponsors/logoIGF.jpg" alt="">\n\n            <img src="../../assets/imgs/sponsors/logoARFIC-1.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.biosystems.com.ar/\')" src="../../assets/imgs/sponsors/LogoBSl.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://metasystems-international.com/\')" src="../../assets/imgs/sponsors/LogoMetasyste.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://mgiamericas.com/\')" src="../../assets/imgs/sponsors/nuevos/mgi.png" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.analytical.com/\')" src="../../assets/imgs/sponsors/Logoanalytical.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.syngenta.com.ar/\')" src="../../assets/imgs/sponsors/syngentalogo.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.corteva.com/\')" src="../../assets/imgs/sponsors/logoCORTEVA.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.eppendorf.com/\')" src="../../assets/imgs/sponsors/nuevos/logoeppendorf.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://en.novogene.com/\')" src="../assets/imgs/sponsors/nuevos/novogene2.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.biocientifica.com.ar/\')" src="../../assets/imgs/sponsors/nuevos/biocientífica.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.bio-optic.com/\')" src="../../assets/imgs/sponsors/nuevos/logobiooptic.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.biodynamics.com.ar/\')" src="../../assets/imgs/sponsors/logoBYODINAMICS.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.tecnolab.com.ar/\')" src="../../assets/imgs/sponsors/logoTECNOLAB.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.cwrdiversity.org/\')" src="../../assets/imgs/sponsors/logoCROP.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.croptrust.org/\')" src="../../assets/imgs/sponsors/logoCROPTRUST.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://norad.no/en/front/\')" src="../../assets/imgs/sponsors/logoNORAD.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'https://www.regjeringen.no/en/dep/ud/id833/\')" src="../../assets/imgs/sponsors/logoNORW.jpg" alt="">\n\n            <img (click)="navegarPaginaWeb(\'http://www.acacoop.com.ar/\')" src="../../assets/imgs/sponsors/nuevos/aca.png" alt="">\n\n        </ion-card-content>\n    </ion-card>\n</ion-content>'/*ion-inline-end:"C:\Users\Bruno\Desktop\Proyectos\alag-app-ionic\alagApp\src\pages\info-patrocinadores\info-patrocinadores.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */]])
-    ], InfoPatrocinadoresPage);
-    return InfoPatrocinadoresPage;
-}());
-
-//# sourceMappingURL=info-patrocinadores.js.map
 
 /***/ }),
 
@@ -798,11 +798,11 @@ var map = {
 		10
 	],
 	"../pages/info-patrocinadores/info-patrocinadores.module": [
-		448,
+		447,
 		9
 	],
 	"../pages/notification-list/notification-list.module": [
-		447,
+		448,
 		8
 	],
 	"../pages/notification/notification.module": [
@@ -826,11 +826,11 @@ var map = {
 		3
 	],
 	"../pages/start/start.module": [
-		454,
+		455,
 		2
 	],
 	"../pages/trabajo-details/trabajo-details.module": [
-		455,
+		454,
 		1
 	],
 	"../pages/trabajos/trabajos.module": [
@@ -959,7 +959,7 @@ var PopoverLangComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_translation_translation__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_storage__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_notification_notification__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_notification_list_notification_list__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_notification_list_notification_list__ = __webpack_require__(148);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1094,7 +1094,7 @@ var TabsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__info_centro_convencion_info_centro_convencion__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__info_patrocinadores_info_patrocinadores__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__info_patrocinadores_info_patrocinadores__ = __webpack_require__(147);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_in_app_browser__ = __webpack_require__(65);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1501,7 +1501,7 @@ var TranslationProvider = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__providers_notifications_notifications__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_popover_noti_popover_noti__ = __webpack_require__(218);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_notification_notification__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_notification_list_notification_list__ = __webpack_require__(147);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_notification_list_notification_list__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_conferencia_details_conferencia_details__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_pages_favorites_list_pages_favorites_list__ = __webpack_require__(74);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_start_start__ = __webpack_require__(151);
@@ -1513,7 +1513,7 @@ var TranslationProvider = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__ionic_native_file__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31_ionic_img_viewer__ = __webpack_require__(343);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__pages_info_centro_convencion_info_centro_convencion__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_info_patrocinadores_info_patrocinadores__ = __webpack_require__(148);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__pages_info_patrocinadores_info_patrocinadores__ = __webpack_require__(147);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__ionic_native_in_app_browser__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__pages_speakers_speaker_details_speakers_speaker_details__ = __webpack_require__(149);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1597,15 +1597,15 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/categoria-list/categoria-list.module#CategoriaListPageModule', name: 'CategoriaListPage', segment: 'categoria-list', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/conferencia-details/conferencia-details.module#ConferenciaDetailsPageModule', name: 'ConferenciaDetailsPage', segment: 'conferencia-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info-centro-convencion/info-centro-convencion.module#InfoCentroConvencionPageModule', name: 'InfoCentroConvencionPage', segment: 'info-centro-convencion', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/notification-list/notification-list.module#NotificationListPageModule', name: 'NotificationListPage', segment: 'notification-list', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info-patrocinadores/info-patrocinadores.module#InfoPatrocinadoresPageModule', name: 'InfoPatrocinadoresPage', segment: 'info-patrocinadores', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/notification-list/notification-list.module#NotificationListPageModule', name: 'NotificationListPage', segment: 'notification-list', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/notification/notification.module#NotificationPageModule', name: 'NotificationPage', segment: 'notification', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/pages-favorites-list/pages-favorites-list.module#PagesFavoritesListPageModule', name: 'PagesFavoritesListPage', segment: 'pages-favorites-list', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/plano-auditorio/plano-auditorio.module#PlanoAuditorioPageModule', name: 'PlanoAuditorioPage', segment: 'plano-auditorio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/speakers-speaker-details/speakers-speaker-details.module#SpeakersSpeakerDetailsPageModule', name: 'SpeakersSpeakerDetailsPage', segment: 'speakers-speaker-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/speakers/speakers.module#SpeakersPageModule', name: 'SpeakersPage', segment: 'speakers', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/start/start.module#StartPageModule', name: 'StartPage', segment: 'start', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/trabajo-details/trabajo-details.module#TrabajoDetailsPageModule', name: 'TrabajoDetailsPage', segment: 'trabajo-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/start/start.module#StartPageModule', name: 'StartPage', segment: 'start', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/trabajos/trabajos.module#TrabajosPageModule', name: 'TrabajosPage', segment: 'trabajos', priority: 'low', defaultHistory: [] }
                     ]
                 }),
@@ -2042,11 +2042,6 @@ var disertantes = [
         image: '../../assets/imgs/trabajos/German-Roberto-Perez.JPG'
     },
     {
-        nombre: 'Germán Roberto Perez',
-        lugarTrabajo: 'FCByF (UNR) - Gammalab (Grupo Gamma), Rosario, Argentina.',
-        image: '../../assets/imgs/trabajos/German-Roberto-Perez.JPG'
-    },
-    {
         nombre: 'Monica Poverene',
         lugarTrabajo: 'Universidad Nacional del Sur, Argentina.',
         image: '../../assets/imgs/trabajos/Monica-Poverene.JPG',
@@ -2066,11 +2061,6 @@ var disertantes = [
         nombre: 'Marcelo Medeiros',
         lugarTrabajo: 'Embrapa, Brazil.',
         image: '../../assets/imgs/trabajos/Marcelo-Medeiros.JPG'
-    },
-    {
-        nombre: 'Jorge Braulio Garcia',
-        lugarTrabajo: 'INEVH, Argentina.',
-        image: '../../assets/imgs/trabajos/Jorge-Braulio-Garcia.JPG'
     },
     {
         nombre: 'Jorge Braulio Garcia',
@@ -2138,11 +2128,6 @@ var disertantes = [
         nombre: 'Lilian Jara',
         lugarTrabajo: 'Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile.',
         image: '../../assets/imgs/trabajos/Lilian-Jara.JPG'
-    },
-    {
-        nombre: 'Alejandra Mampel',
-        lugarTrabajo: 'Hospital Universitario, UN de Cuyo, Mendoza, Argentina.',
-        image: '../../assets/imgs/trabajos/Alejandra-Mampel.JPG'
     },
     {
         nombre: 'Alejandra Mampel',
@@ -2290,11 +2275,6 @@ var disertantes = [
         nombre: 'Carlos Machado',
         lugarTrabajo: 'University of Maryland, USA.',
         image: '../../assets/imgs/trabajos/Carlos-Machado.JPG'
-    },
-    {
-        nombre: 'Antonio Bernardo Carvalho',
-        lugarTrabajo: 'Universidade Federal do Rio de Janeiro, Brazil.',
-        image: '../../assets/imgs/trabajos/Antonio-Bernardo-Carvalho.JPG'
     },
     {
         nombre: 'Antonio Bernardo Carvalho',
@@ -2516,35 +2496,13 @@ var programa = [
                 hora: '13:00 Hs.',
                 charlas: [
                     {
-                        id: 3,
-                        titulo_es: 'Teoría de juegos y presentación del libro sobre el tema editado por la SAG',
-                        titulo_en: 'Teoría de juegos y presentación del libro sobre el tema editado por la SAG',
-                        tipo: 'curso',
-                        desc_es: '<p>La Teoría de los Juegos: el área de la matemática que a partir del uso de modelos estudia las tomas de decisiones y las interacciones en lo que se conoce como estructuras formalizadas de incentivos. Es decir, la lógica que usamos siempre que interactuamos con otro ser humano cuando, por ejemplo, tratamos de quedarnos con el último pedazo de torta en la cafetería o le hacemos un favor a un colega que esperamos retorne en el futuro.</p><p>Hoy en día, la Teoría de los Juegos es usada por muchas personas distintas en un amplio espectro de intereses. «La principal razón de su éxito fue la variedad de escenarios en los que la gente empezó a darse cuenta que tenían que pensar formal y sistemáticamente sobre las interacciones estratégicas».</p>',
-                        desc_en: '<p>La Teoría de los Juegos: el área de la matemática que a partir del uso de modelos estudia las tomas de decisiones y las interacciones en lo que se conoce como estructuras formalizadas de incentivos. Es decir, la lógica que usamos siempre que interactuamos con otro ser humano cuando, por ejemplo, tratamos de quedarnos con el último pedazo de torta en la cafetería o le hacemos un favor a un colega que esperamos retorne en el futuro.</p><p>Hoy en día, la Teoría de los Juegos es usada por muchas personas distintas en un amplio espectro de intereses. «La principal razón de su éxito fue la variedad de escenarios en los que la gente empezó a darse cuenta que tenían que pensar formal y sistemáticamente sobre las interacciones estratégicas».</p>',
-                        horario: '13:00 - 16:00',
-                        duracion: '3 Hs.',
-                        lugar: 'Universidad Maza',
-                        docentes: [
-                            'David Almorza Gomar. Dpto. de Estadística experimental. Universidad de Cádiz, España.'
-                        ],
-                        contenidos: [
-                            'Ideas básicas de la Teoría de Juegos.',
-                            'Cálculo del momento de equilibrio.',
-                            'Regla de Dominación.',
-                            'Juegos bimatriciales.',
-                            'El dilema del prisionero y otros dilemas.',
-                            'Aplicaciones.'
-                        ]
-                    },
-                    {
                         id: 4,
                         titulo_es: 'Reunión Latin America – Grupo de estudios de tumores hereditarios (LA-GETH)',
                         titulo_en: 'Latin America Meeting - Group of hereditary tumor studies (LA-GETH)',
                         tipo: 'varios',
                         horario: '13:00 - 16:00',
                         duracion: '3 Hs.',
-                        lugar: 'Centro Civit'
+                        lugar: 'Universidad Maza. Av. Acceso Este, Lateral Sur 2245, Guaymallén, Mendoza.'
                     },
                     {
                         id: 5,

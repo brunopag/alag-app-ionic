@@ -305,11 +305,6 @@ export const disertantes: any[] = [
         image: '../../assets/imgs/trabajos/German-Roberto-Perez.JPG'
     },
     {
-        nombre: 'Germán Roberto Perez',
-        lugarTrabajo: 'FCByF (UNR) - Gammalab (Grupo Gamma), Rosario, Argentina.',
-        image: '../../assets/imgs/trabajos/German-Roberto-Perez.JPG'
-    },
-    {
         nombre: 'Monica Poverene',
         lugarTrabajo: 'Universidad Nacional del Sur, Argentina.',
         image: '../../assets/imgs/trabajos/Monica-Poverene.JPG',
@@ -329,11 +324,6 @@ export const disertantes: any[] = [
         nombre: 'Marcelo Medeiros',
         lugarTrabajo: 'Embrapa, Brazil.',
         image: '../../assets/imgs/trabajos/Marcelo-Medeiros.JPG'
-    },
-    {
-        nombre: 'Jorge Braulio Garcia',
-        lugarTrabajo: 'INEVH, Argentina.',
-        image: '../../assets/imgs/trabajos/Jorge-Braulio-Garcia.JPG'
     },
     {
         nombre: 'Jorge Braulio Garcia',
@@ -401,11 +391,6 @@ export const disertantes: any[] = [
         nombre: 'Lilian Jara',
         lugarTrabajo: 'Instituto de Ciencias Biomédicas, Facultad de Medicina, Universidad de Chile.',
         image: '../../assets/imgs/trabajos/Lilian-Jara.JPG'
-    },
-    {
-        nombre: 'Alejandra Mampel',
-        lugarTrabajo: 'Hospital Universitario, UN de Cuyo, Mendoza, Argentina.',
-        image: '../../assets/imgs/trabajos/Alejandra-Mampel.JPG'
     },
     {
         nombre: 'Alejandra Mampel',
@@ -553,11 +538,6 @@ export const disertantes: any[] = [
         nombre: 'Carlos Machado',
         lugarTrabajo: 'University of Maryland, USA.',
         image: '../../assets/imgs/trabajos/Carlos-Machado.JPG'
-    },
-    {
-        nombre: 'Antonio Bernardo Carvalho',
-        lugarTrabajo: 'Universidade Federal do Rio de Janeiro, Brazil.',
-        image: '../../assets/imgs/trabajos/Antonio-Bernardo-Carvalho.JPG'
     },
     {
         nombre: 'Antonio Bernardo Carvalho',
